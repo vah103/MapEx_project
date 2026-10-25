@@ -1,0 +1,3 @@
+[submodule "mapex_original/src/lama"]
+	path = mapex_original/src/lama
+	url = https://github.com/castacks/lama.git

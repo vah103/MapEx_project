@@ -1,0 +1,1201 @@
+{
+  "snapshot_date": "2026-10-25",
+  "upstream": "https://github.com/castacks/MapEx",
+  "commit": "53636bd1c79153acc3c74a532837d78c926bae5e",
+  "source": "/home/dell/MapEx Git object database",
+  "files": [
+    {
+      "path": "src/.gitmodules",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:.gitmodules",
+      "source_device_path": "/home/dell/MapEx/.gitmodules",
+      "git_blob_sha": "f2ddc0f2feeb0dbd3e798cbfb890de66ee5bafd3",
+      "sha256": "000aa26c9c306a980c385c4a26974d514bf35b843f25a78b3a35cc8bdc5f4ae7",
+      "bytes": 72,
+      "mode": "100644"
+    },
+    {
+      "path": "src/LICENSE",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:LICENSE",
+      "source_device_path": "/home/dell/MapEx/LICENSE",
+      "git_blob_sha": "21c2e1f1963e015845fd5be35b4a384dfcd61bde",
+      "sha256": "c1c3e36f737f0a090e593b4afb7d189ef55e254e799d0037219f8b3c5e6d64f9",
+      "bytes": 1678,
+      "mode": "100644"
+    },
+    {
+      "path": "src/README.md",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:README.md",
+      "source_device_path": "/home/dell/MapEx/README.md",
+      "git_blob_sha": "cdc4b8998f743281150432301f2be633635a6e2c",
+      "sha256": "8a22515f4ae3205e436ae443ac30743e248cc4c9049ce387b52ac89d1edf6760",
+      "bytes": 9237,
+      "mode": "100644"
+    },
+    {
+      "path": "src/clusters/batch_explore.batch",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:clusters/batch_explore.batch",
+      "source_device_path": "/home/dell/MapEx/clusters/batch_explore.batch",
+      "git_blob_sha": "db41f80c775d5b263ea6baeacf357ee27bdb81e0",
+      "sha256": "0f86862effed5320d9dbf8f48bbd3a68f87001551c82bc5362b606031d89b63f",
+      "bytes": 629,
+      "mode": "100644"
+    },
+    {
+      "path": "src/clusters/run_explore.job",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:clusters/run_explore.job",
+      "source_device_path": "/home/dell/MapEx/clusters/run_explore.job",
+      "git_blob_sha": "e63da3362aa99a512953e99fe9259b364fdb797b",
+      "sha256": "cc8252fecd92c042044065ef658b6f7c2441db238befd35b7acad342ba400d75",
+      "bytes": 4774,
+      "mode": "100644"
+    },
+    {
+      "path": "src/configs/base.yaml",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:configs/base.yaml",
+      "source_device_path": "/home/dell/MapEx/configs/base.yaml",
+      "git_blob_sha": "5ecc1d285ccbbdd224150a3faf6e402fb156b125",
+      "sha256": "e8d3d5cff43a5144c5ac1e19cea352eab450d59413310a320ecd6db073a379ea",
+      "bytes": 1519,
+      "mode": "100644"
+    },
+    {
+      "path": "src/experiments/.gitkeep",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:experiments/.gitkeep",
+      "source_device_path": "/home/dell/MapEx/experiments/.gitkeep",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "src/pretrained_models/.gitkeep",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:pretrained_models/.gitkeep",
+      "source_device_path": "/home/dell/MapEx/pretrained_models/.gitkeep",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/.gitignore",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/.gitignore",
+      "source_device_path": "/home/dell/MapEx/range_libc/.gitignore",
+      "git_blob_sha": "551080c0b80246fd4c786cd36ee8454f214f13d6",
+      "sha256": "b05347df065e12478c71f303e24f6e7af88d735360ebd93894353819f111fda3",
+      "bytes": 154,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/CMakeLists.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/CMakeLists.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/CMakeLists.txt",
+      "git_blob_sha": "8dcdb0827422e3bcde4bc52f5b35e4afdc4d5e54",
+      "sha256": "3c77f227b361a6923dee9840d3b4b9afbb8f36ff3f899a8440d4a34672ee2003",
+      "bytes": 2293,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/README.md",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/README.md",
+      "source_device_path": "/home/dell/MapEx/range_libc/README.md",
+      "git_blob_sha": "73998f67f9303f19e7c4ae1456d3dedc8d6a04f7",
+      "sha256": "f30d82f948bcb0aae9c58050163a4fea22406785919dbc2af2d79c75fddf2dfb",
+      "bytes": 14689,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/generate_serialized.sh",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/generate_serialized.sh",
+      "source_device_path": "/home/dell/MapEx/range_libc/generate_serialized.sh",
+      "git_blob_sha": "844a39349f4934b4802d2821b5ae88874426b394",
+      "sha256": "0b15a8e9c529df17bb72e3ad28448bd8bae181406f4e30115568d5c38c604071",
+      "bytes": 1039,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/includes/CudaRangeLib.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/includes/CudaRangeLib.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/includes/CudaRangeLib.h",
+      "git_blob_sha": "94fcab547d83b814cf6f4dcd435ed192073d2374",
+      "sha256": "704c19f407dbf40eb64e2c3cd71b644cf8dc15e62494afd86e44f235d3d483ec",
+      "bytes": 1700,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/includes/RangeLib.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/includes/RangeLib.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/includes/RangeLib.h",
+      "git_blob_sha": "d4b0e625ea805fd69b2aefd8e33d51444d7dc7aa",
+      "sha256": "e6afd8bca394b97dd01acdfc0fb68e53015ebeed10360b5b862041e1da47dab3",
+      "bytes": 69260,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/includes/RangeUtils.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/includes/RangeUtils.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/includes/RangeUtils.h",
+      "git_blob_sha": "46ec05c6922267add44dbed3ba017fa878ee94c6",
+      "sha256": "9e26ca1b0ccd8c03df652417c3c182ed83a7a7881dabd78bd64ed951597bfa77",
+      "bytes": 5850,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/includes/kernels.cu",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/includes/kernels.cu",
+      "source_device_path": "/home/dell/MapEx/range_libc/includes/kernels.cu",
+      "git_blob_sha": "e628744ca8c6764b78dbcdc9f6eefda49f24dfe2",
+      "sha256": "96b810e4250b7103bfb154a907ad7c4591187dc156c4d8e287febc188ebe1fd6",
+      "bytes": 11555,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/includes/lru_cache.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/includes/lru_cache.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/includes/lru_cache.h",
+      "git_blob_sha": "1c935aa037bcd312f4939c8d6b2e886abac1502d",
+      "sha256": "d8eb2570231b361bdba05103f814ca9ba86eb88fa49d664b77d5b5dd8ffa6d08",
+      "bytes": 3300,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/license.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/license.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/license.txt",
+      "git_blob_sha": "a8703d07a78a3b17be0f11bf34c608c3abad6ba6",
+      "sha256": "1303750d5b271116137cdded8de996297a4a289a7546b7641634f6e497ed6eaf",
+      "bytes": 580,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/main.cpp",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/main.cpp",
+      "source_device_path": "/home/dell/MapEx/range_libc/main.cpp",
+      "git_blob_sha": "30bce0a7a7220e09407765f4d489e787aebaf471",
+      "sha256": "74ae099e33afdb986d852babec4107b8adb70416f63b6782148e35b86c758058",
+      "bytes": 15027,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/make_plots.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/make_plots.py",
+      "source_device_path": "/home/dell/MapEx/range_libc/make_plots.py",
+      "git_blob_sha": "52c70ff050a1d64d9b1087ba97310428a9898dad",
+      "sha256": "ea8069254defa29ec809fceeeadff4c5834d1f60df2cc0fbfd5e3b45c7479bef",
+      "bytes": 2101,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/RangeLibc.pyx",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/RangeLibc.pyx",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/RangeLibc.pyx",
+      "git_blob_sha": "5432aed20233068711cfd2ce77d582e244d7a52f",
+      "sha256": "e5e81540f5e28108789b523ecb320607289d8a673f4664bc4dea32f1e6bb0f9d",
+      "bytes": 18672,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/compile.sh",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/compile.sh",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/compile.sh",
+      "git_blob_sha": "bf2a5d1388feb7446a6fcff495789cd465b58796",
+      "sha256": "042d529d8b60ef192d24fc513743e09947e5dfaa46fe2ebabd7ac4abbcce4edb",
+      "bytes": 30,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/pywrapper/compile_with_cuda.sh",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/compile_with_cuda.sh",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/compile_with_cuda.sh",
+      "git_blob_sha": "3df1ad2f2e88e1efc18d47023e54e1e24089b0cb",
+      "sha256": "af7ecff472f03e4414ace22addeeb1d79c7fc8bf137a67572c4b0d4314040ac9",
+      "bytes": 42,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/pywrapper/compile_with_trace.sh",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/compile_with_trace.sh",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/compile_with_trace.sh",
+      "git_blob_sha": "3399622901e0ce7a94b315f0bfd2727dd5ffe22a",
+      "sha256": "d233bfeb709e026e97aa8afb6045a8874c2f71ebc197db896371bcef477b22da",
+      "bytes": 38,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/setup.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/setup.py",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/setup.py",
+      "git_blob_sha": "2245054aa2a40978df2300c0328b298438015c0d",
+      "sha256": "06dfcac96248e4350b9c2d826f4f21253f8ae4219bb28663ca61115400d002c7",
+      "bytes": 6819,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/test.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/test.py",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/test.py",
+      "git_blob_sha": "54c5eff8657eae6fd0384b8ed5fd048751ca8e6b",
+      "sha256": "dd0c2489238732a5cb04b214f25dbfab8f456a2187f65b7c329af5494942f823",
+      "bytes": 4504,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/test.py.bak",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/test.py.bak",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/test.py.bak",
+      "git_blob_sha": "12e995a887c5abccea669bb2e99ed6f381ac7e76",
+      "sha256": "c0a02a719820f7fd8dae004ae1e26ef48cfb11e2cbd95aa721b1ca027743e253",
+      "bytes": 4374,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/pywrapper/test_viz.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/pywrapper/test_viz.py",
+      "source_device_path": "/home/dell/MapEx/range_libc/pywrapper/test_viz.py",
+      "git_blob_sha": "3494d00b527332fe992cc7cc57079c61c5e00c7e",
+      "sha256": "f5796d0873c60e9c9d85fa2a03fccf10bd3c97481ca89932103733a840d8ee7f",
+      "bytes": 1800,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/distance_transform.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/distance_transform.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/distance_transform.h",
+      "git_blob_sha": "ba2e81075478f641c506d15f74162c85b12eaf0b",
+      "sha256": "6923bdba3cbc81d9748dbf40446133b8ba2f13380c930a292c29db5210a5d145",
+      "bytes": 41558,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/.gitattributes",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/.gitattributes",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/.gitattributes",
+      "git_blob_sha": "87fe9c027ec6baea5065f45aef71da4dfc2a2f3d",
+      "sha256": "e92dc24887132691e5ee07f827a4e5e56ef7bde923cb37cb3b75d0dfb5bb8dae",
+      "bytes": 113,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/.gitignore",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/.gitignore",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/.gitignore",
+      "git_blob_sha": "a698820e72a0561f9abaadb626daeff7f3ad428d",
+      "sha256": "a20e433462b0559467ad0973e29253fa42f791ed598a5d88dc4300aabfcad3c6",
+      "bytes": 330,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/.travis.yml",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/.travis.yml",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/.travis.yml",
+      "git_blob_sha": "0989c7c852c9c35a2ce37681fadcc3058b10920b",
+      "sha256": "f941c85eb6366510f1ac45307c655ae73553fed448cf84f055d886448617f3d0",
+      "bytes": 409,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/AUTHORS.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/AUTHORS.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/AUTHORS.txt",
+      "git_blob_sha": "887918bd00e10b20fc7ec0e4adadf69f272350b9",
+      "sha256": "7cf895bf126394b6d67b007631956c856094d7150f1860e9454360c187670075",
+      "bytes": 32,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/BUILD",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/BUILD",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/BUILD",
+      "git_blob_sha": "0a5c9eb3c23ba46e724b51f3833914c62a1aa8d0",
+      "sha256": "60af88acfe40434c1c4e39aedbf2cc0f71baa9c7d83279eda58f5f4c4ea66576",
+      "bytes": 431,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/CMakeLists.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/CMakeLists.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/CMakeLists.txt",
+      "git_blob_sha": "40d8d77290e14171b896181c1aeff807633a26ca",
+      "sha256": "5f4e0049fac4c648455c381a430cec737a7900828b2771e8106bee168c662b64",
+      "bytes": 27582,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/COPYING.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/COPYING.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/COPYING.txt",
+      "git_blob_sha": "d15b0c24134de8ce0185ac22cb2dd96e23911fab",
+      "sha256": "90d1f3701813c3cd65eee2dc736746fe46b465918f3f7d6d31463a2018b33fa5",
+      "bytes": 1479,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/ChangeLog.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/ChangeLog.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/ChangeLog.txt",
+      "git_blob_sha": "e88d863d984bbe1341723841626904128b602fe6",
+      "sha256": "04c82726f9669de576180573e2eee36461923a12401e507539218eab52c452f3",
+      "bytes": 10858,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/INSTALL.md",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/INSTALL.md",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/INSTALL.md",
+      "git_blob_sha": "d37528fb841378e4f88744d459ba5de9d9fe20d5",
+      "sha256": "1bc81c5f2533d5a63fc827053a25f2886306f1113f39182aeb99245a95c74fd2",
+      "bytes": 4141,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/README.md",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/README.md",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/README.md",
+      "git_blob_sha": "ed799eb518a5ec82acb65211a5a7ff51f4347327",
+      "sha256": "b7487a5d6f5848db6809d9cb82209e097c49cbe17c91cfb82b95fe0a5b4b3aa6",
+      "bytes": 12700,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/WORKSPACE",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/WORKSPACE",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/WORKSPACE",
+      "git_blob_sha": "f3707e9069b069c94d3192bb7b18daef228b49ea",
+      "sha256": "bf283c13bb984965d73c0576d4826154bbf5c89f42a47ea0b023064d48bf0aa5",
+      "bytes": 255,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/appveyor.yml",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/appveyor.yml",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/appveyor.yml",
+      "git_blob_sha": "756e5cb637e5be80f479e6195cbe149729ef2578",
+      "sha256": "34e723c539fbcbd4d76383ee53d17f6c3b401c790fadad64fd4d4a97218d2952",
+      "bytes": 905,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/bazel/gflags.bzl",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/bazel/gflags.bzl",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/bazel/gflags.bzl",
+      "git_blob_sha": "cd0edad67839b0d177785d9ea92fc42a18201189",
+      "sha256": "a9a275ec57d277cea5191e40791986a2a355e7315924731f5b9ba71959afc0d1",
+      "bytes": 3382,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/README_runtime.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/README_runtime.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/README_runtime.txt",
+      "git_blob_sha": "d2556b2e8d49ef7ad827261b0694953bc2f563aa",
+      "sha256": "89969261c968b5aa68fd539ed24dda23540d192e4b0fa5c55764e00592268260",
+      "bytes": 238,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/config.cmake.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/config.cmake.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/config.cmake.in",
+      "git_blob_sha": "a121b3a2489f1fe502456530c03bb991994ac297",
+      "sha256": "945b3382aa22b3dedeadb979e2c05159bca5e68fdba09bb47db6438e7df55874",
+      "bytes": 6608,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/execute_test.cmake",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/execute_test.cmake",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/execute_test.cmake",
+      "git_blob_sha": "df008cf465e442459f78817b4394890960d3f991",
+      "sha256": "d2a9789917a7e51ca53893ed47348644d5d6d83d07744aacbc4c34c84b1e6a70",
+      "bytes": 1780,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/package.cmake.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/package.cmake.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/package.cmake.in",
+      "git_blob_sha": "aaec7925e34f7c40e633c5f3bf651d7c3b3d9a0c",
+      "sha256": "3e4ca60d4a6a086013eba77245b81d36680abc10d7b08d2856256b688479c460",
+      "bytes": 2078,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/package.pc.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/package.pc.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/package.pc.in",
+      "git_blob_sha": "80df818eba38a20203d8846eca87f51f24a5e4e3",
+      "sha256": "492d249a9eeb9204c17318aee83fbc99e175291695c8ad0e371e83ab720a7c43",
+      "bytes": 362,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/utils.cmake",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/utils.cmake",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/utils.cmake",
+      "git_blob_sha": "c1e3ab9328cf09dc51fece898714b881a7026dad",
+      "sha256": "b19cc5eef5863394b73dac38944ed2f56abf07f6a11a0ecaadc2d4d3458e1f1a",
+      "bytes": 7577,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/cmake/version.cmake.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/cmake/version.cmake.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/cmake/version.cmake.in",
+      "git_blob_sha": "1e1af050d974fe90a2ade3d6a0ea0b81b090740f",
+      "sha256": "cc9304f632f175537783b0cb2b447025a0c93f57923ab49fa7d8e8a450788f8e",
+      "bytes": 724,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/config.h.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/config.h.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/config.h.in",
+      "git_blob_sha": "f6d18d8dcc48a2c3db0a5435cd783c0280595925",
+      "sha256": "0eb2f197e692fd3023e19c3b1fc407daf2f223e4c8aff36fd8fc32000212ca6d",
+      "bytes": 3273,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags.cc",
+      "git_blob_sha": "921b4f937f7cf11b7235c81f9aab24cd0f79d43f",
+      "sha256": "6b22b578db703cc96a25d616895a586d2adbf1148fc940b81cc4316828c5e64f",
+      "bytes": 76639,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags.h.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags.h.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags.h.in",
+      "git_blob_sha": "43b3f7a91ef22be1d235704a173769238835f6fb",
+      "sha256": "07a3fe83840f6449ca8460765e71292326357cb789c908128d2d39fae336fab4",
+      "bytes": 29647,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_completions.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_completions.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_completions.cc",
+      "git_blob_sha": "f7724864d5881b6b2b508931bc647cbaa545d56b",
+      "sha256": "d2f72eccd5be6b7f68b6f87a0426e6edb59dfb6e2c8a5c7116416b7f95533413",
+      "bytes": 27342,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_completions.h.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_completions.h.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_completions.h.in",
+      "git_blob_sha": "b27e5fda11440a2881a3a16fff4240b6e4d53d9c",
+      "sha256": "bac8a543bd6e1fe80379dc4af959e102e157afd920806f6429636d60240af9a2",
+      "bytes": 5773,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_completions.sh",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_completions.sh",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_completions.sh",
+      "git_blob_sha": "c5fb7e6bc57bf71ff148721ff180807849ac3b55",
+      "sha256": "cc8a0aae240363a0f2561f5e664ee0e96e8f04dee152f9750583ee4344606ace",
+      "bytes": 5126,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_declare.h.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_declare.h.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_declare.h.in",
+      "git_blob_sha": "508d46b37f9917ad92028a8fb9439d913b14696b",
+      "sha256": "62fb17bffed1eb372de1eff761166280899ea8f7d2cd225224a158fa8b775b00",
+      "bytes": 5321,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_ns.h.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_ns.h.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_ns.h.in",
+      "git_blob_sha": "ef6ac29868cb02b1e6d889eda74e7decd22fee51",
+      "sha256": "3811d85a1b1e3a470cb7127ba5801bdab38f36a9e09eea184a41de2606e2ebd5",
+      "bytes": 4059,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/gflags_reporting.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/gflags_reporting.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/gflags_reporting.cc",
+      "git_blob_sha": "7cc669134599aa5ce5d3e36afffac9f0947939c7",
+      "sha256": "a6f5b32f763c054b57094c8786909e741bd788170ebdd6fe6ea84bf82af02752",
+      "bytes": 17299,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/mutex.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/mutex.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/mutex.h",
+      "git_blob_sha": "1648c2f8fdad1843f603036dd2436da4b9051d0a",
+      "sha256": "de0e47995db875a30782a061ef0a017c6a5612def515354b23fc93d34a12fdb8",
+      "bytes": 14452,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/util.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/util.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/util.h",
+      "git_blob_sha": "164e3cf86ab8389d4ad9966266daa779e36f86fd",
+      "sha256": "04c8ee453a6931d4fb88d6706a37e6c4c13639a4e8cbacf0aa3570900e3985a8",
+      "bytes": 14086,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/windows_port.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/windows_port.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/windows_port.cc",
+      "git_blob_sha": "b5b7194c9a41d66f700e5dae1e6f3e9bbb706dca",
+      "sha256": "6b6ec367a50ccb107b05e51d2ee2490e112dd0772e0598209ee7b2c6be3419f9",
+      "bytes": 2859,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/src/windows_port.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/src/windows_port.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/src/windows_port.h",
+      "git_blob_sha": "554b9c9c2ca091af33abf44d335ddbdd6173d424",
+      "sha256": "b66478203e054ae3ca853cf128c0db5a8cd42400440f8df4690706c529dba35c",
+      "bytes": 5197,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/CMakeLists.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/CMakeLists.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/CMakeLists.txt",
+      "git_blob_sha": "4cd1e69702a3b6e44659faf969280e6f1806f93a",
+      "sha256": "78b8addfd42e583c76734cce3adfb292a2dd1db9c1853db35510aec4c296e6c6",
+      "bytes": 11468,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/config/CMakeLists.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/config/CMakeLists.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/config/CMakeLists.txt",
+      "git_blob_sha": "c54f54b71cef31d66408edfe9646fe7cb3402c3a",
+      "sha256": "9c312ba5ef78b3b0dc9b7d9df099be398107c97d01dfb92d909f8f6262ec80bb",
+      "bytes": 219,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/config/main.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/config/main.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/config/main.cc",
+      "git_blob_sha": "3c033e3afbb39f4783e4b6f8cc58c81e00ce280e",
+      "sha256": "6b026a7bf68f54f1c66206950dcab875f89d01b318b077314f8b28b795f83773",
+      "bytes": 579,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/flagfile.1",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/flagfile.1",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/flagfile.1",
+      "git_blob_sha": "e0f921769cf029b30f9f7efc85267cf7adf07e56",
+      "sha256": "46dcd820f40e03f158584a12373b1a4cf12573d9caa962914261de85c0807695",
+      "bytes": 9,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/flagfile.2",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/flagfile.2",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/flagfile.2",
+      "git_blob_sha": "864f8e8a138552a95e00b8e4d9af9268347993ed",
+      "sha256": "de7f32aa3e601d0141ef760d1b32c692455bb900b02f393a27eb3e716a3fc227",
+      "bytes": 25,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/flagfile.3",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/flagfile.3",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/flagfile.3",
+      "git_blob_sha": "76d92bb1e0fc77fa547420dc49f7636f936e0122",
+      "sha256": "00d927e8b1ef625f84775b7209de5d5a4d10154ed4935be0f4f9e0aafb2ce96b",
+      "bytes": 21,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_build.py.in",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_build.py.in",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_build.py.in",
+      "git_blob_sha": "a8cba2bf5c06116c8835a582ceb5f294837629fa",
+      "sha256": "70c5d216f4e49f7ccc48f142be998f79e26591af0e214729f654f2593bf206de",
+      "bytes": 1488,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_declare_flags.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_declare_flags.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_declare_flags.cc",
+      "git_blob_sha": "3d952a88ea0de789484857f5311536bd0a894b2b",
+      "sha256": "3820a85d476a446b7a90b89e1e17fe7aaf08f4a6b99ab4dfdbf3cacccd7f8bd8",
+      "bytes": 234,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_declare_test.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_declare_test.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_declare_test.cc",
+      "git_blob_sha": "707bcc07d0343850d528df40151df7b89399a58d",
+      "sha256": "e7e5a48e1a4cbb39fbf6f33fd042eba3cc586fff72615ab9624c3783b2cf7ea6",
+      "bytes": 328,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_strip_flags_test.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_strip_flags_test.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_strip_flags_test.cc",
+      "git_blob_sha": "143f0c68dafc7d6f16ffc713be731ada56312a16",
+      "sha256": "8a594ec75803f456e0a59d82c1214bc7d7e1b2827cd950887cd12a1e41f68cee",
+      "bytes": 2493,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_strip_flags_test.cmake",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_strip_flags_test.cmake",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_strip_flags_test.cmake",
+      "git_blob_sha": "5bb5cc1a1fb12ea72944bb0a1b681ef7c16de8b0",
+      "sha256": "68f357129ef7daed33a24c20354ac885dc40c7b6d640b047f6107c9b94c0458d",
+      "bytes": 270,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_unittest.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_unittest.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_unittest.cc",
+      "git_blob_sha": "9a922efdaddc18bb0ac3ff648713b9fdf8661920",
+      "sha256": "f8c33c3933f96cd4fcc058a4ea4c3ab4c7a1a4439eaad32b449e481d95e23432",
+      "bytes": 53020,
+      "mode": "100755"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/gflags_unittest_flagfile",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/gflags_unittest_flagfile",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/gflags_unittest_flagfile",
+      "git_blob_sha": "f4fa0c4d5c5e8759bd76f059a31fffa06bafc8e8",
+      "sha256": "6e34489cfde260903d79b5b049fad0be8208a92a430abb6afa6fe3de75386df6",
+      "bytes": 28,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/nc/CMakeLists.txt",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/nc/CMakeLists.txt",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/nc/CMakeLists.txt",
+      "git_blob_sha": "d00b07d07dc5dec7c71adc3465d8124c94ba2c68",
+      "sha256": "1d61f37adbfe358ea2c9d63d31ff7375c5f20a0fc49b82ed38af2713fd59db09",
+      "bytes": 482,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/gflags/test/nc/gflags_nc.cc",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/gflags/test/nc/gflags_nc.cc",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/gflags/test/nc/gflags_nc.cc",
+      "git_blob_sha": "1990c30a6a907a859cda5b770425d742804da281",
+      "sha256": "d125f1aa4575d3d8e84f7bb1ae4fb2f35584599b7afe86c0f87771aee7801b98",
+      "bytes": 2466,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/lodepng/lodepng.cpp",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/lodepng/lodepng.cpp",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/lodepng/lodepng.cpp",
+      "git_blob_sha": "d4b6fd4f873feade30dd3524309b919b0ab82dbd",
+      "sha256": "6ae0c3ac4a77e62f3933fab1efd46a5857a3cdca00e494f08744e277dc7c34f1",
+      "bytes": 220225,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/vendor/lodepng/lodepng.h",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/vendor/lodepng/lodepng.h",
+      "source_device_path": "/home/dell/MapEx/range_libc/vendor/lodepng/lodepng.h",
+      "git_blob_sha": "976062a368a4f75ee95f5fe898b5e057c817bb97",
+      "sha256": "93a13a73cb17ed947d1c33cdfc72bad2db665cbe016f4721798a4234d941d60d",
+      "bytes": 82155,
+      "mode": "100644"
+    },
+    {
+      "path": "src/range_libc/visualize.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:range_libc/visualize.py",
+      "source_device_path": "/home/dell/MapEx/range_libc/visualize.py",
+      "git_blob_sha": "1b9ccf78a8649f62b1360f72df426f6ac292b4ca",
+      "sha256": "7a683ba6aa4bf012d239b838c428a4551d43347d9ed9344d59e528efb35f93da",
+      "bytes": 10664,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/calc_metrics_subdirectory.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/calc_metrics_subdirectory.py",
+      "source_device_path": "/home/dell/MapEx/scripts/calc_metrics_subdirectory.py",
+      "git_blob_sha": "1db0df6f234f0adeb7a6f263ef6ddff09bd9253f",
+      "sha256": "b5d0e4063be98659d04c70b58a585c033c45fbf39098575e28b65e3778a7cd54",
+      "bytes": 27555,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/explore.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/explore.py",
+      "source_device_path": "/home/dell/MapEx/scripts/explore.py",
+      "git_blob_sha": "5f2f5ce747e6dc49763de908e2f27a47a64666e8",
+      "sha256": "2dc4c572141fbe56c335953a126d001d5637fd06a38c2adc66c41bc1028f7fbc",
+      "bytes": 53033,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/lama_pred_utils.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/lama_pred_utils.py",
+      "source_device_path": "/home/dell/MapEx/scripts/lama_pred_utils.py",
+      "git_blob_sha": "c4483d665353ffb81732963ecad54fc13b723ea4",
+      "sha256": "0e93d4b6628b327d7b4601efeb391c29669c46154282aed259396e558ceb01e2",
+      "bytes": 2185,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/rrt.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/rrt.py",
+      "source_device_path": "/home/dell/MapEx/scripts/rrt.py",
+      "git_blob_sha": "e57ee2c9efa282da1b9f2f8bb758f159736a9a45",
+      "sha256": "2352a07cebd3f27a806818a5e3d1eb97354a4dd97eaad78a3e70182262e98a8c",
+      "bytes": 8686,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/rrt_star.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/rrt_star.py",
+      "source_device_path": "/home/dell/MapEx/scripts/rrt_star.py",
+      "git_blob_sha": "ee02ae027d0c8871aed99621c4fcc36f993d442b",
+      "sha256": "8531d4395b3b3fc1fba121d5af087855646a66f00db4b9618907d179bdf3a8d4",
+      "bytes": 11926,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/sim_utils.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/sim_utils.py",
+      "source_device_path": "/home/dell/MapEx/scripts/sim_utils.py",
+      "git_blob_sha": "46a7aa944572b0d80dfa0b470b339de1accdbd4c",
+      "sha256": "2737844d243754b18ff3dba50356ec38323e1acc8da654459c9911b378488cd3",
+      "bytes": 19425,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/simple_lama_pred.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/simple_lama_pred.py",
+      "source_device_path": "/home/dell/MapEx/scripts/simple_lama_pred.py",
+      "git_blob_sha": "8c000d7f55cad99e2199218e127bf50846a249ee",
+      "sha256": "be21c67ca68b982c1bfac6dfa8cd3f5f71c1e9037ee1a41352efe2e8f0575b92",
+      "bytes": 4022,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/simple_mask_utils.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/simple_mask_utils.py",
+      "source_device_path": "/home/dell/MapEx/scripts/simple_mask_utils.py",
+      "git_blob_sha": "5aa18a4e525f76bb01fb048591a5f3cd4bbe2e21",
+      "sha256": "eb7df53cb9daed91c2f910f9b9b66e04fb531b5a2d12a3df2093f788f09bdd63",
+      "bytes": 51035,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/topological.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/topological.py",
+      "source_device_path": "/home/dell/MapEx/scripts/topological.py",
+      "git_blob_sha": "9b60abc629be03c9fd2e435dd129f0f0aa02bf92",
+      "sha256": "b102a677cfcdc9b4942e3ca56b4dcc998db3dab096437cc5d33a8f2874ed2ae1",
+      "bytes": 7738,
+      "mode": "100644"
+    },
+    {
+      "path": "src/scripts/upen_baseline.py",
+      "source": "git:53636bd1c79153acc3c74a532837d78c926bae5e:scripts/upen_baseline.py",
+      "source_device_path": "/home/dell/MapEx/scripts/upen_baseline.py",
+      "git_blob_sha": "e5064c71de664edfe21aa4411484c60af8c4f7e2",
+      "sha256": "586a1668faa9706dfedcf93ab0fbf434ae49b5277a057767ed710cd7e141fcbf",
+      "bytes": 16488,
+      "mode": "100644"
+    }
+  ],
+  "submodules": [
+    {
+      "path": "lama",
+      "commit": "b61dcb33e063fe9586b50e2dc7b70f97d5046c1d",
+      "url": "https://github.com/castacks/lama.git"
+    }
+  ],
+  "excluded_binary_files": [
+    {
+      "path": "kth_test_maps/50010535_PLAN1/50010535_PLAN1_visualization.png",
+      "git_blob_sha": "c4835ccefe4cf3bbf00167d9b3041bb9dcf968f3",
+      "bytes": 33726,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010535_PLAN1/occ_map.npy",
+      "git_blob_sha": "08f4ee299168e7c971c51cee7d9d2573b0894610",
+      "bytes": 1226100,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010535_PLAN1/valid_space.npy",
+      "git_blob_sha": "ce33654e6552b84161c9f7b9ebc7b11942f189f9",
+      "bytes": 1226100,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010535_PLAN2/50010535_PLAN2_visualization.png",
+      "git_blob_sha": "0ee21ff9fb38e90b77e046993da2d85d3b55413c",
+      "bytes": 36388,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010535_PLAN2/occ_map.npy",
+      "git_blob_sha": "7d090de7176a0bac9e6baa1d68653addd271884d",
+      "bytes": 1236986,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010535_PLAN2/valid_space.npy",
+      "git_blob_sha": "ec4deaf33d68d42502d3fc564f5f11ba72378556",
+      "bytes": 1236986,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010536_PLAN3/50010536_PLAN3_visualization.png",
+      "git_blob_sha": "76ebc4e5927999a778b0537e0603b0a695ba03de",
+      "bytes": 37219,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010536_PLAN3/occ_map.npy",
+      "git_blob_sha": "4bbe9b3e37c7bfd80e94448120a62cc8b352a276",
+      "bytes": 1229616,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50010536_PLAN3/valid_space.npy",
+      "git_blob_sha": "67da14ae8639c7914c48723d756da3827e276fab",
+      "bytes": 1229616,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015847/50015847_visualization.png",
+      "git_blob_sha": "59d344c74dde627120f0a51810c38106c921ea8c",
+      "bytes": 48112,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015847/occ_map.npy",
+      "git_blob_sha": "b697efb7e2895a3a1ba480193dd57ba50969e176",
+      "bytes": 2342727,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015847/valid_space.npy",
+      "git_blob_sha": "ab52bb188d04f896b0e1f85edfea24625e19dd4b",
+      "bytes": 2342727,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015848/50015848_visualization.png",
+      "git_blob_sha": "5867e26980577c8b6e29dcf3cedb00fcef9dc1cc",
+      "bytes": 49349,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015848/occ_map.npy",
+      "git_blob_sha": "970bc08012c21ba1fa3a8152a24ba469fa3ca5af",
+      "bytes": 2325088,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50015848/valid_space.npy",
+      "git_blob_sha": "a88e0996d383886c6c2faab13e0108fa612f1503",
+      "bytes": 2325088,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037764_PLAN1/50037764_PLAN1_visualization.png",
+      "git_blob_sha": "b7dbd0e2eb2c793232d64361874246b0e7b10f7f",
+      "bytes": 23167,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037764_PLAN1/occ_map.npy",
+      "git_blob_sha": "c550387f0ebff8e895ef7bced56f6634ceac5044",
+      "bytes": 1140196,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037764_PLAN1/valid_space.npy",
+      "git_blob_sha": "5dc0941ba65ece6d1576212bc620363da6e68cf3",
+      "bytes": 1140196,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037765_PLAN3/50037765_PLAN3_visualization.png",
+      "git_blob_sha": "1d8157d9414578d98f91cbb8a18051005035e845",
+      "bytes": 22221,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037765_PLAN3/occ_map.npy",
+      "git_blob_sha": "b4de706e94db99ad90fcc4d73073e85c45788f99",
+      "bytes": 1159152,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50037765_PLAN3/valid_space.npy",
+      "git_blob_sha": "22f24e84e6f42d25442d78209441a8b66ccd5529",
+      "bytes": 1159152,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052748/50052748_visualization.png",
+      "git_blob_sha": "693894e15596cd8e26ee38a9656ee5c045cdc6d4",
+      "bytes": 29376,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052748/occ_map.npy",
+      "git_blob_sha": "49e470afbd1bb556a8dc2b20b952e7296147fba1",
+      "bytes": 372923,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052748/valid_space.npy",
+      "git_blob_sha": "a5baf1902708edbe2242ce8f748d82bda635aa4a",
+      "bytes": 372923,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052749/50052749_visualization.png",
+      "git_blob_sha": "67e2a1b8854646ea8cd850654cf3c83930703933",
+      "bytes": 34655,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052749/occ_map.npy",
+      "git_blob_sha": "1cd8e581fe95f1d2129397572a129ce9f65c55f1",
+      "bytes": 555878,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052749/valid_space.npy",
+      "git_blob_sha": "e4303ba1ce6fb193890410522008a5129cb66862",
+      "bytes": 555878,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052750/50052750_visualization.png",
+      "git_blob_sha": "a5f41bbe6ba6423991448e4d6521e7eb0f116247",
+      "bytes": 36365,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052750/occ_map.npy",
+      "git_blob_sha": "309c1aeada792bad42a102f504dd063fb47bcba8",
+      "bytes": 558240,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052750/valid_space.npy",
+      "git_blob_sha": "623ee1e6f2d9dc17b7f1b22a3189f86d1fb6596e",
+      "bytes": 558240,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052751/50052751_visualization.png",
+      "git_blob_sha": "4a5889e362b024decedf79f8e76541cd65ec6924",
+      "bytes": 22505,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052751/occ_map.npy",
+      "git_blob_sha": "029e53e0e38c868f4a1f51a620e3d8a3fb8ab911",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052751/valid_space.npy",
+      "git_blob_sha": "81b4c34f85586bc5c4b84f262feb11b7cc337e91",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052752/50052752_visualization.png",
+      "git_blob_sha": "eb88e7bc00eced5cf9a0a6e67df37547536dfb9a",
+      "bytes": 20530,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052752/occ_map.npy",
+      "git_blob_sha": "dfaf26fefdd7fd2e3573eb163b9d764238be9578",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052752/valid_space.npy",
+      "git_blob_sha": "c64fdee54f0a6a0adbec36b09fd981882cf737dc",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052753/50052753_visualization.png",
+      "git_blob_sha": "c67157cad7dbdada7feefda14854f58519da6b91",
+      "bytes": 22823,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052753/occ_map.npy",
+      "git_blob_sha": "43c2e43b4dbb169e96f6631e332725e49af69228",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052753/valid_space.npy",
+      "git_blob_sha": "c54b5836a373c04b23032d7a5657fa2f45697e8d",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052754/50052754_visualization.png",
+      "git_blob_sha": "7cd027fe653dbb1e48327bd5ab5313ad1a2dc612",
+      "bytes": 22592,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052754/occ_map.npy",
+      "git_blob_sha": "63af67b281effdc05b2d5d776194230ea311dadc",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "kth_test_maps/50052754/valid_space.npy",
+      "git_blob_sha": "0b66080546ce4d8f0f83acc58e85342135b1a1a4",
+      "bytes": 201344,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/docs/RangeLibcUsageandInformation.pdf",
+      "git_blob_sha": "80259b2332cb314dcd692190f979651d7857f4b5",
+      "bytes": 300011,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/basement_fixed.png",
+      "git_blob_sha": "83ec09c049a8cc89d1824eb614653cf6e81a37ba",
+      "bytes": 46025,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/basement_fixed_rectangle.png",
+      "git_blob_sha": "4a3fdee8e4b56d242b4316f17021fc9701e04157",
+      "bytes": 57101,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/basement_hallways_10cm.png",
+      "git_blob_sha": "8bee86c0eb0df375a3af84b7a76b6be3f6db1f57",
+      "bytes": 5381,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/basement_hallways_5cm.png",
+      "git_blob_sha": "5b0e5a64de6ec3ac5c959558850b2d552449e5f6",
+      "bytes": 14356,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/gigantic_map.png",
+      "git_blob_sha": "1fcaf2906a76c7bb30ea9135241ace3d05b212d6",
+      "bytes": 2614313,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/huge_map.png",
+      "git_blob_sha": "7891d5dd8a78ea4373599dcada3b2991551c41ca",
+      "bytes": 1796037,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/quad.map.png",
+      "git_blob_sha": "8b06c768b05281fee464913021532a1f0affc4a5",
+      "bytes": 2791,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/single_pixel.map.png",
+      "git_blob_sha": "e0e1bb20eddb54a5adb1d13402aedee2753a34fd",
+      "bytes": 2791,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/small.map.png",
+      "git_blob_sha": "b4f0dd33c0d56bf200438eb0ac242fd481f606c6",
+      "bytes": 144,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/synthetic.map.png",
+      "git_blob_sha": "84cd99f0c98bb1ab5913339d2ad96fe150a7012f",
+      "bytes": 1270,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/synthetic2.map.png",
+      "git_blob_sha": "4a9b0a355f92567abd9f384c6bd3585ba3fba0ef",
+      "bytes": 13279,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/synthetic2.png",
+      "git_blob_sha": "4a9b0a355f92567abd9f384c6bd3585ba3fba0ef",
+      "bytes": 13279,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/synthetic3.png",
+      "git_blob_sha": "b290381e9a74a0d0860564edde426d007db0e654",
+      "bytes": 43923,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/maps/test.png",
+      "git_blob_sha": "62bac38f523603347c838083eba2f628d273c4b5",
+      "bytes": 5165,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/media/comparison.png",
+      "git_blob_sha": "ba8b040cf93bc8f32919b3ac1f1277750bd581e4",
+      "bytes": 74354,
+      "reason": "binary upstream map/media/document; available from original commit"
+    },
+    {
+      "path": "range_libc/media/spheretrace.jpg",
+      "git_blob_sha": "e7110cb7f26a13b017fb603461833485098c0dc0",
+      "bytes": 31927,
+      "reason": "binary upstream map/media/document; available from original commit"
+    }
+  ],
+  "python_syntax_notes": [
+    {
+      "path": "range_libc/make_plots.py",
+      "python3_parse": "legacy upstream syntax preserved",
+      "line": 75,
+      "message": "Missing parentheses in call to 'print'. Did you mean print(...)?"
+    },
+    {
+      "path": "range_libc/visualize.py",
+      "python3_parse": "legacy upstream syntax preserved",
+      "line": 19,
+      "message": "Missing parentheses in call to 'print'. Did you mean print(...)?"
+    }
+  ],
+  "original_worktree_modified_files_not_exported": [
+    ".gitmodules",
+    "pretrained_models/.gitkeep (missing working-tree placeholder restored from Git)"
+  ],
+  "algorithm_changes": false,
+  "new_experiment": false
+}

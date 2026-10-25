@@ -1,9 +1,10 @@
 # MapEx project
 
-Mã nguồn hai hướng nghiên cứu trên nền MapEx, lưu từ Dell ngày 25/10/2026.
+Mã MapEx gốc và hai hướng nghiên cứu trên nền MapEx, lưu từ Dell ngày 25/10/2026.
 
 | Thư mục | Bản được lưu | Vai trò |
 |---|---|---|
+| [mapex_original](mapex_original) | MapEx upstream, commit 53636bd | Mã gốc, cấu hình và source range_libc; LaMa submodule được ghim |
 | [mapex_g1_g2](mapex_g1_g2) | G1-001 R2 + G2 SWEEP-R1 + EARLYDOOR-R1 | Nhận diện phòng và tổ chức khám phá theo phòng |
 | [mapex_gtp](mapex_gtp) | MapEx-GTP R7 với solver AL, bản sửa RAM mới nhất | Chọn viewpoint và lập tour toàn cục |
 
