@@ -1,0 +1,25 @@
+{
+  "copied_files": 54,
+  "copied_bytes": 706139,
+  "source_bytes_preserved": true,
+  "python_syntax": "PASS",
+  "secret_pattern_scan": "PASS",
+  "gtp_latest_j0_source_parity": {
+    "tourlib.py": true,
+    "gt_logger.py": true,
+    "gt_visibility.py": true,
+    "global001_import_guard.py": false,
+    "plain_mapex_logger.py": true,
+    "explore_mapex_gt_r1.py": true,
+    "gt_feedback.py": true,
+    "fast_native_lama_3model.py": true,
+    "gt_planner.py": true,
+    "gt_al_solver.py": true,
+    "raycast_paper_patch.py": true
+  },
+  "gtp_guard_difference_only_host_paths": true,
+  "includes_weights": false,
+  "includes_run_data": false,
+  "native_or_model_run": false,
+  "portable_clean_clone_tested": false
+}

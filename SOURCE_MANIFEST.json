@@ -1,0 +1,331 @@
+{
+  "snapshot_date": "2026-10-25",
+  "repository": "vah103/MapEx_project",
+  "selection": "Latest G1 R2 + SWEEP + EARLYDOOR and latest GTP R7/AL RAM revision; no G2-R8",
+  "files": [
+    {
+      "path": "mapex_g1_g2/src/dell_worker.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/dell_worker.py",
+      "sha256": "d6025f605d98538e784ceaf7429ce256553b830e4b01da096273cb8cfacd7f14",
+      "bytes": 3895
+    },
+    {
+      "path": "mapex_g1_g2/src/explore_mapex_plain_lama3small_r1.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/explore_mapex_plain_lama3small_r1.py",
+      "sha256": "41ffcef8c21289054d2e17b1632bf7c8f54c2f29d55c3fc83195233cd910a3bb",
+      "bytes": 53058
+    },
+    {
+      "path": "mapex_g1_g2/src/explore_room_r41_lama3_smallroi_v1.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/explore_room_r41_lama3_smallroi_v1.py",
+      "sha256": "7e3cdd21a54b0094130380d61fe607ee61228cc8a4f16a647a5451f4e7e801dd",
+      "bytes": 54448
+    },
+    {
+      "path": "mapex_g1_g2/src/fast_native_lama_3model.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/fast_native_lama_3model.py",
+      "sha256": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+      "bytes": 4612
+    },
+    {
+      "path": "mapex_g1_g2/src/g2_early_global_door_r1.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/g2_early_global_door_r1.py",
+      "sha256": "0a1e45120c010e38b09fbc23b7d28cd6e5798c6825ed4b4350608364a25a084f",
+      "bytes": 8670
+    },
+    {
+      "path": "mapex_g1_g2/src/g2_room_sweep_r1.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/g2_room_sweep_r1.py",
+      "sha256": "9c3fa92cceb6fa1ef73b46d738e3842ccf91ce8a057531e47a863de193b233d3",
+      "bytes": 6831
+    },
+    {
+      "path": "mapex_g1_g2/src/plain_mapex_logger.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/plain_mapex_logger.py",
+      "sha256": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+      "bytes": 4297
+    },
+    {
+      "path": "mapex_g1_g2/src/raycast_paper_patch.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/raycast_paper_patch.py",
+      "sha256": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+      "bytes": 1445
+    },
+    {
+      "path": "mapex_g1_g2/src/room_native_integration.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/room_native_integration.py",
+      "sha256": "af3a8acd2768b19bdfd27bfe2ad76d888fe0a1558aaf308cc5fe30de1a5afa7f",
+      "bytes": 24555
+    },
+    {
+      "path": "mapex_g1_g2/src/sidecar.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/sidecar.py",
+      "sha256": "ed8488a3ab790a774038a703f9c8801d2a5346c672c95f6ea8d6079e68d5215a",
+      "bytes": 3170
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/mapex_room_v4/__init__.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/mapex_room_v4/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/mapex_room_v4/geometry_helpers.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/mapex_room_v4/geometry_helpers.py",
+      "sha256": "a0de0741d01af4667901719fc0abb4bc5b768d7075185e3a2dd77f66d566c280",
+      "bytes": 5283
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/mapex_room_v4/structure_engine.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/mapex_room_v4/structure_engine.py",
+      "sha256": "0dda9775919bee786be0bb41eaff1a8701a1ccde3adcd3b4d318ce5a071c4414",
+      "bytes": 15945
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/v4r2.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/v4r2.py",
+      "sha256": "02114a2d994560eb638c882f2693b34138948e775124a5f75d5b2407eda9f2a8",
+      "bytes": 11725
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/v4r3.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/v4r3.py",
+      "sha256": "72ab2e39dcc3ec3d813ea2b6cc6e0e0c31c9ac0247c35cf126c5273eb3db5cd5",
+      "bytes": 11723
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/v4r3_frozen.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/v4r3_frozen.py",
+      "sha256": "e6429e707775cacd9d39e77495520514fe2494b0260de1366c5452971fd123fd",
+      "bytes": 101
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/v4r41.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/v4r41.py",
+      "sha256": "35dd0b22411d235067ee48e859ef9018e1bb184be49034a761a83b728fea4bc9",
+      "bytes": 7614
+    },
+    {
+      "path": "mapex_g1_g2/src/v41src/v4r4_generator_reference.py",
+      "source": "/home/dell/DELL_NATIVE2D/runs/NR-RAYEDR2-03/v41src/v4r4_generator_reference.py",
+      "sha256": "fb954080339c5cdf9cbfbe57b088983831f8e2aa1728d4d369cce70f64745a7d",
+      "bytes": 19290
+    },
+    {
+      "path": "mapex_gtp/src/dell_worker_KTH50052751.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/dell_worker_KTH50052751.py",
+      "sha256": "72af8e07fb6ac30c57c7abadd95df2ac4cdc7abc523dd1673cf1a10a3a53c41b",
+      "bytes": 4478
+    },
+    {
+      "path": "mapex_gtp/src/dell_worker_NR.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/dell_worker_NR.py",
+      "sha256": "12ec6676490c86a0309869632a209a2b0baf9ebdbacc0cfd6d01b51a0cb08b32",
+      "bytes": 4488
+    },
+    {
+      "path": "mapex_gtp/src/explore_mapex_gt_r1.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/explore_mapex_gt_r1.py",
+      "sha256": "066445e046004fa143e1afd9f4c168b08be75e1469f6a7c1b5b74aae7526d27d",
+      "bytes": 61105
+    },
+    {
+      "path": "mapex_gtp/src/explore_mapex_plain_lama3small_r1.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/explore_mapex_plain_lama3small_r1.py",
+      "sha256": "41ffcef8c21289054d2e17b1632bf7c8f54c2f29d55c3fc83195233cd910a3bb",
+      "bytes": 53058
+    },
+    {
+      "path": "mapex_gtp/src/fast_native_lama_3model.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/fast_native_lama_3model.py",
+      "sha256": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+      "bytes": 4612
+    },
+    {
+      "path": "mapex_gtp/src/global001_import_guard.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/global001_import_guard.py",
+      "sha256": "05caeda75d4674a83a0f9be1df042e7631cc137870abe9223eb37dd92891708a",
+      "bytes": 6645
+    },
+    {
+      "path": "mapex_gtp/src/gt_al_solver.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_al_solver.py",
+      "sha256": "af4f04f39adac6a224ac56a5e4e8e70d6f55d5adfb769a3ef8a7f8aa2ad90366",
+      "bytes": 11930
+    },
+    {
+      "path": "mapex_gtp/src/gt_feedback.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_feedback.py",
+      "sha256": "306f6351bbd4eaf2b2171d55dae5773760e4b5f015380236752ee6bf1684de1d",
+      "bytes": 13358
+    },
+    {
+      "path": "mapex_gtp/src/gt_logger.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_logger.py",
+      "sha256": "e84cb6a3152309a595076a7a0d13ad87dca3ac45d553313e75a373b1f260c25f",
+      "bytes": 4002
+    },
+    {
+      "path": "mapex_gtp/src/gt_planner.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_planner.py",
+      "sha256": "06d6fd76d8ac61d7fc5f89bc0125858b5e83ff64637ef64fb889fa7413ba498a",
+      "bytes": 29292
+    },
+    {
+      "path": "mapex_gtp/src/gt_planner_r5.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_planner_r5.py",
+      "sha256": "35d9747e7fc54d38c4791d1e0c0599e3d8cd47934f51ac10bd22289ab1fe1654",
+      "bytes": 15802
+    },
+    {
+      "path": "mapex_gtp/src/gt_visibility.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/gt_visibility.py",
+      "sha256": "babee760483f615dd00ce46a0dd13a337e4242f7d10e9842f9dfab20257317a4",
+      "bytes": 1810
+    },
+    {
+      "path": "mapex_gtp/src/plain_mapex_logger.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/plain_mapex_logger.py",
+      "sha256": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+      "bytes": 4297
+    },
+    {
+      "path": "mapex_gtp/src/raycast_paper_patch.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/raycast_paper_patch.py",
+      "sha256": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+      "bytes": 1445
+    },
+    {
+      "path": "mapex_gtp/src/tourlib.py",
+      "source": "/home/dell/DELL_NATIVE2D/build/gtp_r7_al_mem_20261024/staged/tourlib.py",
+      "sha256": "be10a72f1e3c96c6d9d1f6e16aeb8da0515af73d9aca68969627eb8504ce42e5",
+      "bytes": 6863
+    },
+    {
+      "path": "dependencies/mapex/scripts/calc_metrics_subdirectory.py",
+      "source": "/home/dell/MapEx/scripts/calc_metrics_subdirectory.py",
+      "sha256": "b5d0e4063be98659d04c70b58a585c033c45fbf39098575e28b65e3778a7cd54",
+      "bytes": 27555
+    },
+    {
+      "path": "dependencies/mapex/scripts/explore.py",
+      "source": "/home/dell/MapEx/scripts/explore.py",
+      "sha256": "2dc4c572141fbe56c335953a126d001d5637fd06a38c2adc66c41bc1028f7fbc",
+      "bytes": 53033
+    },
+    {
+      "path": "dependencies/mapex/scripts/lama_pred_utils.py",
+      "source": "/home/dell/MapEx/scripts/lama_pred_utils.py",
+      "sha256": "0e93d4b6628b327d7b4601efeb391c29669c46154282aed259396e558ceb01e2",
+      "bytes": 2185
+    },
+    {
+      "path": "dependencies/mapex/scripts/rrt.py",
+      "source": "/home/dell/MapEx/scripts/rrt.py",
+      "sha256": "2352a07cebd3f27a806818a5e3d1eb97354a4dd97eaad78a3e70182262e98a8c",
+      "bytes": 8686
+    },
+    {
+      "path": "dependencies/mapex/scripts/rrt_star.py",
+      "source": "/home/dell/MapEx/scripts/rrt_star.py",
+      "sha256": "8531d4395b3b3fc1fba121d5af087855646a66f00db4b9618907d179bdf3a8d4",
+      "bytes": 11926
+    },
+    {
+      "path": "dependencies/mapex/scripts/sim_utils.py",
+      "source": "/home/dell/MapEx/scripts/sim_utils.py",
+      "sha256": "2737844d243754b18ff3dba50356ec38323e1acc8da654459c9911b378488cd3",
+      "bytes": 19425
+    },
+    {
+      "path": "dependencies/mapex/scripts/simple_lama_pred.py",
+      "source": "/home/dell/MapEx/scripts/simple_lama_pred.py",
+      "sha256": "be21c67ca68b982c1bfac6dfa8cd3f5f71c1e9037ee1a41352efe2e8f0575b92",
+      "bytes": 4022
+    },
+    {
+      "path": "dependencies/mapex/scripts/simple_mask_utils.py",
+      "source": "/home/dell/MapEx/scripts/simple_mask_utils.py",
+      "sha256": "eb7df53cb9daed91c2f910f9b9b66e04fb531b5a2d12a3df2093f788f09bdd63",
+      "bytes": 51035
+    },
+    {
+      "path": "dependencies/mapex/scripts/topological.py",
+      "source": "/home/dell/MapEx/scripts/topological.py",
+      "sha256": "b102a677cfcdc9b4942e3ca56b4dcc998db3dab096437cc5d33a8f2874ed2ae1",
+      "bytes": 7738
+    },
+    {
+      "path": "dependencies/mapex/scripts/upen_baseline.py",
+      "source": "/home/dell/MapEx/scripts/upen_baseline.py",
+      "sha256": "586a1668faa9706dfedcf93ab0fbf434ae49b5277a057767ed710cd7e141fcbf",
+      "bytes": 16488
+    },
+    {
+      "path": "dependencies/mapex/configs/base.yaml",
+      "source": "/home/dell/MapEx/configs/base.yaml",
+      "sha256": "e8d3d5cff43a5144c5ac1e19cea352eab450d59413310a320ecd6db073a379ea",
+      "bytes": 1519
+    },
+    {
+      "path": "dependencies/mapex/LICENSE",
+      "source": "/home/dell/MapEx/LICENSE",
+      "sha256": "c1c3e36f737f0a090e593b4afb7d189ef55e254e799d0037219f8b3c5e6d64f9",
+      "bytes": 1678
+    },
+    {
+      "path": "dependencies/mapex/UPSTREAM_README.md",
+      "source": "/home/dell/MapEx/README.md",
+      "sha256": "8a22515f4ae3205e436ae443ac30743e248cc4c9049ce387b52ac89d1edf6760",
+      "bytes": 9237
+    },
+    {
+      "path": "dependencies/mapex/gitmodules.txt",
+      "source": "/home/dell/MapEx/.gitmodules",
+      "sha256": "44b6cfb564bea8b89da5cec7fbf83648adc3385400ecdc7df878249d16897045",
+      "bytes": 76
+    },
+    {
+      "path": "dependencies/lama/conda_env.yml",
+      "source": "/home/dell/MapEx/lama/conda_env.yml",
+      "sha256": "c85944cb981acd5982e912b0d0fa46b7dac8e72ae1b837d7ce74c1b7d89c9257",
+      "bytes": 5983
+    },
+    {
+      "path": "dependencies/lama/requirements.txt",
+      "source": "/home/dell/MapEx/lama/requirements.txt",
+      "sha256": "3e057dba9b5e556b8a4c09359a32fb14ad7d4ebb9ee3bb38a68c3dfbee154430",
+      "bytes": 276
+    },
+    {
+      "path": "dependencies/lama/LICENSE",
+      "source": "/home/dell/MapEx/lama/LICENSE",
+      "sha256": "4ceeeac5a802e86c413c22b16cce8e9a22027b0250c97e6f8ac97c14cf0542c0",
+      "bytes": 11348
+    },
+    {
+      "path": "mapex_gtp/docs/SPEC_R7.md",
+      "source": "/home/dell/mapex_workspace_gtp_r7_v3/gtp_r7/docs/SPEC_R7.md",
+      "sha256": "fbfb7a2cb70f7da2bfbfede99daec256d6bd5ae39d4185966f35cbce9df81dd9",
+      "bytes": 4178
+    },
+    {
+      "path": "dependencies/model_configs/train_1.yaml",
+      "source": "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_1/config.yaml",
+      "sha256": "58743088778222c4a71c1038bace0ab6a8ebad5494c6f6abff553c15003bad48",
+      "bytes": 3301
+    },
+    {
+      "path": "dependencies/model_configs/train_2.yaml",
+      "source": "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_2/config.yaml",
+      "sha256": "23e4b6c3850a8bef02daf58ae630b96693d44b97488adef050261d308b44ceb3",
+      "bytes": 3301
+    },
+    {
+      "path": "dependencies/model_configs/train_3.yaml",
+      "source": "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_3/config.yaml",
+      "sha256": "1dc07c6b4a244a335aa0a3499fce3b6178140cea16ee2b9cc5d5e497cfa73810",
+      "bytes": 3301
+    }
+  ]
+}

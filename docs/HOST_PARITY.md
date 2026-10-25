@@ -1,0 +1,1 @@
+GTP algorithm/support modules match the latest J0 execution stage byte-for-byte. global001_import_guard.py differs only in native/vendor roots and import cwd: J0 uses COM1, while this archive keeps the Dell stage. Normalizing exactly those two path prefixes makes the files identical. No guard is disabled.

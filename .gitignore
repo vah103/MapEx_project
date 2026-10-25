@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.ckpt
+*.pth
+*.pt
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.log
+.env
+.env.*
+.venv/
+runs/
+outputs/
+checkpoints/
+weights/
