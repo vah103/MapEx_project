@@ -1,0 +1,145 @@
+{
+  "protocol": "NAT-001 R2",
+  "source_review_verdict": "Claude minor REVISE old precommit SHA a9c340877eb967ddea53eab6cb958cc10e483c81bcd288d7e81c2d512aaaa0e3",
+  "state": "REVISE_ADDRESSED_NEW_CLAUDE_ACCEPT_PENDING",
+  "new_precommit_sha": "c15cc0371903533e0f49e4fe64ec89c0acd4ab6b945a8723f0ac4469605a04e3",
+  "new_poses": [
+    [
+      "P00",
+      [
+        131,
+        131
+      ],
+      [
+        631,
+        631
+      ],
+      12.0
+    ],
+    [
+      "P01",
+      [
+        15,
+        247
+      ],
+      [
+        515,
+        747
+      ],
+      13.45362377166748
+    ],
+    [
+      "P02",
+      [
+        15,
+        15
+      ],
+      [
+        515,
+        515
+      ],
+      14.0
+    ],
+    [
+      "P03",
+      [
+        188,
+        248
+      ],
+      [
+        688,
+        748
+      ],
+      13.0
+    ],
+    [
+      "P04",
+      [
+        187,
+        15
+      ],
+      [
+        687,
+        515
+      ],
+      13.601470947265625
+    ],
+    [
+      "P05",
+      [
+        9,
+        139
+      ],
+      [
+        509,
+        639
+      ],
+      8.0
+    ],
+    [
+      "P06",
+      [
+        101,
+        45
+      ],
+      [
+        601,
+        545
+      ],
+      11.0
+    ],
+    [
+      "P07",
+      [
+        101,
+        217
+      ],
+      [
+        601,
+        717
+      ],
+      11.0
+    ]
+  ],
+  "new_runs_staged": 29,
+  "source_sha_verified": true,
+  "models_loaded": {
+    "P01_at_new_pose": {
+      "MX": "/home/dell/DELL_NATIVE2D/smokes/NR-NAT1MX-P01-03_20261020_075819/RUN_RECEIPT.json",
+      "G1": "/home/dell/DELL_NATIVE2D/smokes/NR-NAT1G1-P01-03_20261020_075841/RUN_RECEIPT.json",
+      "SW": "/home/dell/DELL_NATIVE2D/smokes/NR-NAT1SW-P01-03_20261020_075906/RUN_RECEIPT.json",
+      "ED": "/home/dell/DELL_NATIVE2D/smokes/NR-NAT1ED-P01-03_20261020_075929/RUN_RECEIPT.json"
+    }
+  },
+  "metric_code_sha": "1e2455202b771abd993b9ab3bdb39a50a9af5e8db2fa37999567c3ff202dc9f0",
+  "room_metric_readonly_legacy_run_tests": {
+    "NR-RAYRN-03": {
+      "decision_count": 23,
+      "late_returns_count": 0,
+      "departures_total": 6,
+      "departures_with_predicted_free_unknown_count": 4,
+      "unmatched_terminal_local_episodes": 0
+    },
+    "NR-RAYSW-03": {
+      "decision_count": 30,
+      "late_returns_count": 1,
+      "departures_total": 7,
+      "departures_with_predicted_free_unknown_count": 3,
+      "unmatched_terminal_local_episodes": 0
+    },
+    "NR-RAYEDR2-03": {
+      "decision_count": 30,
+      "late_returns_count": 0,
+      "departures_total": 5,
+      "departures_with_predicted_free_unknown_count": 4,
+      "unmatched_terminal_local_episodes": 1
+    }
+  },
+  "unapproved_full_runs": 0,
+  "approval_required_path": "/home/dell/DELL_NATIVE2D/analysis/nat001_20261020/NAT001_CLAUDE_ACCEPT.json",
+  "notes": [
+    "Original -02 precommit and all staged -02 code retained; version R2 stages use -03 only",
+    "System occupancy guard unchanged",
+    "No new full run before Claude ACCEPT the new SHA"
+  ]
+}

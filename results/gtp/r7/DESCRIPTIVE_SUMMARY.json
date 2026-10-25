@@ -1,0 +1,20 @@
+{
+ "NR": {
+  "runs": 24,
+  "mean_r7_m": 214.4988947045588,
+  "coverage_gate_failures": 0,
+  "tail_stops": 13,
+  "available_r5_distances": 24,
+  "mean_r5_m": 226.55227113477738,
+  "mean_delta_m": -12.053376430218579
+ },
+ "KTH51": {
+  "runs": 12,
+  "mean_r7_m": 461.72412618380764,
+  "coverage_gate_failures": 0,
+  "tail_stops": 0,
+  "available_r5_distances": 12,
+  "mean_r5_m": 488.11286482618306,
+  "mean_delta_m": -26.388738642375415
+ }
+}

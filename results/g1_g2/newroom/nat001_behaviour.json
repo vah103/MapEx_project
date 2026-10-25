@@ -1,0 +1,2170 @@
+{
+ "P00_MX": {
+  "total": 322.32,
+  "tail_after95": 148.1,
+  "long_global": [
+   [
+    3,
+    16.11,
+    10694
+   ],
+   [
+    6,
+    16.94,
+    5413
+   ],
+   [
+    10,
+    34.99,
+    2472
+   ],
+   [
+    12,
+    31.7,
+    2105
+   ],
+   [
+    14,
+    23.08,
+    807
+   ],
+   [
+    16,
+    24.28,
+    197
+   ],
+   [
+    17,
+    26.0,
+    12
+   ],
+   [
+    19,
+    22.93,
+    39
+   ],
+   [
+    20,
+    21.35,
+    10
+   ],
+   [
+    21,
+    16.78,
+    14
+   ],
+   [
+    22,
+    22.12,
+    21
+   ]
+  ]
+ },
+ "P00_G1": {
+  "total": 228.85,
+  "tail_after95": 22.8,
+  "long_global": [
+   [
+    9,
+    28.11,
+    9319
+   ],
+   [
+    16,
+    25.34,
+    1969
+   ],
+   [
+    20,
+    44.13,
+    2089
+   ],
+   [
+    23,
+    17.83,
+    129
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 15,
+  "exits": [
+   {
+    "d": 7,
+    "room": 1,
+    "unknown_in_room": 63,
+    "unknown_frontier_adjacent": 11,
+    "frontier_regions": [
+     9,
+     3,
+     1
+    ]
+   },
+   {
+    "d": 9,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 13,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 16,
+    "room": 4,
+    "unknown_in_room": 58,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     2,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "d": 20,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 23,
+    "room": 6,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P00_SW": {
+  "total": 233.13,
+  "tail_after95": 29.0,
+  "long_global": [
+   [
+    10,
+    29.77,
+    9417
+   ],
+   [
+    19,
+    23.08,
+    1836
+   ],
+   [
+    27,
+    45.4,
+    2072
+   ],
+   [
+    30,
+    17.61,
+    95
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 22,
+  "exits": [
+   {
+    "d": 7,
+    "room": 1,
+    "unknown_in_room": 27,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 15,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 19,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 27,
+    "room": 6,
+    "unknown_in_room": 50,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 30,
+    "room": 7,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P00_ED": {
+  "total": 202.72,
+  "tail_after95": 12.0,
+  "long_global": [
+   [
+    10,
+    22.34,
+    6922
+   ],
+   [
+    17,
+    27.65,
+    2616
+   ],
+   [
+    21,
+    17.9,
+    2932
+   ],
+   [
+    26,
+    22.62,
+    2536
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 23,
+  "exits": [
+   {
+    "d": 7,
+    "room": 1,
+    "unknown_in_room": 27,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 17,
+    "room": 3,
+    "unknown_in_room": 48,
+    "unknown_frontier_adjacent": 3,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 21,
+    "room": 4,
+    "unknown_in_room": 58,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "d": 26,
+    "room": 5,
+    "unknown_in_room": 46,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     4,
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P01_MX": {
+  "total": 324.4,
+  "tail_after95": 161.2,
+  "long_global": [
+   [
+    6,
+    37.02,
+    905
+   ],
+   [
+    7,
+    28.1,
+    2928
+   ],
+   [
+    12,
+    21.87,
+    2891
+   ],
+   [
+    14,
+    16.49,
+    955
+   ],
+   [
+    16,
+    18.81,
+    81
+   ],
+   [
+    19,
+    27.43,
+    247
+   ],
+   [
+    21,
+    17.68,
+    11
+   ],
+   [
+    22,
+    29.19,
+    10
+   ],
+   [
+    23,
+    17.98,
+    49
+   ],
+   [
+    24,
+    24.81,
+    23
+   ]
+  ]
+ },
+ "P01_G1": {
+  "total": 237.65,
+  "tail_after95": 45.6,
+  "long_global": [
+   [
+    10,
+    25.37,
+    10668
+   ],
+   [
+    17,
+    31.27,
+    2591
+   ],
+   [
+    19,
+    32.16,
+    404
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 13,
+  "exits": [
+   {
+    "d": 5,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 3,
+    "unknown_in_room": 48,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     7,
+     1
+    ]
+   },
+   {
+    "d": 13,
+    "room": 4,
+    "unknown_in_room": 138,
+    "unknown_frontier_adjacent": 10,
+    "frontier_regions": [
+     8,
+     3,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "d": 17,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 19,
+    "room": 6,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P01_SW": {
+  "total": 188.13,
+  "tail_after95": 7.0,
+  "long_global": [
+   [
+    22,
+    17.31,
+    2896
+   ],
+   [
+    29,
+    30.56,
+    1964
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 21,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 33,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 26,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 29,
+    "room": 6,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P01_ED": {
+  "total": 200.92,
+  "tail_after95": 13.0,
+  "long_global": [
+   [
+    18,
+    24.13,
+    2680
+   ],
+   [
+    20,
+    27.07,
+    2703
+   ],
+   [
+    29,
+    23.97,
+    3971
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 27,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 33,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 20,
+    "room": 4,
+    "unknown_in_room": 45,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "d": 24,
+    "room": 5,
+    "unknown_in_room": 54,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     2
+    ]
+   },
+   {
+    "d": 29,
+    "room": 6,
+    "unknown_in_room": 43,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     7,
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P02_MX": {
+  "total": 319.46,
+  "tail_after95": 146.1,
+  "long_global": [
+   [
+    5,
+    21.67,
+    6447
+   ],
+   [
+    9,
+    35.06,
+    4247
+   ],
+   [
+    12,
+    31.7,
+    2103
+   ],
+   [
+    14,
+    18.51,
+    504
+   ],
+   [
+    16,
+    21.37,
+    105
+   ],
+   [
+    18,
+    27.94,
+    1
+   ],
+   [
+    19,
+    23.54,
+    39
+   ],
+   [
+    20,
+    21.43,
+    10
+   ],
+   [
+    21,
+    16.7,
+    13
+   ],
+   [
+    22,
+    22.12,
+    21
+   ]
+  ]
+ },
+ "P02_G1": {
+  "total": 215.61,
+  "tail_after95": 18.2,
+  "long_global": [
+   [
+    15,
+    25.04,
+    3498
+   ],
+   [
+    18,
+    23.01,
+    2381
+   ],
+   [
+    24,
+    15.82,
+    1065
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 18,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 18,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     3
+    ]
+   },
+   {
+    "d": 11,
+    "room": 2,
+    "unknown_in_room": 177,
+    "unknown_frontier_adjacent": 18,
+    "frontier_regions": [
+     10,
+     3,
+     3,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 18,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 24,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P02_SW": {
+  "total": 226.99,
+  "tail_after95": 28.0,
+  "long_global": [
+   [
+    17,
+    33.12,
+    2549
+   ],
+   [
+    20,
+    20.17,
+    679
+   ],
+   [
+    24,
+    20.46,
+    1450
+   ],
+   [
+    30,
+    26.3,
+    38
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 21,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 13,
+    "room": 2,
+    "unknown_in_room": 58,
+    "unknown_frontier_adjacent": 19,
+    "frontier_regions": [
+     10,
+     9
+    ]
+   },
+   {
+    "d": 17,
+    "room": 3,
+    "unknown_in_room": 44,
+    "unknown_frontier_adjacent": 3,
+    "frontier_regions": [
+     2,
+     2
+    ]
+   },
+   {
+    "d": 20,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 24,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 30,
+    "room": 6,
+    "unknown_in_room": 47,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     6
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P02_ED": {
+  "total": 190.66,
+  "tail_after95": 7.1,
+  "long_global": [
+   [
+    9,
+    17.38,
+    8858
+   ],
+   [
+    16,
+    24.13,
+    3025
+   ],
+   [
+    27,
+    31.34,
+    1977
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 22,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 9,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 16,
+    "room": 3,
+    "unknown_in_room": 48,
+    "unknown_frontier_adjacent": 3,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 23,
+    "room": 4,
+    "unknown_in_room": 31,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 27,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P03_MX": {
+  "total": 256.07,
+  "tail_after95": 96.8,
+  "long_global": [
+   [
+    9,
+    33.19,
+    2590
+   ],
+   [
+    14,
+    16.41,
+    3054
+   ],
+   [
+    18,
+    22.92,
+    904
+   ],
+   [
+    20,
+    27.92,
+    56
+   ],
+   [
+    23,
+    18.44,
+    25
+   ],
+   [
+    25,
+    30.28,
+    25
+   ]
+  ]
+ },
+ "P03_G1": {
+  "total": 209.39,
+  "tail_after95": 59.3,
+  "long_global": [
+   [
+    15,
+    21.04,
+    3220
+   ],
+   [
+    19,
+    18.58,
+    2548
+   ],
+   [
+    22,
+    27.58,
+    273
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 17,
+  "exits": [
+   {
+    "d": 3,
+    "room": 1,
+    "unknown_in_room": 42,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     2
+    ]
+   },
+   {
+    "d": 11,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 42,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     2,
+     2
+    ]
+   },
+   {
+    "d": 19,
+    "room": 4,
+    "unknown_in_room": 46,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     2
+    ]
+   },
+   {
+    "d": 22,
+    "room": 5,
+    "unknown_in_room": 56,
+    "unknown_frontier_adjacent": 8,
+    "frontier_regions": [
+     5,
+     5,
+     3
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P03_SW": {
+  "total": 231.45,
+  "tail_after95": 52.8,
+  "long_global": [
+   [
+    5,
+    16.19,
+    15536
+   ],
+   [
+    10,
+    31.1,
+    2778
+   ],
+   [
+    15,
+    20.24,
+    1231
+   ],
+   [
+    26,
+    25.92,
+    246
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 23,
+  "exits": [
+   {
+    "d": 4,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 44,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 29,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 26,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P03_ED": {
+  "total": 217.35,
+  "tail_after95": 64.2,
+  "long_global": [
+   [
+    5,
+    16.19,
+    15536
+   ],
+   [
+    10,
+    22.62,
+    3204
+   ],
+   [
+    15,
+    19.78,
+    2506
+   ],
+   [
+    19,
+    22.41,
+    2810
+   ],
+   [
+    24,
+    20.92,
+    246
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 21,
+  "exits": [
+   {
+    "d": 4,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 2,
+    "unknown_in_room": 44,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 19,
+    "room": 4,
+    "unknown_in_room": 74,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     2,
+     1
+    ]
+   },
+   {
+    "d": 24,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P04_MX": {
+  "total": 376.06,
+  "tail_after95": 154.6,
+  "long_global": [
+   [
+    10,
+    35.29,
+    6329
+   ],
+   [
+    11,
+    18.88,
+    2141
+   ],
+   [
+    12,
+    36.87,
+    679
+   ],
+   [
+    13,
+    45.2,
+    341
+   ],
+   [
+    14,
+    22.34,
+    432
+   ],
+   [
+    16,
+    24.78,
+    31
+   ],
+   [
+    19,
+    30.95,
+    15
+   ],
+   [
+    20,
+    24.28,
+    28
+   ],
+   [
+    21,
+    22.19,
+    13
+   ],
+   [
+    22,
+    35.74,
+    51
+   ]
+  ]
+ },
+ "P04_G1": {
+  "total": 227.73,
+  "tail_after95": 38.8,
+  "long_global": [
+   [
+    5,
+    16.41,
+    6619
+   ],
+   [
+    12,
+    21.87,
+    4678
+   ],
+   [
+    18,
+    28.25,
+    3718
+   ],
+   [
+    23,
+    34.18,
+    341
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 15,
+  "exits": [
+   {
+    "d": 5,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 9,
+    "room": 3,
+    "unknown_in_room": 55,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     2,
+     1
+    ]
+   },
+   {
+    "d": 12,
+    "room": 4,
+    "unknown_in_room": 18,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     1
+    ]
+   },
+   {
+    "d": 18,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 21,
+    "room": 6,
+    "unknown_in_room": 81,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     8,
+     1
+    ]
+   },
+   {
+    "d": 23,
+    "room": 7,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P04_SW": {
+  "total": 217.77,
+  "tail_after95": 16.1,
+  "long_global": [
+   [
+    6,
+    16.79,
+    6693
+   ],
+   [
+    13,
+    21.5,
+    4602
+   ],
+   [
+    23,
+    36.48,
+    4028
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 22,
+  "exits": [
+   {
+    "d": 3,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 6,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 10,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 13,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 23,
+    "room": 6,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 25,
+    "room": 7,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P04_ED": {
+  "total": 233.12,
+  "tail_after95": 40.9,
+  "long_global": [
+   [
+    14,
+    42.63,
+    3148
+   ],
+   [
+    17,
+    26.75,
+    2100
+   ],
+   [
+    19,
+    39.58,
+    5080
+   ],
+   [
+    21,
+    21.65,
+    274
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 16,
+  "exits": [
+   {
+    "d": 3,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 6,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 14,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 17,
+    "room": 5,
+    "unknown_in_room": 53,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     5,
+     3
+    ]
+   },
+   {
+    "d": 19,
+    "room": 6,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 21,
+    "room": 7,
+    "unknown_in_room": 25,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     7
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P05_MX": {
+  "total": 282.31,
+  "tail_after95": 114.4,
+  "long_global": [
+   [
+    9,
+    17.54,
+    3115
+   ],
+   [
+    11,
+    15.05,
+    783
+   ],
+   [
+    14,
+    27.49,
+    2781
+   ],
+   [
+    16,
+    35.51,
+    2012
+   ],
+   [
+    17,
+    32.75,
+    478
+   ],
+   [
+    18,
+    26.75,
+    4
+   ],
+   [
+    19,
+    16.78,
+    51
+   ],
+   [
+    20,
+    37.93,
+    11
+   ]
+  ]
+ },
+ "P05_G1": {
+  "total": 201.93,
+  "tail_after95": 13.3,
+  "long_global": [
+   [
+    15,
+    29.61,
+    6228
+   ],
+   [
+    19,
+    25.17,
+    4050
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 17,
+  "exits": [
+   {
+    "d": 5,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 13,
+    "room": 2,
+    "unknown_in_room": 23,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     4,
+     1
+    ]
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 44,
+    "unknown_frontier_adjacent": 3,
+    "frontier_regions": [
+     2,
+     2
+    ]
+   },
+   {
+    "d": 19,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 21,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P05_SW": {
+  "total": 236.87,
+  "tail_after95": 7.1,
+  "long_global": [
+   [
+    7,
+    25.02,
+    9520
+   ],
+   [
+    20,
+    17.61,
+    3042
+   ],
+   [
+    24,
+    17.15,
+    769
+   ],
+   [
+    27,
+    30.64,
+    1947
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 22,
+  "exits": [
+   {
+    "d": 7,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 16,
+    "room": 2,
+    "unknown_in_room": 33,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 20,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 24,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 27,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P05_ED": {
+  "total": 257.87,
+  "tail_after95": 13.0,
+  "long_global": [
+   [
+    7,
+    23.98,
+    5942
+   ],
+   [
+    16,
+    24.13,
+    2662
+   ],
+   [
+    18,
+    27.07,
+    2677
+   ],
+   [
+    27,
+    23.97,
+    3971
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 26,
+  "exits": [
+   {
+    "d": 7,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 16,
+    "room": 2,
+    "unknown_in_room": 33,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 45,
+    "unknown_frontier_adjacent": 4,
+    "frontier_regions": [
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 54,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     2
+    ]
+   },
+   {
+    "d": 27,
+    "room": 5,
+    "unknown_in_room": 43,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     7,
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P06_MX": {
+  "total": 296.86,
+  "tail_after95": 125.7,
+  "long_global": [
+   [
+    12,
+    40.61,
+    3750
+   ],
+   [
+    13,
+    23.6,
+    1813
+   ],
+   [
+    16,
+    34.4,
+    536
+   ],
+   [
+    18,
+    15.28,
+    4
+   ],
+   [
+    19,
+    27.44,
+    265
+   ],
+   [
+    21,
+    18.13,
+    12
+   ],
+   [
+    22,
+    25.09,
+    13
+   ],
+   [
+    23,
+    25.18,
+    20
+   ]
+  ]
+ },
+ "P06_G1": {
+  "total": 209.67,
+  "tail_after95": 7.0,
+  "long_global": [
+   [
+    6,
+    21.88,
+    5349
+   ],
+   [
+    12,
+    19.79,
+    5208
+   ],
+   [
+    19,
+    28.55,
+    6096
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 18,
+  "exits": [
+   {
+    "d": 6,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 8,
+    "room": 2,
+    "unknown_in_room": 5,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 12,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 19,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 24,
+    "room": 5,
+    "unknown_in_room": 26,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P06_SW": {
+  "total": 231.19,
+  "tail_after95": 7.1,
+  "long_global": [
+   [
+    6,
+    21.06,
+    5349
+   ],
+   [
+    15,
+    17.76,
+    5233
+   ],
+   [
+    22,
+    27.87,
+    6147
+   ],
+   [
+    28,
+    23.46,
+    2002
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 21,
+  "exits": [
+   {
+    "d": 6,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 11,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 15,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 28,
+    "room": 5,
+    "unknown_in_room": 26,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P06_ED": {
+  "total": 234.94,
+  "tail_after95": 41.3,
+  "long_global": [
+   [
+    6,
+    20.68,
+    8296
+   ],
+   [
+    9,
+    18.58,
+    4581
+   ],
+   [
+    12,
+    21.81,
+    3186
+   ],
+   [
+    19,
+    42.71,
+    3604
+   ],
+   [
+    21,
+    22.02,
+    275
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 16,
+  "exits": [
+   {
+    "d": 6,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 9,
+    "room": 2,
+    "unknown_in_room": 133,
+    "unknown_frontier_adjacent": 21,
+    "frontier_regions": [
+     9,
+     9,
+     5,
+     3,
+     1
+    ]
+   },
+   {
+    "d": 12,
+    "room": 3,
+    "unknown_in_room": 43,
+    "unknown_frontier_adjacent": 2,
+    "frontier_regions": [
+     2,
+     2
+    ]
+   },
+   {
+    "d": 19,
+    "room": 4,
+    "unknown_in_room": 50,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 21,
+    "room": 5,
+    "unknown_in_room": 24,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     1
+    ]
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P07_MX": {
+  "total": 268.73,
+  "tail_after95": 122.9,
+  "long_global": [
+   [
+    6,
+    33.27,
+    6233
+   ],
+   [
+    13,
+    20.53,
+    3379
+   ],
+   [
+    15,
+    15.05,
+    781
+   ],
+   [
+    18,
+    32.66,
+    352
+   ],
+   [
+    20,
+    23.09,
+    25
+   ],
+   [
+    22,
+    24.73,
+    12
+   ],
+   [
+    23,
+    24.05,
+    21
+   ]
+  ]
+ },
+ "P07_G1": {
+  "total": 229.93,
+  "tail_after95": 44.3,
+  "long_global": [
+   [
+    9,
+    17.69,
+    7718
+   ],
+   [
+    14,
+    23.73,
+    6442
+   ],
+   [
+    23,
+    28.34,
+    2080
+   ],
+   [
+    25,
+    31.26,
+    270
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 18,
+  "exits": [
+   {
+    "d": 9,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 14,
+    "room": 2,
+    "unknown_in_room": 43,
+    "unknown_frontier_adjacent": 6,
+    "frontier_regions": [
+     7,
+     1
+    ]
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 83,
+    "unknown_frontier_adjacent": 10,
+    "frontier_regions": [
+     8,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "d": 23,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 25,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P07_SW": {
+  "total": 199.03,
+  "tail_after95": 4.8,
+  "long_global": [
+   [
+    9,
+    34.31,
+    6266
+   ],
+   [
+    12,
+    15.5,
+    2138
+   ],
+   [
+    22,
+    17.38,
+    3048
+   ],
+   [
+    28,
+    17.0,
+    735
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 23,
+  "exits": [
+   {
+    "d": 9,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 12,
+    "room": 2,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 31,
+    "unknown_frontier_adjacent": 7,
+    "frontier_regions": [
+     9
+    ]
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 28,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ },
+ "P07_ED": {
+  "total": 223.91,
+  "tail_after95": 13.1,
+  "long_global": [
+   [
+    9,
+    32.52,
+    5856
+   ],
+   [
+    18,
+    26.84,
+    2616
+   ],
+   [
+    25,
+    20.74,
+    2888
+   ]
+  ],
+  "local_checks_bad": [],
+  "local_checks_n": 21,
+  "exits": [
+   {
+    "d": 9,
+    "room": 1,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 16,
+    "room": 2,
+    "unknown_in_room": 26,
+    "unknown_frontier_adjacent": 1,
+    "frontier_regions": [
+     1
+    ]
+   },
+   {
+    "d": 18,
+    "room": 3,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   },
+   {
+    "d": 22,
+    "room": 4,
+    "unknown_in_room": 60,
+    "unknown_frontier_adjacent": 5,
+    "frontier_regions": [
+     7
+    ]
+   },
+   {
+    "d": 25,
+    "room": 5,
+    "unknown_in_room": 0,
+    "unknown_frontier_adjacent": 0,
+    "frontier_regions": []
+   }
+  ],
+  "revisit_m": 0.0,
+  "revisit_legs": []
+ }
+}

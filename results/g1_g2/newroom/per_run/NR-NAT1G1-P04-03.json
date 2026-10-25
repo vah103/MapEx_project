@@ -1,0 +1,378 @@
+{
+ "id": "NR-NAT1G1-P04-03",
+ "start": "P04",
+ "arm": "G1",
+ "metrics": {
+  "id": "NR-NAT1G1-P04-03",
+  "label": "G1",
+  "kind": "room",
+  "total_m": 227.72693235899587,
+  "global_m": 131.26625258399798,
+  "local_m": 96.4606797749979,
+  "final_known_p1": 51304,
+  "ticks": 809,
+  "decisions": 23,
+  "local_decisions": 15,
+  "global_decisions": 8,
+  "thresholds": {
+   "48051": {
+    "reached": true,
+    "first_tick": 565,
+    "distance_m": 158.11741286474705
+   },
+   "50720": {
+    "reached": true,
+    "first_tick": 675,
+    "distance_m": 188.67283039274685
+   },
+   "51254": {
+    "reached": true,
+    "first_tick": 806,
+    "distance_m": 226.82693235899765
+   },
+   "51280": {
+    "reached": true,
+    "first_tick": 807,
+    "distance_m": 227.12693235899766
+   },
+   "51303": {
+    "reached": true,
+    "first_tick": 807,
+    "distance_m": 227.12693235899766
+   },
+   "51304": {
+    "reached": true,
+    "first_tick": 807,
+    "distance_m": 227.12693235899766
+   }
+  },
+  "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+  "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+  "scope_fix_counts": {
+   "added_raw": 3,
+   "added_reachable": 3,
+   "rejected_nonroom": 2,
+   "selected_as_goal": 1,
+   "warnings": 0
+  },
+  "scope_fix_first_selected_goals": [
+   {
+    "decision": 11,
+    "tick": 253,
+    "selected_goal": [
+     546,
+     509
+    ],
+    "leg_distance_m": 2.094427190999916,
+    "observed_p1_gain_to_next_decision": 10,
+    "caveat": "attributed to entire next leg, not single recovered goal"
+   }
+  ],
+  "arm": "G1",
+  "room_metrics": {
+   "run_id": "NR-NAT1G1-P04-03",
+   "metrics_descriptive_only": true,
+   "definition_version": "NAT001_R2_G1_PRED_ROOM_SPATIAL_EPISODE_V1",
+   "identity_thresholds": {
+    "min_intersection_cells": 40,
+    "min_overlap_coefficient": 0.5,
+    "G1_local_room_mask": "4-connected sem==1 & obs!=2 containing observed-free robot pose; >=40 observed-free cells and >=0.60 5x5 local agreement",
+    "identity_matching": "largest overlap coeff, then intersection, then first-created ID; compare previous end-of-episode mask to current entry room mask",
+    "caveat": "May merge/split inferred physical rooms across map revisions; descriptive only; GLOBAL does not guarantee actual physical room exit"
+   },
+   "departure_thresholds": {
+    "unknown_observed_code": 1,
+    "predicted_free_when_mean_occupancy_less_than": 0.5,
+    "minimum_eligible_cells": 1,
+    "mask": "last accepted LOCAL room footprint",
+    "measurement_epoch": "first subsequent GLOBAL decision, using its observed+LaMa mean at that epoch",
+    "caveat": "Describes remaining prediction, not guaranteed physically explorable unknown or true room coverage"
+   },
+   "decision_count": 23,
+   "episodes": [
+    {
+     "identity_id": 1,
+     "start_decision": 1,
+     "first_pose_core_rc": [
+      187,
+      15
+     ],
+     "native_room_id_at_entry": 1,
+     "return_to_previously_exited_room": false,
+     "end_decision": 2,
+     "local_decision_count": 1,
+     "exit_reason": "ROBOT_NOT_IN_CONFIRMED_ROOM",
+     "predicted_free_unknown_cells_at_exit": 841,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 2,
+     "start_decision": 4,
+     "first_pose_core_rc": [
+      117,
+      116
+     ],
+     "native_room_id_at_entry": 2,
+     "return_to_previously_exited_room": false,
+     "end_decision": 5,
+     "local_decision_count": 1,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 3,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 3,
+     "start_decision": 6,
+     "first_pose_core_rc": [
+      57,
+      111
+     ],
+     "native_room_id_at_entry": 3,
+     "return_to_previously_exited_room": false,
+     "end_decision": 9,
+     "local_decision_count": 3,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 52,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 4,
+     "start_decision": 10,
+     "first_pose_core_rc": [
+      50,
+      40
+     ],
+     "native_room_id_at_entry": 4,
+     "return_to_previously_exited_room": false,
+     "end_decision": 12,
+     "local_decision_count": 2,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 18,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 5,
+     "start_decision": 13,
+     "first_pose_core_rc": [
+      51,
+      178
+     ],
+     "native_room_id_at_entry": 5,
+     "return_to_previously_exited_room": false,
+     "end_decision": 18,
+     "local_decision_count": 5,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 33,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 6,
+     "start_decision": 19,
+     "first_pose_core_rc": [
+      184,
+      145
+     ],
+     "native_room_id_at_entry": 6,
+     "return_to_previously_exited_room": false,
+     "end_decision": 21,
+     "local_decision_count": 2,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 74,
+     "exit_with_predicted_free_unknown": true
+    },
+    {
+     "identity_id": 7,
+     "start_decision": 22,
+     "first_pose_core_rc": [
+      160,
+      247
+     ],
+     "native_room_id_at_entry": 7,
+     "return_to_previously_exited_room": false,
+     "end_decision": 23,
+     "local_decision_count": 1,
+     "exit_reason": "LOCAL_WFD_EXHAUSTED_RETURN_GLOBAL",
+     "predicted_free_unknown_cells_at_exit": 0,
+     "exit_with_predicted_free_unknown": false
+    }
+   ],
+   "events": [
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 2,
+     "identity_id": 1,
+     "unknown_predicted_free_cells": 841,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 5,
+     "identity_id": 2,
+     "unknown_predicted_free_cells": 3,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 9,
+     "identity_id": 3,
+     "unknown_predicted_free_cells": 52,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 12,
+     "identity_id": 4,
+     "unknown_predicted_free_cells": 18,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 18,
+     "identity_id": 5,
+     "unknown_predicted_free_cells": 33,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 21,
+     "identity_id": 6,
+     "unknown_predicted_free_cells": 74,
+     "event": true
+    },
+    {
+     "type": "LOCAL_TO_GLOBAL_EXIT",
+     "decision": 23,
+     "identity_id": 7,
+     "unknown_predicted_free_cells": 0,
+     "event": false
+    }
+   ],
+   "late_returns_count": 0,
+   "departures_with_predicted_free_unknown_count": 6,
+   "departures_total": 7,
+   "unmatched_terminal_local_episodes": 0
+  },
+  "fixed_levels": {
+   "50": {
+    "tick": 104,
+    "distance_m": 28.755417527999377
+   },
+   "75": {
+    "tick": 342,
+    "distance_m": 95.57182539299771
+   },
+   "90": {
+    "tick": 565,
+    "distance_m": 158.11741286474705
+   },
+   "95": {
+    "tick": 675,
+    "distance_m": 188.67283039274685
+   },
+   "96": {
+    "tick": 806,
+    "distance_m": 226.82693235899765
+   }
+  }
+ },
+ "evidence": {
+  "RUN_RECEIPT.json": {
+   "com1_decision_parity": "NOT_TESTED",
+   "cpu_threads": 2,
+   "duration_s": 335.276,
+   "final_swap_used_MiB": 1627.5,
+   "finished_at": "2026-10-20T09:40:14.834809",
+   "host": "DELL",
+   "log": "/home/dell/DELL_NATIVE2D/runs/NR-NAT1G1-P04-03/worker.stdout.log",
+   "min_available_MiB": 3832.0,
+   "mission_status": {
+    "cur_step": 810,
+    "fail_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+    "last_exp_time_s": 322.492791891098,
+    "mission_complete": true,
+    "start_time": 1792463688.4242182
+   },
+   "mode": "full",
+   "original_reference_worker": "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/native_opt_r41_3model_worker.py",
+   "original_reference_worker_sha256": "b0cace0925470e73e2be0db944839899001223a789400550f86a050921d2d4ad",
+   "outcome": "SOURCE_TERMINAL",
+   "peak_pss_MiB": 2088.6,
+   "profile": "NR-NAT1G1-P04",
+   "returncode": 0,
+   "root": "/home/dell/DELL_NATIVE2D/runs/NR-NAT1G1-P04-03",
+   "run_id": "NR-NAT1G1-P04-03",
+   "started_at": "2026-10-20T09:34:39.556979",
+   "started_by_user_action": true
+  },
+  "RUN_MANIFEST.json": {
+   "authorization": "RD-021 user GO, full run conditioned on Claude ACCEPT of precommit",
+   "backend": "/home/dell/MapEx",
+   "baseline_parent_profile": "NR-RN",
+   "checkpoints": [
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_1",
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_2",
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_3"
+   ],
+   "created_local": "2026-10-20T00:29:44.566061",
+   "delta": "Native same-epoch room WFD size-after-full-context with room-UNKNOWN relevance; controlled add-only",
+   "experiment_launched": false,
+   "experiment_variant": "NAT001_4_ARM_8_POSE_PAPER_RAYCAST",
+   "fixture": "/home/dell/Workspace/02_Research/MX_Experiments/MX072_COM1_20261012/fixtures/p1_raw.npy",
+   "g1_001_source_sha256": "a255fd72286c190daeac0152e50578c9771e82e76e94f74c72da98c9239d6a9d",
+   "g1_local_code": "G1-001-R2 room relevance, warn, audit accepted by Claude",
+   "guard": "Native original resource guard + D01/D02 variant input integrity, not old-path parity",
+   "id": "NR-NAT1G1-P04-03",
+   "model_checkpoints_unchanged": true,
+   "nat001_core_rc": [
+    187,
+    15
+   ],
+   "nat001_padded_rc": [
+    687,
+    515
+   ],
+   "no_future_no_gt_new_policy": true,
+   "numerical_parity_vs_COM1": "NOT_VERIFIED",
+   "only_delta": "dell_worker.py one start-pose literal; inverse exactly parent source; all other executed python byte-identical",
+   "original_get_free_points_source_sha": "74f13cc8f013b26c733067fc99811cc001d37ac356bece86e53fcccf4a5ec576",
+   "output_name": "native_opt_r41_lama3small_run04",
+   "parent_run": "NR-RAYRN-03",
+   "parity_to_old_raycast": "NOT_EXPECTED_OR_CLAIMED",
+   "parity_to_unfixed": "D01/D02 candidate/goal parity expected, not exact full run",
+   "policy_code_modified": true,
+   "pose_id": "P04",
+   "profile": "NR-NAT1G1-P04",
+   "python": "/home/dell/miniforge3/envs/lama/bin/python",
+   "reference_worker": "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/native_opt_r41_3model_worker.py",
+   "reference_worker_sha256": "b0cace0925470e73e2be0db944839899001223a789400550f86a050921d2d4ad",
+   "source_sha256": {
+    "/home/dell/MapEx/scripts/explore.py": "2dc4c572141fbe56c335953a126d001d5637fd06a38c2adc66c41bc1028f7fbc",
+    "/home/dell/Workspace/02_Research/MX_Experiments/MX072_COM1_20261012/fixtures/p1_raw.npy": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/room_native_integration.py": "566a449560a03638af7fc0d736be031bac8e2c84fc4cdab059bf7f64a913354c",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/v41src/v4r41.py": "35dd0b22411d235067ee48e859ef9018e1bb184be49034a761a83b728fea4bc9"
+   },
+   "stage_git_commit": "138b0f5",
+   "staged_sha256": {
+    "dell_worker.py": "fe7504c0cf4d9f47b085d1917ed8d2428d55aeffd890947a0660474e3dc4664f",
+    "explore_mapex_plain_lama3small_r1.py": "41ffcef8c21289054d2e17b1632bf7c8f54c2f29d55c3fc83195233cd910a3bb",
+    "explore_room_r41_lama3_smallroi_v1.py": "7e3cdd21a54b0094130380d61fe607ee61228cc8a4f16a647a5451f4e7e801dd",
+    "fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+    "plain_mapex_logger.py": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+    "raycast_paper_patch.py": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+    "room_native_integration.py": "a255fd72286c190daeac0152e50578c9771e82e76e94f74c72da98c9239d6a9d",
+    "sidecar.py": "ed8488a3ab790a774038a703f9c8801d2a5346c672c95f6ea8d6079e68d5215a",
+    "v41src/mapex_room_v4/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "v41src/mapex_room_v4/geometry_helpers.py": "a0de0741d01af4667901719fc0abb4bc5b768d7075185e3a2dd77f66d566c280",
+    "v41src/mapex_room_v4/structure_engine.py": "0dda9775919bee786be0bb41eaff1a8701a1ccde3adcd3b4d318ce5a071c4414",
+    "v41src/v4r2.py": "02114a2d994560eb638c882f2693b34138948e775124a5f75d5b2407eda9f2a8",
+    "v41src/v4r3.py": "72ab2e39dcc3ec3d813ea2b6cc6e0e0c31c9ac0247c35cf126c5273eb3db5cd5",
+    "v41src/v4r3_frozen.py": "e6429e707775cacd9d39e77495520514fe2494b0260de1366c5452971fd123fd",
+    "v41src/v4r41.py": "35dd0b22411d235067ee48e859ef9018e1bb184be49034a761a83b728fea4bc9",
+    "v41src/v4r4_generator_reference.py": "fb954080339c5cdf9cbfbe57b088983831f8e2aa1728d4d369cce70f64745a7d"
+   },
+   "thread_count": 2,
+   "worker_path_thread_smoke_patch_only": false
+  }
+ }
+}

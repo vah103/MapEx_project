@@ -1,0 +1,867 @@
+{
+ "METRICS.json": {
+  "canonical_logged_m": 405.88234988699514,
+  "decisions": 43,
+  "distance_definition": "sum of native recorded pose increments at0.1m/cell plus final postscan segment",
+  "early_release": false,
+  "event_lama_calls": 11,
+  "final_observed_sha256": "affda2bb19a2e22b56bf01dae2fa86129f0ed11f916d4487fe4d137db8c753b4",
+  "final_segment_m": 0.223606797749979,
+  "final_true_free": 163026,
+  "known_core": 171739,
+  "lama_calls": 24,
+  "planner_seconds": [
+   41.940666913986206,
+   15.213568687438965,
+   33.13199257850647,
+   31.982020616531372,
+   4.517038106918335,
+   31.654879808425903,
+   12.361181020736694,
+   3.9451003074645996,
+   27.138296604156494,
+   3.184786319732666,
+   2.9891228675842285,
+   25.654207468032837,
+   7.7670392990112305,
+   24.381235599517822,
+   25.837022304534912,
+   25.21591353416443,
+   6.581562280654907,
+   25.86181640625,
+   3.1494271755218506,
+   25.474984407424927,
+   9.298744916915894,
+   9.608450651168823,
+   22.84149169921875,
+   22.401949882507324,
+   2.823718309402466,
+   4.420391321182251,
+   20.015230178833008,
+   18.50924825668335,
+   5.487770318984985,
+   16.18705677986145,
+   13.891170024871826,
+   14.8381028175354,
+   7.411756992340088,
+   2.2835350036621094,
+   12.942206859588623,
+   11.352855443954468,
+   4.757979393005371,
+   5.131088495254517,
+   9.46430516242981,
+   3.297868490219116,
+   2.8041751384735107,
+   6.106169700622559,
+   5.4454755783081055
+  ],
+  "r5_final_true_free": 163024,
+  "r7_coverage_gate_pass": true,
+  "r7_features": {
+   "cleanup_retry": false,
+   "event_refresh": true,
+   "failure_regions": true,
+   "fallback_guard": false,
+   "incremental_visibility": true,
+   "jump_release": true,
+   "tail_rule": true,
+   "verify_observation": false
+  },
+  "reachable_true_free": 163026,
+  "saved_odom_m": 405.65874308924526,
+  "scheduled_lama_calls": 12,
+  "solver": "r5",
+  "solver_seconds": [
+   2.95216965675354,
+   2.622394323348999,
+   3.2897143363952637,
+   3.151594400405884,
+   3.0646467208862305,
+   2.9623019695281982,
+   2.956014394760132,
+   2.854405403137207,
+   2.9855685234069824,
+   2.94539213180542,
+   2.619088888168335,
+   2.440143585205078,
+   2.3626155853271484,
+   2.330465793609619,
+   2.4776673316955566,
+   2.3674092292785645,
+   2.51188325881958,
+   2.8587491512298584,
+   2.9267282485961914,
+   2.900120496749878,
+   2.758570432662964,
+   2.5526223182678223,
+   2.0522162914276123,
+   1.6962788105010986,
+   1.6201112270355225,
+   1.5867040157318115,
+   1.9167461395263672,
+   1.8308734893798828,
+   1.7198598384857178,
+   1.772752285003662,
+   1.6673636436462402,
+   1.567173719406128,
+   1.4884507656097412,
+   1.4913785457611084,
+   1.285750389099121,
+   1.0345959663391113,
+   0.9261350631713867,
+   0.905184268951416,
+   0.5213866233825684,
+   0.3864579200744629,
+   0.40395212173461914,
+   0.13698387145996094,
+   0.07296586036682129
+  ],
+  "solver_values": [
+   "r5"
+  ],
+  "source_files": {
+   "EVALUATION_FINAL_OBSERVED.npz": "066914f8f75a0ffd7056b3b289452d3da867086c06a4da2ed261c93daec23556",
+   "native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/mission_status.json": "9e0465e3881e6dc06c654f987f07b75601beafb0dafda3a7367daaf186a10e29",
+   "native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/odom.npy": "eb4ed8ce914c779865ef0c5265093414cab1dee16ffa9c432c2937bc536f86bc",
+   "native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/plain_mapex_evidence/final_observed_core.npz": "066914f8f75a0ffd7056b3b289452d3da867086c06a4da2ed261c93daec23556",
+   "native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/plain_mapex_evidence/gt_run_summary.json": "095602e31fa443ec77a0519146341bae138d7434a2bdb1bb15cf133652d050cb",
+   "native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/plain_mapex_evidence/steps/tick_001410_summary.json": "5a6ea37f1f706746db15f0176ed2f3856046571752dcdb9d8963959d38019e70"
+  },
+  "tail_stopped": false,
+  "terminal_status": {
+   "cur_step": 1411,
+   "fail_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+   "last_exp_time_s": 752.2465672492981,
+   "mission_complete": true,
+   "start_time": 1792753865.2389007
+  },
+  "timer_fields": [
+   {
+    "time_cover_s": 2.344006299972534,
+    "time_lama_s": 5.155624151229858,
+    "time_planner_total_s": 41.940666913986206,
+    "time_total_s": 42.002668619155884,
+    "time_tsp_s": 0.6081633567810059,
+    "time_visibility_s": 33.828063011169434
+   },
+   {
+    "time_cover_s": 2.0472829341888428,
+    "time_lama_s": 5.7220458984375e-06,
+    "time_planner_total_s": 15.213568687438965,
+    "time_total_s": 15.265141010284424,
+    "time_tsp_s": 0.5751113891601562,
+    "time_visibility_s": 12.58546781539917
+   },
+   {
+    "time_cover_s": 1.5573410987854004,
+    "time_lama_s": 5.278183221817017,
+    "time_planner_total_s": 33.13199257850647,
+    "time_total_s": 33.20563554763794,
+    "time_tsp_s": 1.7323732376098633,
+    "time_visibility_s": 24.559356212615967
+   },
+   {
+    "time_cover_s": 1.4159224033355713,
+    "time_lama_s": 5.211778163909912,
+    "time_planner_total_s": 31.982020616531372,
+    "time_total_s": 32.04920196533203,
+    "time_tsp_s": 1.7356719970703125,
+    "time_visibility_s": 23.614731311798096
+   },
+   {
+    "time_cover_s": 1.4053828716278076,
+    "time_lama_s": 5.0067901611328125e-06,
+    "time_planner_total_s": 4.517038106918335,
+    "time_total_s": 4.5845947265625,
+    "time_tsp_s": 1.6592638492584229,
+    "time_visibility_s": 1.448484182357788
+   },
+   {
+    "time_cover_s": 1.3673603534698486,
+    "time_lama_s": 5.197634220123291,
+    "time_planner_total_s": 31.654879808425903,
+    "time_total_s": 31.719653844833374,
+    "time_tsp_s": 1.5949416160583496,
+    "time_visibility_s": 23.48995304107666
+   },
+   {
+    "time_cover_s": 1.3212692737579346,
+    "time_lama_s": 5.4836273193359375e-06,
+    "time_planner_total_s": 12.361181020736694,
+    "time_total_s": 12.438488721847534,
+    "time_tsp_s": 1.6347451210021973,
+    "time_visibility_s": 9.401561737060547
+   },
+   {
+    "time_cover_s": 1.3216454982757568,
+    "time_lama_s": 5.245208740234375e-06,
+    "time_planner_total_s": 3.9451003074645996,
+    "time_total_s": 4.0157575607299805,
+    "time_tsp_s": 1.5327599048614502,
+    "time_visibility_s": 1.0824394226074219
+   },
+   {
+    "time_cover_s": 0.9600050449371338,
+    "time_lama_s": 5.139968633651733,
+    "time_planner_total_s": 27.138296604156494,
+    "time_total_s": 27.208781003952026,
+    "time_tsp_s": 2.0255634784698486,
+    "time_visibility_s": 19.009233713150024
+   },
+   {
+    "time_cover_s": 0.9532191753387451,
+    "time_lama_s": 4.76837158203125e-06,
+    "time_planner_total_s": 3.184786319732666,
+    "time_total_s": 3.2553703784942627,
+    "time_tsp_s": 1.9921729564666748,
+    "time_visibility_s": 0.23536038398742676
+   },
+   {
+    "time_cover_s": 0.9599483013153076,
+    "time_lama_s": 5.0067901611328125e-06,
+    "time_planner_total_s": 2.9891228675842285,
+    "time_total_s": 3.0569674968719482,
+    "time_tsp_s": 1.6591405868530273,
+    "time_visibility_s": 0.3663825988769531
+   },
+   {
+    "time_cover_s": 0.9103758335113525,
+    "time_lama_s": 5.169506311416626,
+    "time_planner_total_s": 25.654207468032837,
+    "time_total_s": 25.71517515182495,
+    "time_tsp_s": 1.5297677516937256,
+    "time_visibility_s": 18.04119110107422
+   },
+   {
+    "time_cover_s": 0.9093725681304932,
+    "time_lama_s": 5.173090934753418,
+    "time_planner_total_s": 7.7670392990112305,
+    "time_total_s": 7.828011989593506,
+    "time_tsp_s": 1.4532430171966553,
+    "time_visibility_s": 0.22797417640686035
+   },
+   {
+    "time_cover_s": 0.9094128608703613,
+    "time_lama_s": 5.183330059051514,
+    "time_planner_total_s": 24.381235599517822,
+    "time_total_s": 24.442431211471558,
+    "time_tsp_s": 1.4210529327392578,
+    "time_visibility_s": 16.863717794418335
+   },
+   {
+    "time_cover_s": 0.8882944583892822,
+    "time_lama_s": 5.161674499511719,
+    "time_planner_total_s": 25.837022304534912,
+    "time_total_s": 25.891785144805908,
+    "time_tsp_s": 1.5893728733062744,
+    "time_visibility_s": 18.191293239593506
+   },
+   {
+    "time_cover_s": 0.8832077980041504,
+    "time_lama_s": 5.1634252071380615,
+    "time_planner_total_s": 25.21591353416443,
+    "time_total_s": 25.27043128013611,
+    "time_tsp_s": 1.484201431274414,
+    "time_visibility_s": 17.681662559509277
+   },
+   {
+    "time_cover_s": 0.8837032318115234,
+    "time_lama_s": 5.9604644775390625e-06,
+    "time_planner_total_s": 6.581562280654907,
+    "time_total_s": 6.632967233657837,
+    "time_tsp_s": 1.6281800270080566,
+    "time_visibility_s": 4.065943241119385
+   },
+   {
+    "time_cover_s": 0.8537328243255615,
+    "time_lama_s": 5.183825731277466,
+    "time_planner_total_s": 25.86181640625,
+    "time_total_s": 25.913163423538208,
+    "time_tsp_s": 2.005016326904297,
+    "time_visibility_s": 17.815869569778442
+   },
+   {
+    "time_cover_s": 0.8559889793395996,
+    "time_lama_s": 5.245208740234375e-06,
+    "time_planner_total_s": 3.1494271755218506,
+    "time_total_s": 3.200861692428589,
+    "time_tsp_s": 2.070739269256592,
+    "time_visibility_s": 0.21925926208496094
+   },
+   {
+    "time_cover_s": 0.906121015548706,
+    "time_lama_s": 5.178396224975586,
+    "time_planner_total_s": 25.474984407424927,
+    "time_total_s": 25.52635383605957,
+    "time_tsp_s": 1.9939994812011719,
+    "time_visibility_s": 17.39296555519104
+   },
+   {
+    "time_cover_s": 0.8101747035980225,
+    "time_lama_s": 5.7220458984375e-06,
+    "time_planner_total_s": 9.298744916915894,
+    "time_total_s": 9.357147455215454,
+    "time_tsp_s": 1.9483957290649414,
+    "time_visibility_s": 6.536521911621094
+   },
+   {
+    "time_cover_s": 0.8363091945648193,
+    "time_lama_s": 5.7220458984375e-06,
+    "time_planner_total_s": 9.608450651168823,
+    "time_total_s": 9.659846544265747,
+    "time_tsp_s": 1.716313123703003,
+    "time_visibility_s": 7.051994800567627
+   },
+   {
+    "time_cover_s": 0.5802145004272461,
+    "time_lama_s": 5.183466672897339,
+    "time_planner_total_s": 22.84149169921875,
+    "time_total_s": 22.905742168426514,
+    "time_tsp_s": 1.4720017910003662,
+    "time_visibility_s": 15.599690198898315
+   },
+   {
+    "time_cover_s": 0.6799588203430176,
+    "time_lama_s": 5.178325176239014,
+    "time_planner_total_s": 22.401949882507324,
+    "time_total_s": 22.462745666503906,
+    "time_tsp_s": 1.016319990158081,
+    "time_visibility_s": 15.523716449737549
+   },
+   {
+    "time_cover_s": 0.6791510581970215,
+    "time_lama_s": 5.245208740234375e-06,
+    "time_planner_total_s": 2.823718309402466,
+    "time_total_s": 2.884539842605591,
+    "time_tsp_s": 0.940960168838501,
+    "time_visibility_s": 1.19960618019104
+   },
+   {
+    "time_cover_s": 0.6803269386291504,
+    "time_lama_s": 5.7220458984375e-06,
+    "time_planner_total_s": 4.420391321182251,
+    "time_total_s": 4.4746832847595215,
+    "time_tsp_s": 0.9063770771026611,
+    "time_visibility_s": 2.8276376724243164
+   },
+   {
+    "time_cover_s": 0.47995805740356445,
+    "time_lama_s": 5.187333345413208,
+    "time_planner_total_s": 20.015230178833008,
+    "time_total_s": 20.069294691085815,
+    "time_tsp_s": 1.4367880821228027,
+    "time_visibility_s": 12.904531478881836
+   },
+   {
+    "time_cover_s": 0.31470441818237305,
+    "time_lama_s": 5.259033679962158,
+    "time_planner_total_s": 18.50924825668335,
+    "time_total_s": 18.570130586624146,
+    "time_tsp_s": 1.5161690711975098,
+    "time_visibility_s": 11.415401458740234
+   },
+   {
+    "time_cover_s": 0.30794763565063477,
+    "time_lama_s": 6.198883056640625e-06,
+    "time_planner_total_s": 5.487770318984985,
+    "time_total_s": 5.543648719787598,
+    "time_tsp_s": 1.411912202835083,
+    "time_visibility_s": 3.7620387077331543
+   },
+   {
+    "time_cover_s": 0.2278130054473877,
+    "time_lama_s": 5.247105598449707,
+    "time_planner_total_s": 16.18705677986145,
+    "time_total_s": 16.244869470596313,
+    "time_tsp_s": 1.5449392795562744,
+    "time_visibility_s": 9.162966012954712
+   },
+   {
+    "time_cover_s": 0.22123289108276367,
+    "time_lama_s": 5.305268049240112,
+    "time_planner_total_s": 13.891170024871826,
+    "time_total_s": 13.949413299560547,
+    "time_tsp_s": 1.4461307525634766,
+    "time_visibility_s": 6.914070129394531
+   },
+   {
+    "time_cover_s": 0.21451377868652344,
+    "time_lama_s": 5.319479703903198,
+    "time_planner_total_s": 14.8381028175354,
+    "time_total_s": 14.896168231964111,
+    "time_tsp_s": 1.3526599407196045,
+    "time_visibility_s": 7.947066068649292
+   },
+   {
+    "time_cover_s": 0.18474888801574707,
+    "time_lama_s": 5.0067901611328125e-06,
+    "time_planner_total_s": 7.411756992340088,
+    "time_total_s": 7.4797210693359375,
+    "time_tsp_s": 1.3037018775939941,
+    "time_visibility_s": 5.919565916061401
+   },
+   {
+    "time_cover_s": 0.18894100189208984,
+    "time_lama_s": 5.4836273193359375e-06,
+    "time_planner_total_s": 2.2835350036621094,
+    "time_total_s": 2.3449888229370117,
+    "time_tsp_s": 1.3024375438690186,
+    "time_visibility_s": 0.7866148948669434
+   },
+   {
+    "time_cover_s": 0.15213823318481445,
+    "time_lama_s": 5.258017301559448,
+    "time_planner_total_s": 12.942206859588623,
+    "time_total_s": 13.005987167358398,
+    "time_tsp_s": 1.1336121559143066,
+    "time_visibility_s": 6.390546560287476
+   },
+   {
+    "time_cover_s": 0.06814980506896973,
+    "time_lama_s": 5.1973206996917725,
+    "time_planner_total_s": 11.352855443954468,
+    "time_total_s": 11.407134771347046,
+    "time_tsp_s": 0.9664461612701416,
+    "time_visibility_s": 5.116881608963013
+   },
+   {
+    "time_cover_s": 0.06389260292053223,
+    "time_lama_s": 5.4836273193359375e-06,
+    "time_planner_total_s": 4.757979393005371,
+    "time_total_s": 4.805598735809326,
+    "time_tsp_s": 0.8622424602508545,
+    "time_visibility_s": 3.827209711074829
+   },
+   {
+    "time_cover_s": 0.03987622261047363,
+    "time_lama_s": 4.76837158203125e-06,
+    "time_planner_total_s": 5.131088495254517,
+    "time_total_s": 5.188489198684692,
+    "time_tsp_s": 0.8653080463409424,
+    "time_visibility_s": 4.221710920333862
+   },
+   {
+    "time_cover_s": 0.02627396583557129,
+    "time_lama_s": 5.187737703323364,
+    "time_planner_total_s": 9.46430516242981,
+    "time_total_s": 9.518151044845581,
+    "time_tsp_s": 0.49511265754699707,
+    "time_visibility_s": 3.7501213550567627
+   },
+   {
+    "time_cover_s": 0.022125720977783203,
+    "time_lama_s": 4.5299530029296875e-06,
+    "time_planner_total_s": 3.297868490219116,
+    "time_total_s": 3.3520116806030273,
+    "time_tsp_s": 0.3643321990966797,
+    "time_visibility_s": 2.907482624053955
+   },
+   {
+    "time_cover_s": 0.011601448059082031,
+    "time_lama_s": 5.9604644775390625e-06,
+    "time_planner_total_s": 2.8041751384735107,
+    "time_total_s": 2.845050573348999,
+    "time_tsp_s": 0.3923506736755371,
+    "time_visibility_s": 2.395277500152588
+   },
+   {
+    "time_cover_s": 0.0039844512939453125,
+    "time_lama_s": 5.188817977905273,
+    "time_planner_total_s": 6.106169700622559,
+    "time_total_s": 6.1406731605529785,
+    "time_tsp_s": 0.13299942016601562,
+    "time_visibility_s": 0.7767202854156494
+   },
+   {
+    "time_cover_s": 0.0039691925048828125,
+    "time_lama_s": 5.189924001693726,
+    "time_planner_total_s": 5.4454755783081055,
+    "time_total_s": 5.4798972606658936,
+    "time_tsp_s": 0.06899666786193848,
+    "time_visibility_s": 0.17874383926391602
+   }
+  ],
+  "total_m": 405.88234988699526
+ },
+ "RUN_MANIFEST.json": {
+  "arm": "B",
+  "authorization": "PENDING independent ACCEPT and USER GO",
+  "backend": "/work/com1/mapex_single_audit/source/MapEx",
+  "baseline_id": "GTP-R7-V3-KTH51-P00-JR-A-20261023",
+  "baseline_policy": "GTP-R7",
+  "checkpoint_pins": {
+   "/work/com1/gtp_r7_v3_20261023/gtp_r7/map_fixtures/KTH51.npy": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+   "/work/com1/mapex_single_audit/source/MapEx/configs/base.yaml": "e8d3d5cff43a5144c5ac1e19cea352eab450d59413310a320ecd6db073a379ea",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_1/config.yaml": "58743088778222c4a71c1038bace0ab6a8ebad5494c6f6abff553c15003bad48",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_1/models/best.ckpt": "b37bfef69138806708d6e087b8db89836021f06db987cb3ef3db21fbf28422ca",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_2/config.yaml": "23e4b6c3850a8bef02daf58ae630b96693d44b97488adef050261d308b44ceb3",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_2/models/best.ckpt": "7880d164ccd88da58ddb0e6875f358bea02a232c452eff86b5e226957a489c26",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_3/config.yaml": "1dc07c6b4a244a335aa0a3499fce3b6178140cea16ee2b9cc5d5e497cfa73810",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_3/models/best.ckpt": "fcb43d1102d48ab6b14f5bfded859077d6da0c7efbfbda10d4acbb754c3d3bc1"
+  },
+  "core_shape": [
+   256,
+   786
+  ],
+  "dataset_label": "KTH51 v3",
+  "debug_dedup_check": true,
+  "features": {
+   "cleanup_retry": false,
+   "event_refresh": true,
+   "failure_regions": true,
+   "fallback_guard": false,
+   "incremental_visibility": true,
+   "jump_release": true,
+   "tail_rule": true,
+   "verify_observation": false
+  },
+  "host": "COM1",
+  "host_adaptations": [
+   "paths in import guard",
+   "manifest paths and executable"
+  ],
+  "id": "GTP-R7-V3-KTH51-P00-JR-B-20261023",
+  "import_pins": {
+   "/work/com1/kth001_20261020/vendor/pyastar2d/__init__.py": "5e0428d0b8524614c32559ab7b4daa3ad946f6febd258c4de567441cf41fe55f",
+   "/work/com1/kth001_20261020/vendor/pyastar2d/astar.cpython-36m-x86_64-linux-gnu.so": "eb3e36207e42a12bde03fad6f20e3e3f44616a289a0bbf37c79f4a6fadbef196",
+   "/work/com1/kth001_20261020/vendor/pyastar2d/astar_wrapper.py": "34e71297afcbb698342f565555a575153f44c3a9479ec3b93aaab7c8fcd2069d",
+   "/work/com1/kth001_20261020/vendor/range_libc.cpython-36m-x86_64-linux-gnu.so": "d8dea4bb516f9169d02f9b1fab73b3f4809c3fe4111aa80ef3bcf1c7be58748e",
+   "/work/com1/kth001_20261020/vendor/shapely/__init__.py": "14586c559428a4401ffd0122e41568c574295783c6c5aa8e55df7737507dcd29",
+   "/work/com1/kth001_20261020/vendor/shapely/affinity.py": "293a81559189540bebed11f55cb25c28ec08b00ed77a5bdcf93f3688042fa272",
+   "/work/com1/kth001_20261020/vendor/shapely/algorithms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/kth001_20261020/vendor/shapely/algorithms/cga.py": "a816a8f0b57047c096e96815f86275907d2e21b983f40ee6caf61d6a6ebc7811",
+   "/work/com1/kth001_20261020/vendor/shapely/coords.py": "bb31ed9c7aade1cd6049b2d59b47e54925b844eac5cb0e588a8984d449ec89ac",
+   "/work/com1/kth001_20261020/vendor/shapely/ctypes_declarations.py": "4faf095d92738b1e1837da8a0d35d41d8457e4744fe1926b506363776b3a6520",
+   "/work/com1/kth001_20261020/vendor/shapely/errors.py": "9b3ca71559cc7e3d4fa4f91c98a00326d60a3104c1f7870e5b59ee37815f9ac4",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/__init__.py": "47128cf31ce6da7769b5ab8e7782c2e5a6139c60149f23ba6bf86e5848325cff",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/base.py": "0a60a4a0d5fa959d5c490d088ca2bc58505f25adf207229b542b778065e99063",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/collection.py": "04b2d6840e9c0a90a5a21d830bae39f12f54c06f795e3f2622827838ae2e66ad",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/geo.py": "d4c9b73cc9c063f939cf82dbdf7e833790f4ebe7fefed8dd565aa3fadafe97a3",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/linestring.py": "5ba5fc397e704e233db7624828b2b7e7ef56606430f066a96998de1bb9eeb01b",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/multilinestring.py": "99898eafd8d33be1ea2d92f9aaddb473b77b90dce6bb9178b792452ce5f9b4e2",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/multipoint.py": "ae707d8d800850f61bf56a3b4b46e04d8a0b041eca1712c178833128a82ecca7",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/multipolygon.py": "de9d4dc652f68f4d911e6b8f23633b0565820c0a03339112922b16b2fafae1cf",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/point.py": "2685cb855732a21b3660ecac24e53e67778d89777f817142651aa7b125e82f2f",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/polygon.py": "399f54eac9655618d440c3a26efa2ff8e5d0429393d2480438047aec48df08c1",
+   "/work/com1/kth001_20261020/vendor/shapely/geometry/proxy.py": "4efa8d90ea224a53cb9e85f47729ce54e60c1c75a234ba4f81786053b26f9939",
+   "/work/com1/kth001_20261020/vendor/shapely/geos.py": "4f3e2e91e4284ad041be0c63c5053df7a1ae08e2d7c71347c608e6508e278c2b",
+   "/work/com1/kth001_20261020/vendor/shapely/impl.py": "9c3efad50d84bd20f8ed026175a1816d5bc129a317e3541a2966b54e82397985",
+   "/work/com1/kth001_20261020/vendor/shapely/linref.py": "7f5021b1c17716edb8ec951d22bac6d8fc73cd64019f9d87bbd6975816102daa",
+   "/work/com1/kth001_20261020/vendor/shapely/predicates.py": "b05981b8189b73014b49cee4aca7e7f14b69405ceb6c2ddf7f30a51f75524e6f",
+   "/work/com1/kth001_20261020/vendor/shapely/speedups/__init__.py": "4749c9f48967a5cd0e7df73abba3bb174aed05fa8129013bde8c71073a023c66",
+   "/work/com1/kth001_20261020/vendor/shapely/speedups/_speedups.cpython-36m-x86_64-linux-gnu.so": "989b870c68d478b4bc4d328fe7f275fe52897fced9b69a35e21dc66da7156edc",
+   "/work/com1/kth001_20261020/vendor/shapely/topology.py": "48002cc2d0372e14993a0fcc5581e95f9beaf41bf3b2e3cc8c82530626dc7b75",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/__init__.py": "18b74c1ac9b9fc29c04f2875f40b76d0799bd4cb1766f3f136f83bd1b1d80a19",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/base.py": "63243e82571e7aaf0cd2a37f3b9635266c5f4ae2d0ba53e5738f6ce533c43db6",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/mobilenet.py": "c630ff713805a70514028bc8084e77d457704928e9e02704d241994ef2737b30",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/resnet.py": "89605ad5e9a543bbebc71920bdb7a3d0f2d5bff6896a1ebf4f06f10fae969d30",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/__init__.py": "2600acab3ede0102ff0bd8e8f8d62b21e4fff97f99a95996aa14679b6ec30d01",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/modules/__init__.py": "0701e2062245ab6c90b3df6934a21be5c942b44b13c2ebb70695433599af7a15",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/modules/batchnorm.py": "42258e18cef5fb033e63f6e1a06c2897432c095a7177606ac6bb1119f5f2c856",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/modules/comm.py": "a480d504d651eef51b8419254f00d97d5f0b2d9a4af590713605c0148725b234",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/modules/replicate.py": "4498b873404fce05202d4f891262e249a95733816d3877e3aee3d2401138a6af",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/parallel/__init__.py": "fa04ce76f0e4d7a130a7cefca60690b53238010bb11d65b1c305221c36d1aaa1",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/segm_lib/nn/parallel/data_parallel.py": "3e4075dc485b063be061c308d88134a644d0b3bc1507f42f40abd3fc69977ee4",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/lama_models/ade20k/utils.py": "740329112a2ec27db3db528d8204d576118243a6909b7585631f81c6a99d6fdc",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/__init__.py": "a42518ee4a67bb4323318d3c75dcdfa1c423211d76dad31d93f8d882e1750557",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/data.py": "a8471250e74eab34a618730a66fe6d043c33a525a370d597290c251d9e55475c",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/evaluator.py": "bfd053c5e93710a8da341672471faa80e7a9e2d60ee6e11b359e293ac868b0d5",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/base_loss.py": "104caadabe182cf1fa80a46e2ed04fc7b8217cbd2f76d0ce5b7806722211dc67",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/fid/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/fid/inception.py": "c4db3a6261243675ee6f34d8fc11c5c0aefb4681371f4e519bbf522de261a3a2",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/lpips.py": "74f816c09f0a6de96241c44dac8a99f55b08589a7a772acbe9c59fc3c997f990",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/losses/ssim.py": "5dac724a5393cd97b52e720a91b177c8e2a1fda488ea9f6658b8e6a65d6043c6",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/masks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/masks/countless/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/masks/countless/countless2d.py": "890020e5fba1e9fe15d4c41bfe421831abd0ac8674d1c10f2b70fae5ec5ae819",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/masks/mask.py": "144fe0e1d9cbe9bdde1bb5c01587e2f0191382ea8f9d4e8e0ff3fa186eb9df17",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/evaluation/utils.py": "00b89724b509fdfa1337b8dca0edc6369f0d0eb32bddbdb1687a94cde1866eac",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/data/aug.py": "cc2592c7fb2b7278dee5cd36398e8e29117e6a88aacb9d58e7782711287610f5",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/data/datasets.py": "6fb6a1c13093be0d877a967229268b9c7be8bfc695bdcd6ee9d861049d8f0dc1",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/data/masks.py": "2ad13ca38747515f2854715b0730e540458b661f1434d848d336d769f1bbb9df",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/losses/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/losses/adversarial.py": "813364230c4a91af29a4cc866f57b75a10da5240bfadfa49ade2bbecb77178ca",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/losses/distance_weighting.py": "921dd71b5c1e01987be2f39d5ca4e6e2af7fd0e81f9a405631ea52ae2f970514",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/losses/feature_matching.py": "e6a684971d889e41d5b3b9b5c2ded64d2aebe4b69334a2a477aca36882938915",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/losses/perceptual.py": "c644bbdb8e13e6ca2627cff2082c2bb5e4a53f7a864148982447eb8570d35669",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/__init__.py": "d2027f8bfe20cdc44477dd7d99434b82e82829b6c9794288329cba5c1e445912",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/base.py": "526016ea45cd40b17b1bfa812c3be1ae227b735de684cd77382a5788eb5ac4aa",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/depthwise_sep_conv.py": "9aa49550f3d34f1682cabbcc92f89d5f131ff0e89ebeefbfde396a85153c5b22",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/fake_fakes.py": "24dc08031596f881e5c56492fe05f3ad0cb7291153cf394a387d062552e8529f",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/ffc.py": "1647ce037032e533c777fd1d486c61d3ecc0eee7603b8cb96b23d0deffcaf308",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/multidilated_conv.py": "26929410919ebe0e024bd65d318978d14bdefcfeef94d079ae9c4d20189f2780",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/pix2pixhd.py": "c064a8c257a3674786b6e99e202b9cfc68033c840300a7c082502e3d599d8111",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/spatial_transform.py": "4f479a0c9ba94bd46b197507e8e8cdcc570e84ec29f5a577ade63e542adb43b5",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/modules/squeeze_excitation.py": "933c53adb2477b99c58ab325b26b124507a06b8c097ed2dd213c28f5841839fe",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/trainers/__init__.py": "505c7280c6c4983799d95e977ccc50c94f0ea200255be22c06807f535f5c242e",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/trainers/base.py": "32b95276113c941d6da47290268eaf9b6a885cf43817171fd3b5db06be426dd1",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/trainers/default.py": "85e4a9ffaf21d725a48cf6dc066de3224c2168cea51c19696197e2a2f33f24ef",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/visualizers/__init__.py": "1ed33de582e26e641aef0e0b53af24091e089bb09d62937a1fba99b4ede2dc93",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/visualizers/base.py": "b23dd95fa6e0f1b82be54c4726274abbefabf5491f26edaac5c06a742113683e",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/visualizers/colors.py": "2a414a47ea870489aa5ac566c0219f4504a937b173f709e5062d39670d0ceaa2",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/visualizers/directory.py": "7569ae9f0e368921d870f225891e25b76e2e5b392bd8fdcba8599df326a8fa6e",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/training/visualizers/noop.py": "90330e764784e1f20d603c0e2aee6ade4db26d506e1d1129571fc38a8ac24a75",
+   "/work/com1/mapex_single_audit/source/MapEx/lama/saicinpainting/utils.py": "0a399137ac692a8c0eac6b8f1befacdd9d8f3443397d8a0b000845010c2b0cfc",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/lama_pred_utils.py": "0e93d4b6628b327d7b4601efeb391c29669c46154282aed259396e558ceb01e2",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/rrt.py": "2352a07cebd3f27a806818a5e3d1eb97354a4dd97eaad78a3e70182262e98a8c",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/rrt_star.py": "8531d4395b3b3fc1fba121d5af087855646a66f00db4b9618907d179bdf3a8d4",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/sim_utils.py": "2737844d243754b18ff3dba50356ec38323e1acc8da654459c9911b378488cd3",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/simple_mask_utils.py": "eb7df53cb9daed91c2f910f9b9b66e04fb531b5a2d12a3df2093f788f09bdd63",
+   "/work/com1/mapex_single_audit/source/MapEx/scripts/upen_baseline.py": "586a1668faa9706dfedcf93ab0fbf434ae49b5277a057767ed710cd7e141fcbf",
+   "dell_worker.py": "cb53450a475b78b3f61609915644fc54f8315ab0982356005d1ccf077d91ab6e",
+   "fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+   "global001_import_guard.py": "9aaa146e3e197409fdb5260bef1c5d25fecd1f201a9060e06045593d8f2b9af6",
+   "gt_feedback.py": "306f6351bbd4eaf2b2171d55dae5773760e4b5f015380236752ee6bf1684de1d",
+   "gt_logger.py": "e84cb6a3152309a595076a7a0d13ad87dca3ac45d553313e75a373b1f260c25f",
+   "gt_planner.py": "d808271856854c00d2b59009daa786a7f23c3aacfab0de6013030e7df3bfe1e9",
+   "gt_visibility.py": "babee760483f615dd00ce46a0dd13a337e4242f7d10e9842f9dfab20257317a4",
+   "plain_mapex_logger.py": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+   "raycast_paper_patch.py": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+   "tourlib.py": "be10a72f1e3c96c6d9d1f6e16aeb8da0515af73d9aca68969627eb8504ce42e5"
+  },
+  "instrumentation": [
+   "manifest-driven worker",
+   "Mapper handle captures exact final postscan; no methods overridden"
+  ],
+  "jitter": "JR",
+  "jitter_rule": "plus2",
+  "map": "/work/com1/gtp_r7_v3_20261023/gtp_r7/map_fixtures/KTH51.npy",
+  "map_sha256": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+  "mapid": "KTH51",
+  "max_wall_seconds": 3600,
+  "mission_tick_limit": 1000000,
+  "model_dirs": [
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_1",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_2",
+   "/work/com1/mapex_weights/weights/lama_ensemble/train_3"
+  ],
+  "profile": "KTH2-GT-50052751-P00",
+  "python": "/work/conda-envs/lama/bin/python3.6",
+  "reachable_true_free": 163026,
+  "reuse": false,
+  "runtime_versions": {
+   "cv2": "4.5.3",
+   "executable": "/work/conda-envs/lama/bin/python3.6",
+   "numpy": "1.19.5",
+   "python": "3.6.13",
+   "scipy": "1.5.3",
+   "torch": "1.10.2"
+  },
+  "staged_sha256": {
+   "dell_worker.py": "cb53450a475b78b3f61609915644fc54f8315ab0982356005d1ccf077d91ab6e",
+   "explore_mapex_gt_r1.py": "3db7f65aa57b882c5b2e369f488407f0d6b42dc1d043a63c3b4b5abc942fc025",
+   "fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+   "global001_import_guard.py": "9aaa146e3e197409fdb5260bef1c5d25fecd1f201a9060e06045593d8f2b9af6",
+   "gt_feedback.py": "306f6351bbd4eaf2b2171d55dae5773760e4b5f015380236752ee6bf1684de1d",
+   "gt_logger.py": "e84cb6a3152309a595076a7a0d13ad87dca3ac45d553313e75a373b1f260c25f",
+   "gt_planner.py": "d808271856854c00d2b59009daa786a7f23c3aacfab0de6013030e7df3bfe1e9",
+   "gt_visibility.py": "babee760483f615dd00ce46a0dd13a337e4242f7d10e9842f9dfab20257317a4",
+   "plain_mapex_logger.py": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+   "raycast_paper_patch.py": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+   "tourlib.py": "be10a72f1e3c96c6d9d1f6e16aeb8da0515af73d9aca68969627eb8504ce42e5"
+  },
+  "start": "P00",
+  "start_padded": [
+   513,
+   511
+  ],
+  "template_id": "KTH2-GT-50052751-P00-01",
+  "thread_count": 2
+ },
+ "EXECUTION_RECEIPT.json": {
+  "success": true,
+  "returncode": 0,
+  "stopped": null,
+  "host": "COM1",
+  "seconds": 760.0398287773132,
+  "min_available_mib": 3723.22265625,
+  "precommit_sha256": "0e924b2f4a31b98ee3eb27c66396029048765ccddcb5b3ba95a4bb7f25bbcb08",
+  "started_at": "2026-10-23T18:10:59.601001+07:00"
+ },
+ "SYNC_VERIFIED.json": {
+  "run": "GTP-R7-V3-KTH51-P00-JR-B-20261023",
+  "files": 4353,
+  "success": true,
+  "synced_at": "2026-10-23T18:32:09",
+  "source": "com1:/work/com1/gtp_r7_v3_20261023/gtp_r7/runs/GTP-R7-V3-KTH51-P00-JR-B-20261023"
+ },
+ "R5_REFERENCE.json": {
+  "actual_run_id": "GTP-R7-V3-KTH51-P00-JR-A-20261023",
+  "execution_receipt": {
+   "host": "COM1",
+   "min_available_mib": 4269.234375,
+   "precommit_sha256": "0e924b2f4a31b98ee3eb27c66396029048765ccddcb5b3ba95a4bb7f25bbcb08",
+   "returncode": 0,
+   "seconds": 790.039176940918,
+   "started_at": "2026-10-23T17:57:49.553694+07:00",
+   "stopped": null,
+   "success": true
+  },
+  "import_trace_sha256": "99ad9f0bdc70b0202e294a3414dac682de3956794c30b3dc192fdfca84302118",
+  "manifest_sha256": "d36fb9a11b4953683f5e64a63e1f0b14edb9ff08d3aa1a68bdb915f891498203",
+  "receipt_sha256": "d7a780c1b5ab959df889186e7daf175e7db760508d613921f6b9749a3e4c642b",
+  "requested_id": "GTP-R7-V3-KTH51-P00-JR-A-20261023",
+  "source": "/home/dell/DELL_NATIVE2D/analysis/gtp_r7_v3_com1_mirror/runs/GTP-R7-V3-KTH51-P00-JR-A-20261023",
+  "sync_sha256": "fa0d8e8567cdb0b023ca4cf6ad7005829820d488cf8afa1381d9cc7d1b89d23e"
+ },
+ "FIRST_DECISION.json": {
+  "L0_native_astar_cells": 104,
+  "blacklist": [],
+  "chosen_goal_rc": [
+   532,
+   596
+  ],
+  "cleanup_mode": false,
+  "decision": 1,
+  "decision_index": 1,
+  "decision_input_npz": "/work/com1/gtp_r7_v3_20261023/gtp_r7/runs/GTP-R7-V3-KTH51-P00-JR-B-20261023/native_mapex_gt_r1/GLOBAL001_MAPEX_GT_R7_visvarprob/plain_mapex_evidence/decisions/decision_000001_input.npz",
+  "fallback": false,
+  "graph_nodes_kept": 198089,
+  "input_mean_sha256": "b1055bcfeff6da482fe0c7cfe847c363e7566d112b0c51ff30e374f4c4ff258a",
+  "input_observed_sha256": "1942ad5ac9e3c8f0b089dc59ad547f9ff0e2ab8524931927a68db4604327c829",
+  "input_var_sha256": "3ddb166c8f8feb110a51ad8d4e3559ba727d7db97743a802b3598b5874224e75",
+  "mode": "GLOBAL001_GT",
+  "n_candidates": 3094,
+  "n_candidates_blacklisted": 0,
+  "n_candidates_failure_region": 0,
+  "n_candidates_in_lock_radius": 4,
+  "n_need": 189452,
+  "n_tries_exhausted": 0,
+  "n_unknown": 189452,
+  "n_viewpoints": 14,
+  "native_tick": 0,
+  "no_room_controller": true,
+  "planned_cells": 3711,
+  "planned_gain_first": 3711,
+  "prediction_age_m": 0.0,
+  "prediction_age_ticks": 0,
+  "prediction_refresh_reasons": [
+   "initial_or_three_completions"
+  ],
+  "prediction_refreshed": true,
+  "prediction_tick": 0,
+  "previous_goal_observation": null,
+  "r7_features": {
+   "cleanup_retry": false,
+   "event_refresh": true,
+   "failure_regions": true,
+   "fallback_guard": false,
+   "incremental_visibility": true,
+   "jump_release": true,
+   "tail_rule": true,
+   "verify_observation": false
+  },
+  "reached_viewpoints": 0,
+  "rejected": [],
+  "robot_rc": [
+   513,
+   511
+  ],
+  "robot_rc_core": [
+   13,
+   11
+  ],
+  "robot_rc_padded": [
+   513,
+   511
+  ],
+  "source": "GLOBAL-001 MapEx-GT",
+  "stride": 8,
+  "tick": 0,
+  "time_cover_s": 2.344006299972534,
+  "time_lama_s": 5.155624151229858,
+  "time_planner_total_s": 41.940666913986206,
+  "time_total_s": 42.002668619155884,
+  "time_tsp_s": 0.6081633567810059,
+  "time_visibility_s": 33.828063011169434,
+  "tour_cost_cells": 1293.8620484583746,
+  "tour_first5": [
+   [
+    532,
+    596
+   ],
+   [
+    564,
+    564
+   ],
+   [
+    612,
+    572
+   ],
+   [
+    604,
+    500
+   ],
+   [
+    628,
+    500
+   ]
+  ],
+  "tour_len": 14,
+  "variant": "MapEx-GTP R7 candidate"
+ },
+ "status.json": {
+  "start_time": 1792753865.2389007,
+  "cur_step": 1411,
+  "mission_complete": true,
+  "fail_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+  "last_exp_time_s": 752.2465672492981
+ },
+ "last.json": {
+  "cumulative_distance_m": 405.88234988700447,
+  "decision": 43,
+  "mode": "GLOBAL",
+  "native_tick": 1410,
+  "postscan_pose_rc": [
+   701,
+   1260
+  ],
+  "postscan_sha256": "6ccc0863a138dea46687ca211d58bcd695b249f95e682a8299b3170292d30280",
+  "step_duration_s": 0.08951640129089355
+ },
+ "r5_reference_metrics_or_summary_scalars": {
+  "blacklist_excluded_candidates": 39,
+  "core_cells": 201216,
+  "decisions": 23,
+  "executor_rejections": 0,
+  "fallbacks": 0,
+  "fallbacks_no_traversable_plan_graph": 0,
+  "final_known_core_cells": 171721,
+  "final_tick": 1823,
+  "mission_failed": false,
+  "mission_finished": true,
+  "poses": 1824,
+  "predictions_fallback": 0,
+  "predictions_scheduled": 5,
+  "predictions_total": 5,
+  "reached_viewpoints": 14,
+  "shadow_early_replan_all_planned_known": 0,
+  "stride": 8,
+  "total_odometry_m": 528.4128450554949,
+  "tour_order_changes": 12,
+  "tour_order_comparisons": 14,
+  "tries_exhausted_cells": 319
+ },
+ "r5_canonical_distance_check": {
+  "saved_odom_m": 528.112845055495,
+  "final_segment_m": 0.30000000000000004,
+  "canonical_m": 528.4128450554949,
+  "summary_m": 528.4128450554949,
+  "last_postscan": {
+   "cumulative_distance_m": 528.4128450555062,
+   "decision": 23,
+   "mode": "GLOBAL",
+   "native_tick": 1822,
+   "postscan_pose_rc": [
+    659,
+    1016
+   ],
+   "postscan_sha256": "539efdf914ca46425a381dddfefb5caf59426ee0a5c1b354682d20a0da3e9419",
+   "step_duration_s": 0.12223672866821289
+  }
+ }
+}

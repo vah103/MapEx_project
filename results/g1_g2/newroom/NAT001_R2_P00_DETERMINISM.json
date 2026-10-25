@@ -1,0 +1,18 @@
+{
+  "decision_count_reference": 23,
+  "decision_count_replica": 23,
+  "decision_trace_equal": true,
+  "equality_contract": "exact bitwise odometry + same epoch, pose, mode, reason, room, candidates, input-hashes and executed goals",
+  "odometry_bit_equal": true,
+  "odometry_shape_reference": [
+    814,
+    2
+  ],
+  "odometry_shape_replica": [
+    814,
+    2
+  ],
+  "reference_run": "NR-RAYRN-03",
+  "replication_run": "NR-NAT1G1-P00-03",
+  "same_worker_and_all_py_sha": true
+}

@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "KTH51_D01_A00": {
+      "manifest_sha256": "4df24b49f63c5ec15d91e7432d47ade3d3b8b6d88ef57dae71d693bb6515a822",
+      "verified_files": 6
+    },
+    "KTH51_D02_A00": {
+      "manifest_sha256": "97baad42f230fff5ec05bcd3a00ced297320ced6616407369741a034243e41a8",
+      "verified_files": 6
+    },
+    "KTH51_D03_A00": {
+      "manifest_sha256": "e73a6ccf7e377a62852cd65794d28ba10b938e2794390d6982e7a160c69e3b98",
+      "verified_files": 6
+    },
+    "KTH51_D04_A00": {
+      "manifest_sha256": "79ce3e94ceaaace3ca172361d4f8188460036dac721332791df5f9b59b92e321",
+      "verified_files": 6
+    },
+    "NR_D01_A00": {
+      "manifest_sha256": "cc8d2b8ebf4a8fd9544f16ca39f032d5712503f06617990ffb3e60ec2c8ed206",
+      "verified_files": 6
+    }
+  },
+  "parent_precommit_sha256": "f06eb7e32c599d758629d090a9d1285b241d3178604c214604a4ed51c225c17e",
+  "parent_verified_pins": 293
+}

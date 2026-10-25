@@ -1,0 +1,323 @@
+{
+  "scope": "One New Room P1 fixed-start four-arm native paper raycast; same current G1-001 R2 + SWEEP baseline; no GT online",
+  "source_guard": "All receipts SOURCE_TERMINAL returncode 0 and paper D01D02 variant gate PASS",
+  "entries": [
+    {
+      "id": "NR-RAYMX-02",
+      "label": "MapEx paper",
+      "kind": "plain",
+      "total_m": 322.3239906734951,
+      "global_m": 322.32399067349513,
+      "local_m": 0.0,
+      "final_known_p1": 51304,
+      "ticks": 1134,
+      "decisions": 22,
+      "local_decisions": 0,
+      "global_decisions": 22,
+      "thresholds": {
+        "48051": {
+          "reached": true,
+          "first_tick": 505,
+          "distance_m": 143.0203545502475
+        },
+        "50720": {
+          "reached": true,
+          "first_tick": 616,
+          "distance_m": 174.25773808949754
+        },
+        "51254": {
+          "reached": true,
+          "first_tick": 923,
+          "distance_m": 261.85053915674837
+        },
+        "51280": {
+          "reached": true,
+          "first_tick": 1054,
+          "distance_m": 298.7823498869993
+        },
+        "51303": {
+          "reached": true,
+          "first_tick": 1134,
+          "distance_m": 322.32399067350013
+        },
+        "51304": {
+          "reached": true,
+          "first_tick": 1134,
+          "distance_m": 322.32399067350013
+        }
+      },
+      "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+      "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+      "distance_to_first_known_p1": {
+        "48051": 143.0203545502475,
+        "50720": 174.25773808949754,
+        "51254": 261.85053915674837,
+        "51280": 298.7823498869993,
+        "51303": 322.32399067350013,
+        "51304": 322.32399067350013
+      },
+      "distance_to_common_final_known_p1_m": 322.32399067350013
+    },
+    {
+      "id": "NR-RAYRN-03",
+      "label": "G1-001 R2 current paper",
+      "kind": "room",
+      "total_m": 228.85053915674587,
+      "global_m": 147.76067977499793,
+      "local_m": 81.08985938174797,
+      "final_known_p1": 51305,
+      "ticks": 813,
+      "decisions": 23,
+      "local_decisions": 15,
+      "global_decisions": 8,
+      "thresholds": {
+        "48051": {
+          "reached": true,
+          "first_tick": 555,
+          "distance_m": 155.27019926924683
+        },
+        "50720": {
+          "reached": true,
+          "first_tick": 732,
+          "distance_m": 205.69643719049725
+        },
+        "51254": {
+          "reached": true,
+          "first_tick": 805,
+          "distance_m": 226.83250516799762
+        },
+        "51280": {
+          "reached": true,
+          "first_tick": 807,
+          "distance_m": 227.3561119657476
+        },
+        "51303": {
+          "reached": true,
+          "first_tick": 810,
+          "distance_m": 228.10332556124754
+        },
+        "51304": {
+          "reached": true,
+          "first_tick": 810,
+          "distance_m": 228.10332556124754
+        }
+      },
+      "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+      "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+      "scope_fix_counts": {
+        "added_raw": 2,
+        "added_reachable": 2,
+        "rejected_nonroom": 0,
+        "selected_as_goal": 1,
+        "warnings": 0
+      },
+      "scope_fix_first_selected_goals": [
+        {
+          "decision": 4,
+          "tick": 61,
+          "selected_goal": [
+            674,
+            606
+          ],
+          "leg_distance_m": 2.247213595499958,
+          "observed_p1_gain_to_next_decision": 10,
+          "caveat": "attributed to entire next leg, not single recovered goal"
+        }
+      ],
+      "distance_to_first_known_p1": {
+        "48051": 155.27019926924683,
+        "50720": 205.69643719049725,
+        "51254": 226.83250516799762,
+        "51280": 227.3561119657476,
+        "51303": 228.10332556124754,
+        "51304": 228.10332556124754
+      },
+      "distance_to_common_final_known_p1_m": 228.10332556124754
+    },
+    {
+      "id": "NR-RAYSW-03",
+      "label": "G1-001 R2 + SWEEP-R1 paper",
+      "kind": "room",
+      "total_m": 233.13250516799596,
+      "global_m": 145.27871376374782,
+      "local_m": 87.85379140424817,
+      "final_known_p1": 51303,
+      "ticks": 826,
+      "decisions": 30,
+      "local_decisions": 22,
+      "global_decisions": 8,
+      "thresholds": {
+        "48051": {
+          "reached": true,
+          "first_tick": 542,
+          "distance_m": 152.6688837074972
+        },
+        "50720": {
+          "reached": true,
+          "first_tick": 723,
+          "distance_m": 203.8367624152474
+        },
+        "51254": {
+          "reached": true,
+          "first_tick": 817,
+          "distance_m": 230.81447117924773
+        },
+        "51280": {
+          "reached": true,
+          "first_tick": 819,
+          "distance_m": 231.3380779769977
+        },
+        "51303": {
+          "reached": true,
+          "first_tick": 822,
+          "distance_m": 232.08529157249765
+        },
+        "51304": {
+          "reached": false,
+          "first_tick": null,
+          "distance_m": null
+        }
+      },
+      "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+      "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+      "scope_fix_counts": {
+        "added_raw": 1,
+        "added_reachable": 1,
+        "rejected_nonroom": 1,
+        "selected_as_goal": 0,
+        "warnings": 0
+      },
+      "scope_fix_first_selected_goals": [],
+      "distance_to_first_known_p1": {
+        "48051": 152.6688837074972,
+        "50720": 203.8367624152474,
+        "51254": 230.81447117924773,
+        "51280": 231.3380779769977,
+        "51303": 232.08529157249765,
+        "51304": null
+      },
+      "distance_to_common_final_known_p1_m": 232.08529157249765
+    },
+    {
+      "id": "NR-RAYEDR2-03",
+      "label": "G1-001 R2 + SWEEP + EARLYDOOR-R1 paper",
+      "kind": "room",
+      "total_m": 202.7187284264965,
+      "global_m": 111.49968943799848,
+      "local_m": 91.219038988498,
+      "final_known_p1": 51303,
+      "ticks": 718,
+      "decisions": 30,
+      "local_decisions": 23,
+      "global_decisions": 7,
+      "thresholds": {
+        "48051": {
+          "reached": true,
+          "first_tick": 644,
+          "distance_m": 182.12298567374702
+        },
+        "50720": {
+          "reached": true,
+          "first_tick": 674,
+          "distance_m": 190.511840055747
+        },
+        "51254": {
+          "reached": true,
+          "first_tick": 705,
+          "distance_m": 199.0479080332469
+        },
+        "51280": {
+          "reached": true,
+          "first_tick": 710,
+          "distance_m": 200.4715148309969
+        },
+        "51303": {
+          "reached": true,
+          "first_tick": 710,
+          "distance_m": 200.4715148309969
+        },
+        "51304": {
+          "reached": false,
+          "first_tick": null,
+          "distance_m": null
+        }
+      },
+      "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+      "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+      "scope_fix_counts": {
+        "added_raw": 3,
+        "added_reachable": 3,
+        "rejected_nonroom": 0,
+        "selected_as_goal": 1,
+        "warnings": 0
+      },
+      "scope_fix_first_selected_goals": [
+        {
+          "decision": 28,
+          "tick": 679,
+          "selected_goal": [
+            672,
+            521
+          ],
+          "leg_distance_m": 1.347213595499958,
+          "observed_p1_gain_to_next_decision": 42,
+          "caveat": "attributed to entire next leg, not single recovered goal"
+        }
+      ],
+      "distance_to_first_known_p1": {
+        "48051": 182.12298567374702,
+        "50720": 190.511840055747,
+        "51254": 199.0479080332469,
+        "51280": 200.4715148309969,
+        "51303": 200.4715148309969,
+        "51304": null
+      },
+      "distance_to_common_final_known_p1_m": 200.4715148309969
+    }
+  ],
+  "common_known_p1_count": 51303,
+  "final_known_mask_differences": {
+    "SWEEP_vs_EARLYDOOR": {
+      "a_only": 0,
+      "b_only": 0,
+      "xor": 0
+    },
+    "G1_R2_vs_EARLYDOOR": {
+      "a_only": 5,
+      "b_only": 3,
+      "xor": 8
+    },
+    "MapEx_vs_EARLYDOOR": {
+      "a_only": 12,
+      "b_only": 11,
+      "xor": 23
+    }
+  },
+  "delta_earlydoor_minus_sweep": {
+    "total_m": -30.413776741499447,
+    "global_m": -33.77902432574933,
+    "local_m": 3.365247584249829,
+    "distance_to_common_known_p1_m": -31.613776741500743
+  },
+  "delta_earlydoor_minus_G1_R2": {
+    "total_m": -26.131810730249356,
+    "distance_to_common_known_p1_m": -27.631810730250635
+  },
+  "earlydoor_updates": 23,
+  "earlydoor_releases": [
+    "G2_EARLY_GLOBAL_RELEASE 84 original 19 early 19 reason GOAL_NO_LONGER_CURRENT_WFD",
+    "G2_EARLY_GLOBAL_RELEASE 147 original 11 early 2 reason VALID_EARLY_GLOBAL_GOAL",
+    "G2_EARLY_GLOBAL_RELEASE 323 original 3 early 3 reason VALID_EARLY_GLOBAL_GOAL",
+    "G2_EARLY_GLOBAL_RELEASE 473 original 0 early 0 reason VALID_EARLY_GLOBAL_GOAL",
+    "G2_EARLY_GLOBAL_RELEASE 579 original 2 early 2 reason VALID_EARLY_GLOBAL_GOAL"
+  ],
+  "changed_actual_global_goal_events": [
+    "G2_EARLY_GLOBAL_RELEASE 147 original 11 early 2 reason VALID_EARLY_GLOBAL_GOAL"
+  ],
+  "caveats": [
+    "One shared start and one environment; not independent generalization",
+    "Equal known-P1 counts do not by themselves imply equal observed masks",
+    "SOURCE_TERMINAL no-selectable-frontier is not ground-truth completeness",
+    "Physical distance is from odometry at 0.10 m resolution; DELL compute time is not COM1 performance"
+  ]
+}

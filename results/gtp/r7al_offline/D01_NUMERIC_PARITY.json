@@ -1,0 +1,16 @@
+{
+  "pass_": true,
+  "fields": [
+    "ch",
+    "order",
+    "info",
+    "distance_sha256",
+    "distance_shape",
+    "target_cells",
+    "target_sha256",
+    "target_preserved",
+    "covered_need",
+    "trace"
+  ],
+  "reference": "unchanged Gate1 policy and SciPy CSR/CSC arithmetic; equivalent bounded matrix allocation"
+}

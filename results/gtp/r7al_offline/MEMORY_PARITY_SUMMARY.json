@@ -1,0 +1,52 @@
+{
+  "status": "PASS_DELL_OFFLINE_RESERVED_3GIB",
+  "states": [
+    {
+      "case": "KTH51_D01_A00",
+      "solver_seconds": 48.915075715005514,
+      "peak_rss_mib": 4058.56640625,
+      "solver_plus_inputs_excluding_reserve_mib": 986.56640625,
+      "gain_queries": 62,
+      "cover_queries": 85,
+      "exact_reference": true
+    },
+    {
+      "case": "KTH51_D02_A00",
+      "solver_seconds": 56.562717307999264,
+      "peak_rss_mib": 3982.6796875,
+      "solver_plus_inputs_excluding_reserve_mib": 910.6796875,
+      "gain_queries": 64,
+      "cover_queries": 154,
+      "exact_reference": true
+    },
+    {
+      "case": "KTH51_D03_A00",
+      "solver_seconds": 52.506378922000295,
+      "peak_rss_mib": 3932.23046875,
+      "solver_plus_inputs_excluding_reserve_mib": 860.23046875,
+      "gain_queries": 69,
+      "cover_queries": 478,
+      "exact_reference": true
+    },
+    {
+      "case": "KTH51_D04_A00",
+      "solver_seconds": 65.33810702299525,
+      "peak_rss_mib": 3717.7265625,
+      "solver_plus_inputs_excluding_reserve_mib": 645.7265625,
+      "gain_queries": 91,
+      "cover_queries": 1272,
+      "exact_reference": true
+    },
+    {
+      "case": "NR_D01_A00",
+      "solver_seconds": 5.816204100003233,
+      "peak_rss_mib": 3238.7109375,
+      "solver_plus_inputs_excluding_reserve_mib": 166.7109375,
+      "gain_queries": 51,
+      "cover_queries": 314,
+      "exact_reference": true
+    }
+  ],
+  "actual_models_loaded": false,
+  "unit_tests": 17
+}

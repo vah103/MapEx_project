@@ -1,0 +1,10 @@
+{
+ "execution_sha256": "58eb398d8278311250f09b621355cdbba5fcf7b3d3889428976485e19d8b0f49",
+ "probe": null,
+ "review_status": "unreviewed (RD-041)",
+ "state": "WAITING_COM1_ONLINE",
+ "updated_epoch": 1792899504.7813365,
+ "snapshot_read_at": "2026-10-25T07:22:02.108251+00:00",
+ "interpretation": "Saved operator state, not a fresh COM1 connectivity check. No AL native receipt available locally.",
+ "locally_completed_receipts": 0
+}

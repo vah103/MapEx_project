@@ -1,0 +1,173 @@
+{
+ "id": "NR-NAT1MX-P01-03",
+ "start": "P01",
+ "arm": "MX",
+ "metrics": {
+  "id": "NR-NAT1MX-P01-03",
+  "label": "MX",
+  "kind": "plain",
+  "total_m": 324.4016994374947,
+  "global_m": 324.4016994374948,
+  "local_m": 0.0,
+  "final_known_p1": 51300,
+  "ticks": 1145,
+  "decisions": 24,
+  "local_decisions": 0,
+  "global_decisions": 24,
+  "thresholds": {
+   "48051": {
+    "reached": true,
+    "first_tick": 508,
+    "distance_m": 143.53838853899725
+   },
+   "50720": {
+    "reached": true,
+    "first_tick": 577,
+    "distance_m": 163.1688837074974
+   },
+   "51254": {
+    "reached": true,
+    "first_tick": 1052,
+    "distance_m": 297.1892382577491
+   },
+   "51280": {
+    "reached": true,
+    "first_tick": 1143,
+    "distance_m": 323.80169943749996
+   },
+   "51303": {
+    "reached": false,
+    "first_tick": null,
+    "distance_m": null
+   },
+   "51304": {
+    "reached": false,
+    "first_tick": null,
+    "distance_m": null
+   }
+  },
+  "source_terminal_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+  "guard_gate": "D01_D02_VARIANT_INTEGRITY_PASS",
+  "arm": "MX",
+  "room_metrics": null,
+  "fixed_levels": {
+   "50": {
+    "tick": 62,
+    "distance_m": 17.759674775249785
+   },
+   "75": {
+    "tick": 385,
+    "distance_m": 109.3885438199978
+   },
+   "90": {
+    "tick": 508,
+    "distance_m": 143.53838853899725
+   },
+   "95": {
+    "tick": 577,
+    "distance_m": 163.1688837074974
+   },
+   "96": {
+    "tick": 1052,
+    "distance_m": 297.1892382577491
+   }
+  }
+ },
+ "evidence": {
+  "RUN_RECEIPT.json": {
+   "com1_decision_parity": "NOT_TESTED",
+   "cpu_threads": 2,
+   "duration_s": 346.963,
+   "final_swap_used_MiB": 1585.8,
+   "finished_at": "2026-10-20T08:18:34.718683",
+   "host": "DELL",
+   "log": "/home/dell/DELL_NATIVE2D/runs/NR-NAT1MX-P01-03/worker.stdout.log",
+   "min_available_MiB": 3903.8,
+   "mission_status": {
+    "cur_step": 1146,
+    "fail_reason": "MAPEX_NO_SELECTABLE_FRONTIER_NOT_GT",
+    "last_exp_time_s": 334.83842730522156,
+    "mission_complete": true,
+    "start_time": 1792458776.7101789
+   },
+   "mode": "full",
+   "original_reference_worker": "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/native_plain_lama3small_run05_worker.py",
+   "original_reference_worker_sha256": "84601127d25250bfa56f7fec33e1233e19d7542421366ce9db5ef8230b3d46fd",
+   "outcome": "SOURCE_TERMINAL",
+   "peak_pss_MiB": 1981.9,
+   "profile": "NR-NAT1MX-P01",
+   "returncode": 0,
+   "root": "/home/dell/DELL_NATIVE2D/runs/NR-NAT1MX-P01-03",
+   "run_id": "NR-NAT1MX-P01-03",
+   "started_at": "2026-10-20T08:12:47.753200",
+   "started_by_user_action": true
+  },
+  "RUN_MANIFEST.json": {
+   "authorization": "RD-021 user GO, full run conditioned on Claude ACCEPT of precommit",
+   "backend": "/home/dell/MapEx",
+   "baseline_parent_profile": "NR-MX",
+   "checkpoints": [
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_1",
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_2",
+    "/home/dell/MapEx/pretrained_models/weights/lama_ensemble/train_3"
+   ],
+   "created_local": "2026-10-19T22:07:43.420506",
+   "delta": "One source-line relocation of accum_hit_prob=0, from every cell to start of ray",
+   "experiment_launched": false,
+   "experiment_variant": "NAT001_4_ARM_8_POSE_PAPER_RAYCAST",
+   "fixture": "/home/dell/Workspace/02_Research/MX_Experiments/MX072_COM1_20261012/fixtures/p1_raw.npy",
+   "g1_local_code": "No G1 LOCAL",
+   "guard": "Native original resource guard + D01/D02 variant input integrity, not old-path parity",
+   "id": "NR-NAT1MX-P01-03",
+   "model_checkpoints_unchanged": true,
+   "nat001_core_rc": [
+    15,
+    247
+   ],
+   "nat001_padded_rc": [
+    515,
+    747
+   ],
+   "no_future_no_gt_new_policy": true,
+   "numerical_parity_vs_COM1": "NOT_VERIFIED",
+   "only_delta": "dell_worker.py one start-pose literal; inverse exactly parent source; all other executed python byte-identical",
+   "original_get_free_points_source_sha": "74f13cc8f013b26c733067fc99811cc001d37ac356bece86e53fcccf4a5ec576",
+   "output_name": "native_plain_lama3small_run05",
+   "parent_run": "NR-RAYMX-02",
+   "parity_to_old_raycast": "NOT_EXPECTED_OR_CLAIMED",
+   "policy_code_modified": true,
+   "pose_id": "P01",
+   "profile": "NR-NAT1MX-P01",
+   "python": "/home/dell/miniforge3/envs/lama/bin/python",
+   "reference_worker": "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/native_plain_lama3small_run05_worker.py",
+   "reference_worker_sha256": "84601127d25250bfa56f7fec33e1233e19d7542421366ce9db5ef8230b3d46fd",
+   "source_sha256": {
+    "/home/dell/MapEx/scripts/explore.py": "2dc4c572141fbe56c335953a126d001d5637fd06a38c2adc66c41bc1028f7fbc",
+    "/home/dell/Workspace/02_Research/MX_Experiments/MX072_COM1_20261012/fixtures/p1_raw.npy": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/room_native_integration.py": "566a449560a03638af7fc0d736be031bac8e2c84fc4cdab059bf7f64a913354c",
+    "/home/dell/mx072_native2d_pair_20261015/OPTIMIZED_FULL_PAIR_20261015/COM1_VERIFIED/v41src/v4r41.py": "35dd0b22411d235067ee48e859ef9018e1bb184be49034a761a83b728fea4bc9"
+   },
+   "staged_sha256": {
+    "dell_worker.py": "3a5f3d535c6e10390ea7308ec0796cb4cff416a4c239af8db5edc6a5f6ede8d6",
+    "explore_mapex_plain_lama3small_r1.py": "41ffcef8c21289054d2e17b1632bf7c8f54c2f29d55c3fc83195233cd910a3bb",
+    "explore_room_r41_lama3_smallroi_v1.py": "7e3cdd21a54b0094130380d61fe607ee61228cc8a4f16a647a5451f4e7e801dd",
+    "fast_native_lama_3model.py": "f396346129f3d24de63678e07cced6cee4394222f7f9d9026b83d881b878036d",
+    "plain_mapex_logger.py": "985d91cd22a20737d7da54c1a78b6a62f28ef628f320c631553284b5923a64ba",
+    "raycast_paper_patch.py": "6117e4bbd51205ecf02e8ceff0c9c1382fcb1c2ea96de3d7c90d13591018ba1a",
+    "room_native_integration.py": "566a449560a03638af7fc0d736be031bac8e2c84fc4cdab059bf7f64a913354c",
+    "sidecar.py": "ed8488a3ab790a774038a703f9c8801d2a5346c672c95f6ea8d6079e68d5215a",
+    "v41src/mapex_room_v4/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "v41src/mapex_room_v4/geometry_helpers.py": "a0de0741d01af4667901719fc0abb4bc5b768d7075185e3a2dd77f66d566c280",
+    "v41src/mapex_room_v4/structure_engine.py": "0dda9775919bee786be0bb41eaff1a8701a1ccde3adcd3b4d318ce5a071c4414",
+    "v41src/v4r2.py": "02114a2d994560eb638c882f2693b34138948e775124a5f75d5b2407eda9f2a8",
+    "v41src/v4r3.py": "72ab2e39dcc3ec3d813ea2b6cc6e0e0c31c9ac0247c35cf126c5273eb3db5cd5",
+    "v41src/v4r3_frozen.py": "e6429e707775cacd9d39e77495520514fe2494b0260de1366c5452971fd123fd",
+    "v41src/v4r41.py": "35dd0b22411d235067ee48e859ef9018e1bb184be49034a761a83b728fea4bc9",
+    "v41src/v4r4_generator_reference.py": "fb954080339c5cdf9cbfbe57b088983831f8e2aa1728d4d369cce70f64745a7d"
+   },
+   "thread_count": 2,
+   "worker_path_thread_smoke_patch_only": false
+  }
+ }
+}

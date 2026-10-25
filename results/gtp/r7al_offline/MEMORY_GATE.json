@@ -1,0 +1,79 @@
+{
+  "actual_models_loaded": false,
+  "host": "DELL",
+  "limitation": "Fixed saved states only;3GiB allocated/touched reserve is not actual LaMa or full closed-loop native proof",
+  "native_runs": 0,
+  "profiles": [
+    {
+      "cover_queries": 85,
+      "exact_reference": true,
+      "gain_queries": 62,
+      "input": "KTH51_D01_A00",
+      "new_result_sha256": "81760cd14b8b90f7fc7159a856b97244517f1397335cf0cc91f2c05007925244",
+      "peak_total_mib": 4058.56640625,
+      "reference_result_sha256": "11626dcbf5b697dbe2d41f1d796b0da29d7f692a541e4290a91718b14c4a9123",
+      "reserved_mib": 3072,
+      "solver_inputs_peak_excluding_reserve_mib": 986.56640625,
+      "solver_seconds": 48.915075715005514
+    },
+    {
+      "cover_queries": 154,
+      "exact_reference": true,
+      "gain_queries": 64,
+      "input": "KTH51_D02_A00",
+      "new_result_sha256": "3f8b8388e198f612bf4dbee2341b7b45801f26a777689f66157b2d83629f9f03",
+      "peak_total_mib": 3982.6796875,
+      "reference_result_sha256": "db01653150edd09430c42172f3aa7260d5fcaa350da09a0de81116e8d1a8b58d",
+      "reserved_mib": 3072,
+      "solver_inputs_peak_excluding_reserve_mib": 910.6796875,
+      "solver_seconds": 56.562717307999264
+    },
+    {
+      "cover_queries": 478,
+      "exact_reference": true,
+      "gain_queries": 69,
+      "input": "KTH51_D03_A00",
+      "new_result_sha256": "0233629c2ba612d4c5b7f79c453b6d348a45e230df2bdf7652975f57a78870c0",
+      "peak_total_mib": 3932.23046875,
+      "reference_result_sha256": "e68f34baac550fcbb1c535eceed7bd27d683f720c86cd5e820f5568ba96afdbc",
+      "reserved_mib": 3072,
+      "solver_inputs_peak_excluding_reserve_mib": 860.23046875,
+      "solver_seconds": 52.506378922000295
+    },
+    {
+      "cover_queries": 1272,
+      "exact_reference": true,
+      "gain_queries": 91,
+      "input": "KTH51_D04_A00",
+      "new_result_sha256": "675932fbf74a33a955334ef2347b59416ac52e0ae523f5c4383e53ab491d42cb",
+      "peak_total_mib": 3717.7265625,
+      "reference_result_sha256": "ec458aa034c989406a18e8c1445f555db86b60ccd8ffc70c50b6a442e5f4579f",
+      "reserved_mib": 3072,
+      "solver_inputs_peak_excluding_reserve_mib": 645.7265625,
+      "solver_seconds": 65.33810702299525
+    },
+    {
+      "cover_queries": 314,
+      "exact_reference": true,
+      "gain_queries": 51,
+      "input": "NR_D01_A00",
+      "new_result_sha256": "1440da087890b9d769373917c227ed88438a7c4110a803e4f3315e2224a362f9",
+      "peak_total_mib": 3238.7109375,
+      "reference_result_sha256": "fe87bf143df4614d10b971d9bc83da72f1fa9c18278ccb039f4aa6d39f03b1ef",
+      "reserved_mib": 3072,
+      "solver_inputs_peak_excluding_reserve_mib": 166.7109375,
+      "solver_seconds": 5.816204100003233
+    }
+  ],
+  "reference": "Gate1 policy and original SciPy CSR.dot/CSC.sum, canonical equivalent bounded allocations verified against original COO constructors",
+  "runtime": {
+    "cv2": "4.5.3",
+    "numpy": "1.19.5",
+    "python": "3.6.13",
+    "scipy": "1.5.3"
+  },
+  "source_sha256": "af4f04f39adac6a224ac56a5e4e8e70d6f55d5adfb769a3ef8a7f8aa2ad90366",
+  "status": "PASS_DELL_OFFLINE_RESERVED_3GIB",
+  "unchanged_method_constants": true,
+  "unit_tests": 23
+}

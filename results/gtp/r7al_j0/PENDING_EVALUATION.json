@@ -1,0 +1,206 @@
+{
+  "review_status": "unreviewed (RD-041)",
+  "descriptive_only": true,
+  "all_rows_complete": false,
+  "rows": [
+    {
+      "control_id": "GTP-R7-V3-NR-P00-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P00-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P00",
+      "start_padded": [
+        631,
+        631
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P00-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P01-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P01-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P01",
+      "start_padded": [
+        515,
+        747
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P01-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P02-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P02-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P02",
+      "start_padded": [
+        515,
+        515
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P02-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P03-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P03-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P03",
+      "start_padded": [
+        688,
+        748
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P03-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P04-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P04-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P04",
+      "start_padded": [
+        687,
+        515
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P04-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P05-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P05-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P05",
+      "start_padded": [
+        509,
+        639
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P05-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P06-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P06-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P06",
+      "start_padded": [
+        601,
+        545
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P06-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-NR-P07-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-NR-P07-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "ab734099aada459bac9b04cbbf533af86c95678f075f21266b77781cbacb62e1",
+      "mapid": "NR",
+      "reachable_true_free": 48265,
+      "start": "P07",
+      "start_padded": [
+        601,
+        717
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-NR-P07-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-KTH51-P00-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-KTH51-P00-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+      "mapid": "KTH51",
+      "reachable_true_free": 163026,
+      "start": "P00",
+      "start_padded": [
+        511,
+        511
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-KTH51-P00-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-KTH51-P01-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-KTH51-P01-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+      "mapid": "KTH51",
+      "reachable_true_free": 163026,
+      "start": "P01",
+      "start_padded": [
+        511,
+        1271
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-KTH51-P01-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-KTH51-P02-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-KTH51-P02-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+      "mapid": "KTH51",
+      "reachable_true_free": 163026,
+      "start": "P02",
+      "start_padded": [
+        743,
+        512
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-KTH51-P02-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    },
+    {
+      "control_id": "GTP-R7-V3-KTH51-P03-J0-B-20261023",
+      "id": "GTP-R7AL-MEM-KTH51-P03-J0-AL-20261024",
+      "jitter": "J0",
+      "map_sha256": "4e8931f288d876791d0fc39de369043a23cf65db7a773c34df36943946eb5542",
+      "mapid": "KTH51",
+      "reachable_true_free": 163026,
+      "start": "P03",
+      "start_padded": [
+        743,
+        1270
+      ],
+      "review_status": "unreviewed (RD-041)",
+      "status": "MISSING_OR_INFRASTRUCTURE_FAILURE",
+      "error": "[Errno 2] No such file or directory: '/home/dell/DELL_NATIVE2D/build/gtp_r7_al_j0_20261025/execution/runs/GTP-R7AL-MEM-KTH51-P03-J0-AL-20261024/EXECUTION_RECEIPT.json'"
+    }
+  ],
+  "paired_results": [],
+  "reports": {},
+  "eligible_AL": false,
+  "status": "PENDING_OR_FAILED_ROWS_NO_ADOPTION",
+  "retained_missing_or_failed_rows": 12,
+  "not_ground_truth_completion_claim": true,
+  "distance_definition": "native gt_run_summary total, cross-checked against recorded odom plus final postscan segment"
+}

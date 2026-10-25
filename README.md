@@ -32,8 +32,12 @@ Clone repo này, rồi chạy: python3 tools/verify_snapshot.py
 - ARCHIVE_VERIFICATION.json: kết quả kiểm snapshot, bao gồm đối chiếu source GTP với stage J0 mới nhất.
 - tools/verify_snapshot.py: kiểm hash và cú pháp, không nạp model hoặc mô phỏng.
 
-Checkpoint, map nhị phân, run data, log, ảnh và cấu hình tài khoản không nằm trong repo.
+Checkpoint, map môi trường nhị phân và cấu hình tài khoản không nằm trong repo. Kết quả và bằng chứng chọn lọc nằm trong [results/](results/README.md).
 
 ## Upstream
 
 Dựa trên [castacks/MapEx](https://github.com/castacks/MapEx), commit Dell 53636bd1c79153acc3c74a532837d78c926bae5e. Giữ giấy phép Clear BSD tại dependencies/mapex/LICENSE và Apache-2.0 cho cấu hình LaMa tại dependencies/lama/LICENSE. Xem [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Kết quả đi kèm
+
+Xem [results/](results/README.md): G1/G2 New Room/KTH, 36 run GTP R7 và trạng thái/kiểm offline R7AL mới nhất. R7AL chưa có kết quả native; không dùng số R7 thay cho AL.
