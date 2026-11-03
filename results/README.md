@@ -2,9 +2,7 @@
 
 - [G1/G2 hiện hành](g1_g2): New Room 32 run, KTH audits, bảng số liệu, receipt, quỹ đạo và gallery P00.
 - [MapEx-GTP](gtp): 36 run R7 hoàn tất, metrics/quỹ đạo/mask cuối; riêng R7AL là trạng thái pending và kiểm offline mới nhất.
-- [MapEx + TOPO R2 — KTH49 v3 P00, bộ ảnh cuộn 42 decisions](https://raw.githack.com/vah103/MapEx_project/main/results/topo_r2/kth49_p00/MAPEX_TOPO_R2_KTH49_P00_42_DECISIONS_REASONING.html): 168 ảnh nhúng và giải thích lựa chọn goal của một run 1.000 tick; đây là minh họa theo từng decision, không phải kết luận đa run.
-- [MapEx + TOPO R2 — KTH50 v3 P00, 27 decisions](https://raw.githack.com/vah103/MapEx_project/main/results/topo_r2/kth50_p00/MAPEX_TOPO_R2_KTH50_P00_27_DECISIONS_REASONING.html): 108 ảnh nhúng, tour dự kiến, lựa chọn goal và quỹ đạo hậu kiểm trong ngân sách 1.000 tick.
-- [MapEx + TOPO R2 — KTH51 v3 P01, 37 decisions](https://raw.githack.com/vah103/MapEx_project/main/results/topo_r2/kth51_p01/MAPEX_TOPO_R2_KTH51_P01_37_DECISIONS_REASONING.html): 148 ảnh nhúng với cùng bố cục; đây là run đánh giá ban đầu P01. Run KTH51 P00 bổ sung có trong gói holdout7.
+- [MapEx + TOPO R2 — ba bộ ảnh cuộn KTH49 P00 (42 decisions), KTH50 P00 (27 decisions), KTH51 P01 (37 decisions)](../mapex_topo/galleries/README.md): các gallery HTML nay được lưu trực tiếp trong `mapex_topo/galleries/`, giải thích cách robot chọn goal qua từng decision. Đây là các run phát triển, không phải kết luận đa run.
 - [TOPO R2 — 10 run KTH và bằng chứng](../mapex_topo): 3 run phát triển có trong `eval_final/`, 7 run bổ sung có [báo cáo và dữ liệu từng tick](../mapex_topo/eval_holdout7/REPORT.md), decision logs, quỹ đạo, receipts, ảnh debug, SHA kiểm kê dữ liệu raw trên Dell.
 
 Chỉ lưu kết quả tương ứng các nhánh hiện hành. Baseline/ablation cùng điều kiện được giữ để so sánh. Không lấy G2-R8 hoặc gộp kết quả G1 cũ.

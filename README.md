@@ -36,7 +36,7 @@ python3 tools/verify_topo_results.py
 
 - mapex_g1_g2/src: Room Node, LOCAL/GLOBAL, SWEEP, EARLYDOOR, vòng lặp native.
 - mapex_gtp/src: planner R7, AL, feedback, visibility, logger và worker mẫu.
-- mapex_topo: p(c), L1 v2, planner R2, native hook, spec, test, 3 manifest đánh giá ban đầu, 7 gói holdout (quỹ đạo, quyết định, coverage theo tick, receipt, checksum và ảnh debug), báo cáo/đồ thị.
+- mapex_topo: p(c), L1 v2, planner R2, native hook, spec, test, 3 manifest đánh giá ban đầu, 7 gói holdout (quỹ đạo, quyết định, coverage theo tick, receipt, checksum và ảnh debug), báo cáo/đồ thị và [ba bộ ảnh cuộn HTML](mapex_topo/galleries/README.md).
 - dependencies: source hỗ trợ MapEx, cấu hình môi trường/model và giấy phép.
 - SOURCE_MANIFEST.json: đường dẫn nguồn Dell và SHA256 từng file sao chép.
 - ARCHIVE_VERIFICATION.json: kết quả kiểm snapshot, bao gồm đối chiếu source GTP với stage J0 mới nhất.
@@ -50,4 +50,4 @@ Dựa trên [castacks/MapEx](https://github.com/castacks/MapEx), commit Dell 536
 
 ## Kết quả đi kèm
 
-Xem [results/](results/README.md): G1/G2 New Room/KTH, 36 run GTP R7 và ba bộ ảnh cuộn TOPO R2. Dữ liệu khoa học của 10 run TOPO R2 nằm trong [mapex_topo](mapex_topo) (3 development + 7 bổ sung). R7AL chưa có kết quả native; không dùng số R7 thay cho AL.
+Xem [results/](results/README.md): G1/G2 New Room/KTH và 36 run GTP R7. [Ba bộ ảnh cuộn TOPO R2](mapex_topo/galleries/README.md) cùng dữ liệu khoa học của 10 run nằm trực tiếp trong [mapex_topo](mapex_topo) (3 development + 7 bổ sung). R7AL chưa có kết quả native; không dùng số R7 thay cho AL.

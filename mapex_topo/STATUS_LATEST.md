@@ -14,6 +14,7 @@ Tệp `README.md` và 43 file trong `SHA256SUMS` là snapshot niêm phong **trư
 - [Ba run đánh giá ban đầu](eval_final/REPORT.md): KTH49 P00, KTH50 P00, KTH51 P01.
 - [Bảy run KTH bổ sung](eval_holdout7/REPORT.md): KTH49 P01/P03, KTH50 P01/P03, KTH51 P00/P02/P03.
 - [Bảng tổng hợp MapEx vs TOPO R2 cho cả 10 run](RESULTS_10_RUNS.csv): coverage AUC, coverage tick 999 và quãng đường.
+- [Ba bộ ảnh cuộn HTML](galleries/README.md): KTH49 P00 (42 decisions), KTH50 P00 (27 decisions), KTH51 P01 (37 decisions); nội dung chuyển nguyên byte từ `results/topo_r2/`.
 - Cả 7 run bổ sung có `frozen_check=PASS`, `launch_exit=0`, 1.000/1.000 tick; batch `COMPLETED`. Không thực hiện retry, không chỉnh thuật toán.
 - Trong `eval_final/per_run/` và `eval_holdout7/per_run/`: dữ liệu compact để kiểm chứng từng run, cùng đường dẫn và SHA kiểm kê của dữ liệu raw trên Dell.
 - Chạy `python3 tools/verify_topo_results.py` từ repo root để kiểm tra gói công bố.
