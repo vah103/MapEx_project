@@ -1,0 +1,13 @@
+{
+  "authorization": "RD-047",
+  "task": "TOPO-002",
+  "kind": "eval",
+  "run_ids": ["TOPO2-KTH49V3-P00-EVAL-01", "TOPO2-KTH50V3-P00-EVAL-01", "TOPO2-KTH51V3-P01-EVAL-01"],
+  "max_ticks": 1000,
+  "baselines": {"TOPO2-KTH49V3-P00-EVAL-01": "KTH49V3-P00-MX-T1000-01", "TOPO2-KTH50V3-P00-EVAL-01": "KTH50V3-P00-MX-T1000-01", "TOPO2-KTH51V3-P01-EVAL-01": "KTH51V3-V0R2-P01-MX-01"},
+  "also_compare": {"TOPO2-KTH49V3-P00-EVAL-01": "TOPO1-KTH49V3-P00-EVAL-01", "TOPO2-KTH50V3-P00-EVAL-01": "TOPO1-KTH50V3-P00-EVAL-01", "TOPO2-KTH51V3-P01-EVAL-01": "TOPO1-KTH51V3-P01-EVAL-01"},
+  "frozen_code": "exactly the code of TOPO2-50015847-P00-SMOKE-01: planner_r2 + tour (reorder_prefix), topo_l1 v2 7aba149a… preset v2 without pfree, pc_model fc2c40f8… + pc_frozen.json fe1f75a0…; no edits between runs",
+  "conditions": "user amendment 2026-11-03: only these 3 configs; sequential, one worker, never with another dell_worker running, no retry, no RAM threshold",
+  "written_by": "Claude coordinator after review of DESIGN_NOTES_R2 and smoke 50015847",
+  "written_at": "2026-11-03"
+}
