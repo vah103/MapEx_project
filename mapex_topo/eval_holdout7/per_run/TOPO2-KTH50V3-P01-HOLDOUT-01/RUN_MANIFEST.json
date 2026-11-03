@@ -1,0 +1,62 @@
+{
+  "authorization": "RD-047",
+  "baseline_script_sha256": "41ffcef8c21289054d2e17b1632bf7c8f54c2f29d55c3fc83195233cd910a3bb",
+  "core_shape": [
+    652,
+    856
+  ],
+  "created_local": "2026-11-03T16:21:30.904777",
+  "id": "TOPO2-KTH50V3-P01-HOLDOUT-01",
+  "kind": "eval",
+  "l1_dir_source": "/home/dell/DELL_NATIVE2D/build/topo002/topo_l1",
+  "l1_pfree": false,
+  "l1_preset": "v2",
+  "map": "/home/dell/DELL_NATIVE2D/analysis/kth_maps_v3_49_50_20261102/50052750/p1_core.npy",
+  "map_sha256": "0b0c7d53bf57bd104568ac79ec13ee9fb6198f8398d41eabb462febebc1aabbb",
+  "mission_time": 1000,
+  "output_name": "native_plain_lama3small_run05",
+  "pc_dir_source": "/home/dell/DELL_NATIVE2D/build/topo002/pc_model",
+  "pc_model_sha256": {
+    "pc_frozen.json": "fe1f75a04bef964d0a5effd832a72ae86595f1dfef906845aeba91446adefb15",
+    "pc_model.py": "fc2c40f81307e1ac88b80d2536ac23bb491d57bd8dfcb94d57fb602aa1ab97d6",
+    "test_pc_model.py": "f23b51413ffd451e2cf45934c86e7f0b0762064b6577ed978bab492b515560f4"
+  },
+  "pc_source": "pc_model",
+  "planner": "R2_unified",
+  "planner_T": 1000,
+  "policy": "topo",
+  "prepared_worker_sha256": "57b21106251adbfc94cbea851b6e0e1640cc45fad0afff7f20b8db3e6010dd00",
+  "r4_integrated_sha256": "0cac1c4270685091ac8a8b9f3397dd0607be6813eaca8de30d6986a4a16a5026",
+  "run_id": "TOPO2-KTH50V3-P01-HOLDOUT-01",
+  "run_status": "PREPARED_NOT_LAUNCHED",
+  "source_baseline_dir": "/home/dell/DELL_NATIVE2D/runs/KTH50V3-P01-MX-T1000-01",
+  "source_baseline_run_id": "KTH50V3-P01-MX-T1000-01",
+  "source_worker_sha256": "57b21106251adbfc94cbea851b6e0e1640cc45fad0afff7f20b8db3e6010dd00",
+  "start_padded": [
+    513,
+    880
+  ],
+  "task": "TOPO-002",
+  "topo_l1_sha256": {
+    "test_topo_l1.py": "7c5d9d646a2c58bf05c2fad5fe083aee49479dc2b3b66b5b316b197e7106be98",
+    "topo_l1.py": "7aba149a4391b1045efdbf4ad2c8f4d81e0c4fddc256a093bf320a47ae794a19"
+  },
+  "topo_planner_sha256": {
+    "DESIGN_NOTES.md": "94884a806c24c2e3513aff0b410d7d1711fdd17c7bc8f4fcf87d1997b0a8749d",
+    "__init__.py": "ce02e79fa49a06adfb5d762b112b5d25c4904f36e5de7318a0c7958360aa6fde",
+    "debug_viz.py": "010c3bd7698ff4fdb7fd8ec89f209061ee9b4000968c8b25692178cf02b639a9",
+    "geometry.py": "2cd32ad4d066f1503656cbfdf79b84b8d3d6e3a195f6f71bb2d62006cb97eef5",
+    "l1_stub.py": "5423b1f9e900d652d0bcb81093b6b269fe9c0df2ab7f1f0dc01d8e93a51bbb50",
+    "pc_stub.py": "57e67362bd1199e431d174d24eb114738fd661c5baeb76a3b4fd25e5c28d2383",
+    "planner.py": "888b1eefde44edd257897621331ec9c626393ec52f8c2a85bd7062b58f1dae11",
+    "planner_r2.py": "77f24477bd04695d134964be7b02bdf592ec12424ec7a3a83011ab077a5a4d13",
+    "tour.py": "913408b0da0b546ce315973032064bf78d0ed9b6a1f880d2a8d6cc6ef7e38ad9",
+    "visibility.py": "534679690a30cf22568a206df2c21406c15d4131d8654dc1d373ae5bb2be5588"
+  },
+  "topo_policy_sha256": "4269077b3792d512e1a1e2bbb488b4d69867786c93a6f4120d83b3009e584ac2",
+  "topo_script_sha256": "445608a1769f0bbccbb9d13783da497a4b460352beb2318e2b3f4b607f3f2c08",
+  "worker_mission_time_line": [
+    "opts.mission_time=1000",
+    "opts.mission_time=1000"
+  ]
+}

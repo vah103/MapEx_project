@@ -1,0 +1,30 @@
+{
+  "authorization": "RD-047",
+  "task": "TOPO-002",
+  "kind": "eval",
+  "max_ticks": 1000,
+  "run_ids": [
+    "TOPO2-KTH49V3-P01-HOLDOUT-01",
+    "TOPO2-KTH49V3-P03-HOLDOUT-01",
+    "TOPO2-KTH50V3-P01-HOLDOUT-01",
+    "TOPO2-KTH50V3-P03-HOLDOUT-01",
+    "TOPO2-KTH51V3-P00-HOLDOUT-01",
+    "TOPO2-KTH51V3-P02-HOLDOUT-01",
+    "TOPO2-KTH51V3-P03-HOLDOUT-01"
+  ],
+  "baselines": {
+    "TOPO2-KTH49V3-P01-HOLDOUT-01": "KTH49V3-P01-MX-T1000-01",
+    "TOPO2-KTH49V3-P03-HOLDOUT-01": "KTH49V3-P03-MX-T1000-01",
+    "TOPO2-KTH50V3-P01-HOLDOUT-01": "KTH50V3-P01-MX-T1000-01",
+    "TOPO2-KTH50V3-P03-HOLDOUT-01": "KTH50V3-P03-MX-T1000-01",
+    "TOPO2-KTH51V3-P00-HOLDOUT-01": "FURN-KTH51V3-P00-MX-NOOBJ-01",
+    "TOPO2-KTH51V3-P02-HOLDOUT-01": "KTH51V3-V0R2-P02-MX-01",
+    "TOPO2-KTH51V3-P03-HOLDOUT-01": "KTH51V3-V0R2-P03-MX-01"
+  },
+  "frozen_reference": "TOPO2-50015847-P00-SMOKE-01",
+  "github_repo": "vah103/MapEx_project",
+  "github_frozen_commit": "6ad6c67190726f5a60a8fc5bae835e65c3822e9c",
+  "conditions": "Explicit USER GO 2026-11-03 for 7 previously untested KTH configurations. Same frozen TOPO R2, L1 v2 and pc_frozen; sequential one worker; no retry or overwrite; stop batch on any failure; no new MapEx baseline runs.",
+  "written_by": "ChatGPT, transcribing direct user instruction",
+  "written_at": "2026-11-03"
+}

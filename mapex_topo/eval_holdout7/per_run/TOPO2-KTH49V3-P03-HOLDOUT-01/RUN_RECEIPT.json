@@ -1,0 +1,13 @@
+{
+  "ended_at": "2026-11-03T09:21:00.747043Z",
+  "exit_code": 0,
+  "kind": "eval",
+  "launched": true,
+  "launched_at": "2026-11-03T08:54:30.563503Z",
+  "receipt_path": "/home/dell/DELL_NATIVE2D/staging/TOPO002_R2_HOLDOUT7_20261103/USER_GO_HOLDOUT7_RD047.json",
+  "receipt_sha256": "db8f95da87b5d32db769dd1a5698c3288afc25b38196fd198619901efcb79d62",
+  "run_id": "TOPO2-KTH49V3-P03-HOLDOUT-01",
+  "start_mem_available_gib": 4.477245330810547,
+  "worker_peak_rss_gib": 2.3940086364746094,
+  "worker_sha256": "d1b7fa1b26be16334f23e9a68e759860ef9c76712f670f8edb002dc7321c5aa4"
+}

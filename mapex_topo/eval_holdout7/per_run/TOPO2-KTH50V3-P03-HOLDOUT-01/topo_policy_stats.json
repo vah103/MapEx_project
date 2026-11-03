@@ -1,0 +1,27 @@
+{
+  "decisions": 42,
+  "decisions_with_stops": 41,
+  "fallbacks": {
+    "no_valid_goal": 1
+  },
+  "fallbacks_total": 1,
+  "first_stop_on_corridor_chain": 5,
+  "hook_calls": 42,
+  "init_error": null,
+  "l1_preset": "v2",
+  "l1_takes_pfree": false,
+  "min_dist_relaxed": 0,
+  "pc_fallback_used": false,
+  "pc_source": "pc_model:/home/dell/DELL_NATIVE2D/runs/TOPO2-KTH50V3-P03-HOLDOUT-01/pc_model/pc_model.py",
+  "phase_counts": {
+    "FALLBACK": 1,
+    "R2": 41
+  },
+  "policy": "topo",
+  "replan_triggers": {
+    "targets_observed": 23
+  },
+  "reselects": 0,
+  "stale_goal_ticks": 245,
+  "topo_goals": 41
+}

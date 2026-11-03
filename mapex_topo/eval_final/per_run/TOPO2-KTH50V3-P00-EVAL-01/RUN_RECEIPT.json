@@ -1,0 +1,13 @@
+{
+  "ended_at": "2026-11-03T06:39:00.142170Z",
+  "exit_code": 0,
+  "kind": "eval",
+  "launched": true,
+  "launched_at": "2026-11-03T06:14:39.926272Z",
+  "receipt_path": "/home/dell/DELL_NATIVE2D/build/topo002/native/receipts/RD047_EVAL_FINAL.json",
+  "receipt_sha256": "f2ee6ffa2905342d1ffb91487a9edfb9a0f6ab5ce039f7584e6515114f009a67",
+  "run_id": "TOPO2-KTH50V3-P00-EVAL-01",
+  "start_mem_available_gib": 4.8215179443359375,
+  "worker_peak_rss_gib": 2.2685165405273438,
+  "worker_sha256": "9a9af7a2bdf110c3adda7ffae56c490222b9a8533730ac2ab5988829e0152461"
+}

@@ -9,18 +9,24 @@ Mã MapEx gốc và các hướng nghiên cứu trên nền MapEx. Các snapshot
 | [mapex_gtp](mapex_gtp) | MapEx-GTP R7 với solver AL, bản sửa RAM mới nhất | Chọn viewpoint và lập tour toàn cục |
 | [mapex_topo](mapex_topo) | TOPO-002 Planner R2 đã đóng băng (03/11/2026) | RoomNode L1 v2, p(c), lập kế hoạch expected gain và tích hợp native |
 
-Mỗi hướng chỉ lưu một snapshot source hiện tại. Không chứa G2-R8 hoặc lịch sử các bản thử nghiệm. TOPO R2 có manifest/checksum riêng trong `mapex_topo/`.
+Mỗi hướng chỉ lưu một snapshot source hiện tại. Không chứa G2-R8 hoặc lịch sử các bản thử nghiệm. TOPO R2 có manifest/checksum riêng trong `mapex_topo/`; xem [trạng thái TOPO R2 mới nhất](mapex_topo/STATUS_LATEST.md) (giữ nguyên README niêm phong trước đợt holdout).
 
 ## Trạng thái
 
 - G1 hiện hành là G1-001 R2. SWEEP/EARLYDOOR được tích hợp trên R2, nhưng chưa chứng minh giảm tổng quãng đường so với G1 R2 trên bộ New Room 8 vị trí.
 - GTP có solver="r5" mặc định và solver="al" thử nghiệm; early_release=False. Bản AL đã sửa lưu trữ để giảm RAM, chưa có kết luận thắng R7 trên live LaMa.
-- TOPO R2 vượt MapEx về coverage AUC trên 3 cấu hình phát triển KTH49 P00, KTH50 P00, KTH51 P01; n=1 và không phải hold-out. Chưa thể kết luận tổng quát hóa; p(c)/L1 v2 trượt kiểm tra DEV. Xem [báo cáo TOPO R2](mapex_topo/eval_final/REPORT.md).
+- TOPO R2 đã có 10 run KTH × 1.000 tick: [3 cấu hình phát triển](mapex_topo/eval_final/REPORT.md) và [7 cấu hình bổ sung](mapex_topo/eval_holdout7/REPORT.md) theo R2 đóng băng. Kết quả cần được diễn giải với giới hạn đánh giá: ba cấu hình ban đầu không phải hold-out và p(c)/L1 v2 trượt kiểm tra DEV; không mặc định khẳng định tổng quát hóa.
 - Đây là source native 2D, chưa phải bản ROS2/Gazebo được tích hợp và kiểm chứng.
 
 ## Bắt đầu
 
-Clone repo này, rồi chạy: python3 tools/verify_snapshot.py
+Clone repo này, rồi kiểm tra từ thư mục gốc:
+
+```bash
+python3 tools/verify_snapshot.py
+(cd mapex_topo && sha256sum -c SHA256SUMS)
+python3 tools/verify_topo_results.py
+```
 
 Đọc [khôi phục môi trường](docs/RESTORE.md), [lựa chọn nguồn](docs/SOURCE_SELECTION.md), rồi README từng hướng.
 
@@ -30,7 +36,7 @@ Clone repo này, rồi chạy: python3 tools/verify_snapshot.py
 
 - mapex_g1_g2/src: Room Node, LOCAL/GLOBAL, SWEEP, EARLYDOOR, vòng lặp native.
 - mapex_gtp/src: planner R7, AL, feedback, visibility, logger và worker mẫu.
-- mapex_topo: p(c), L1 v2, planner R2, native hook, spec, test, 3 run manifest, số liệu/đồ thị và checksum riêng.
+- mapex_topo: p(c), L1 v2, planner R2, native hook, spec, test, 3 manifest đánh giá ban đầu, 7 gói holdout (quỹ đạo, quyết định, coverage theo tick, receipt, checksum và ảnh debug), báo cáo/đồ thị.
 - dependencies: source hỗ trợ MapEx, cấu hình môi trường/model và giấy phép.
 - SOURCE_MANIFEST.json: đường dẫn nguồn Dell và SHA256 từng file sao chép.
 - ARCHIVE_VERIFICATION.json: kết quả kiểm snapshot, bao gồm đối chiếu source GTP với stage J0 mới nhất.
@@ -44,4 +50,4 @@ Dựa trên [castacks/MapEx](https://github.com/castacks/MapEx), commit Dell 536
 
 ## Kết quả đi kèm
 
-Xem [results/](results/README.md): G1/G2 New Room/KTH, 36 run GTP R7 và trạng thái/kiểm offline R7AL mới nhất. R7AL chưa có kết quả native; không dùng số R7 thay cho AL.
+Xem [results/](results/README.md): G1/G2 New Room/KTH, 36 run GTP R7 và ba bộ ảnh cuộn TOPO R2. Dữ liệu khoa học của 10 run TOPO R2 nằm trong [mapex_topo](mapex_topo) (3 development + 7 bổ sung). R7AL chưa có kết quả native; không dùng số R7 thay cho AL.

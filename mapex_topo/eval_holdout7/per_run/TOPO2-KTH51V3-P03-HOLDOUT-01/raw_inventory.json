@@ -1,0 +1,80 @@
+{
+  "native_original_path": "/home/dell/DELL_NATIVE2D/runs/TOPO2-KTH51V3-P03-HOLDOUT-01",
+  "excluded_from_git": [
+    "global_obs/00000000.png..00000998.png",
+    "plain_mapex_evidence/decisions/*_input.npz",
+    "numba_cache and model checkpoints"
+  ],
+  "original_native_file_sets": {
+    "global_obs": {
+      "count": 1000,
+      "bytes": 26675014,
+      "tree_digest_sha256": "fde10762bfdc64f3b3753fc7062d942a1ac13f24320551f036dc0d88b3ae5b17"
+    },
+    "decision_input_and_json": {
+      "count": 88,
+      "bytes": 29710081,
+      "tree_digest_sha256": "cf13ad639d7034deb3235e5c1b8a9d8527f530a46dc1548fc675732e44e8ac85"
+    },
+    "steps": {
+      "count": 2000,
+      "bytes": 3157347,
+      "tree_digest_sha256": "9100c905678ee0698a881be761617375885c98afe10d0bbb9add9fd12f7608b6"
+    }
+  },
+  "published_file_sha256": {
+    "RUN_MANIFEST.json": "35d67246bb1b8043ff8761f3f0bdd4dae6e738ddcd3f65bdcfabd8a68685b4d5",
+    "RUN_RECEIPT.json": "2ab8c31536aca68386c92f8e6cfcc2e715c61f4cecf381e579689ecd7c07fbd6",
+    "final_observed_tick999.png": "e545acdc8c8c60abeca98abc78737669573efb77fd156ff17317b346c0cfbaf5",
+    "mission_status.json": "37fe2c4933f7c7655609fa680c828467d0c656446e3c8f3ac5cc915e01b7d096",
+    "odom.npy": "184f1ba36150831acdc6a907d1814de322b9bd2b90b3a86f1614b37fa6ae5aab",
+    "step_evidence.tar.gz": "e97afa5d2d1e5336ebc0b41637c1b5cd5fe6d4cf5469259ac0159fe894c51715",
+    "topo_debug/decision_0001_t0000.png": "5cf092028a3f22ed2146c4ee3c989a1e3e0df1fe374f26e1dde1327c244c4119",
+    "topo_debug/decision_0002_t0017.png": "dbf498e779a81de653c0162692a5d924cd9f55c4986e5f00a4ad82a217eedf85",
+    "topo_debug/decision_0003_t0038.png": "842780023ff8820455546a01ccd286b96407a5ad76b2c21da7cec0b3055e660a",
+    "topo_debug/decision_0004_t0054.png": "917643d9b18fe74ea8bbf9d0d491f8d4155fbff39d18862208672f7fc4c1f697",
+    "topo_debug/decision_0005_t0063.png": "a2573616551b3292b79030a3998f3530328fee02b6d322124d60added1bd96dc",
+    "topo_debug/decision_0006_t0074.png": "69e01f84aea944341bdd49fa1165ef13c77f95480c0bcc54c2cd0f855de4d16c",
+    "topo_debug/decision_0007_t0097.png": "3d40721ae0a9ccb4ed1679adfd498ef382e85e58c2704a0afeb150f5f82ab7dc",
+    "topo_debug/decision_0008_t0109.png": "669782122ae54a99549db507dbdc6f04f8ad392e39795f4845a63c057f7ee9eb",
+    "topo_debug/decision_0009_t0121.png": "dd7056e32aeef63895d18758e6081a77b2da40a18d6746f579d6966924ac6716",
+    "topo_debug/decision_0010_t0131.png": "c0dde51228203b3f60305b7cfce45c3e85468cf649424ecc508a4130c1e93fd9",
+    "topo_debug/decision_0011_t0143.png": "a00bc663864a9b9d2d95b3ea7f717d9b00121133c95934d07471961938809d46",
+    "topo_debug/decision_0012_t0153.png": "c023ffa6837aa42e3ea99ae6aa64c152c6edd6680804edccb226969d0776c13c",
+    "topo_debug/decision_0013_t0165.png": "516d5da2bb979037f07db30f8e0f7a0991ce5c30d9a8d4dde8764be4dcefe4eb",
+    "topo_debug/decision_0014_t0171.png": "967dfb04db46c55098d2dc54c36d7ddfbcb79964601ba7194ee4c8904fa4eeb2",
+    "topo_debug/decision_0015_t0184.png": "fcf87a420e64e1e69ade93e759672ffc68d70a5f22a8d93ddcd5e6735687ffbb",
+    "topo_debug/decision_0016_t0190.png": "4c7134ea0ce56ac65cdc33a77a5d325d14a86da43451eb636f6e1ab1a90d78bc",
+    "topo_debug/decision_0017_t0199.png": "0f6ed9af1a8993fe488a4db9cff809d7c9a580b82b4c2a5bce2badd6720af573",
+    "topo_debug/decision_0018_t0212.png": "f72ba9dc896de7f79cefe0fff58e52350d88ec51b26f47812c2adcd8846dc0a3",
+    "topo_debug/decision_0019_t0225.png": "8e74a67808f2fda8da59213b812039ba84cdf8953287047739d41de09b606736",
+    "topo_debug/decision_0020_t0230.png": "1c51692f12c083ce419cd906f179d921eccb76d6637f744267e35636a4edbb35",
+    "topo_debug/decision_0021_t0247.png": "f1c637f7c88e7e6076a53a4844ecdcd162a8f6c50b3968ef39ba68eb3cb7d99a",
+    "topo_debug/decision_0022_t0261.png": "2ed55381b2c5db6a69687229043d97ddf5a32cb42a0ad8783fbeec69a367275d",
+    "topo_debug/decision_0023_t0268.png": "da8fab0b8a2a68040434208fde57812fcaa7522194c538ec1990476177bb05d7",
+    "topo_debug/decision_0024_t0279.png": "64b8499f49dc40c739738903bd3b28ea9a3c4ca49cbbd47aafd6d12a1b463d42",
+    "topo_debug/decision_0025_t0299.png": "f31b6b8a705f716d84bc6789a6758af648e3352f19c4cf916ba585fcfb4b7ec9",
+    "topo_debug/decision_0026_t0313.png": "7cb3979c2fe754143fa78510ed026e6943d564ae6865fcdbf27feb25f6d8d56e",
+    "topo_debug/decision_0027_t0321.png": "0d3754442ed7310f241c022144999b1bd51427f096dd9ba57916669cdf4df0d8",
+    "topo_debug/decision_0028_t0356.png": "fcee8a707c1c8d0ff7dedb094e93a8b3cb8c60b18b82ced448fd1fa079177e71",
+    "topo_debug/decision_0029_t0420.png": "f208566557ed5e5cfb08886ef31a573c31119c68bcbcea4458cee7f9abeadc63",
+    "topo_debug/decision_0030_t0476.png": "427245728392abfd00b9e3ee3fd5f6a056956c55f1b4400593baf98d71a2739c",
+    "topo_debug/decision_0031_t0486.png": "9689f5c6007a4e5ffb3fe43987f3b97d45dbe6fec1e5fb614c057d949aae3a64",
+    "topo_debug/decision_0032_t0491.png": "7722f68e59e885312304b76c2293ebbd86f47a9521fd140c703d082b02d41058",
+    "topo_debug/decision_0033_t0573.png": "55f01e726563fb883ff4115d500e8f4d059b9318d37981b348298308174fbaec",
+    "topo_debug/decision_0034_t0611.png": "235c7356b1d8643b1c281745795f5dcfe052f1020764234cbea578bf52e3a8cc",
+    "topo_debug/decision_0035_t0645.png": "4c7dcbda2ba95179a983ad835a7307ca1ccaa58a90fa4d8f0a3c490079c2ad22",
+    "topo_debug/decision_0036_t0668.png": "6af9dfc06f2aac1a2c52fedda75a415fb2513f0e7adabbb8130f16c71f6ce828",
+    "topo_debug/decision_0037_t0743.png": "cb79c09b6d3e4a530a142906eddc4c0b02514ff9d688c5db86402f71b24b6ad6",
+    "topo_debug/decision_0038_t0776.png": "b8d99d2993b585841f7652fae16b38696ecac0e5d9bf59fc7aa554cf9f7a664e",
+    "topo_debug/decision_0039_t0781.png": "eb75afba3abc4c033cff05d448fc994257c928b471e60352b0ccb291e81f764b",
+    "topo_debug/decision_0040_t0808.png": "96179da08861257fae04025214ce4dc74440260f55142a31d26a2eb41543005d",
+    "topo_debug/decision_0041_t0846.png": "385741ebabda9566b8276ea5cd70b28fa7b231c6ca4c1d7d905f6cd81890f095",
+    "topo_debug/decision_0042_t0851.png": "52a4cf715ec5b5f801ddc092f3c6be917f5c74373e79f8ee87cc347a2941efc1",
+    "topo_debug/decision_0043_t0910.png": "a047268f103d350602e93064ec3ab822c75e1f1c1eeb661e68631b02f1f1c8c3",
+    "topo_debug/decision_0044_t0943.png": "d7233cd540869362041771ab814de64cc8d09c88c3f79f2ef687276c83880657",
+    "topo_decisions.jsonl": "6dc7e6b84a7f76c2c64910cc1c662cc2ff8f1349624748378fcc1afcc079d88f",
+    "topo_policy_stats.json": "87a5795027c90801c16ee6538ce4325b74337672a615c32eb04c0861eb490050",
+    "worker.stdout.log": "f67753fcb4a6c9039496daad8039ad470f718c8eb2fe9aa9a299149a11012da0"
+  }
+}
