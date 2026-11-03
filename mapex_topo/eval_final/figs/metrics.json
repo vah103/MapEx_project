@@ -1,0 +1,1752 @@
+{
+ "KTH49 P00": {
+  "mapex": "KTH49V3-P00-MX-T1000-01",
+  "r1": "TOPO1-KTH49V3-P00-EVAL-01",
+  "r2": "TOPO2-KTH49V3-P00-EVAL-01",
+  "m_mapex": {
+   "ticks": 1000,
+   "AUC_0_999": 0.2958915979275612,
+   "AUC_partial_mean": 0.2958915979275612,
+   "cov@250": 0.16818154370116303,
+   "cov@500": 0.349481286457893,
+   "cov@999": 0.49111001074866245,
+   "cov@last": 0.49111001074866245,
+   "distance_m_last": 288.15905365125104,
+   "t50": null,
+   "t80": null,
+   "t90": null
+  },
+  "m_r1": {
+   "ticks": 1000,
+   "AUC_0_999": 0.45227404258402676,
+   "AUC_partial_mean": 0.45227404258402676,
+   "cov@250": 0.2563350684170481,
+   "cov@500": 0.4482747792901052,
+   "cov@999": 0.8071834881221241,
+   "cov@last": 0.8071834881221241,
+   "distance_m_last": 290.29806331425164,
+   "t50": 629,
+   "t80": 949,
+   "t90": null
+  },
+  "m_r2": {
+   "ticks": 1000,
+   "AUC_0_999": 0.43941233559981163,
+   "AUC_partial_mean": 0.43941233559981163,
+   "cov@250": 0.16258740836463328,
+   "cov@500": 0.39578990591901064,
+   "cov@999": 0.8694629291916764,
+   "cov@last": 0.8694629291916764,
+   "distance_m_last": 289.15216528050126,
+   "t50": 590,
+   "t80": 793,
+   "t90": null
+  },
+  "behaviour_r2": {
+   "decisions": 42,
+   "hook_calls": 42,
+   "first_kind_counts": {
+    "rim": 14,
+    "chain_corridor": 20,
+    "chain_room": 1,
+    "vp_chain": 2,
+    "door": 1,
+    "chain_hall": 3,
+    "mapex_frontier": 1
+   },
+   "sequence": [
+    [
+     0,
+     "rim",
+     false,
+     null
+    ],
+    [
+     51,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     65,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     78,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     91,
+     "rim",
+     false,
+     null
+    ],
+    [
+     143,
+     "rim",
+     false,
+     null
+    ],
+    [
+     154,
+     "rim",
+     false,
+     null
+    ],
+    [
+     160,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     262,
+     "rim",
+     false,
+     null
+    ],
+    [
+     275,
+     "rim",
+     false,
+     null
+    ],
+    [
+     280,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     310,
+     "rim",
+     false,
+     null
+    ],
+    [
+     316,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     329,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     337,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     347,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     357,
+     "rim",
+     false,
+     null
+    ],
+    [
+     362,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     411,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     457,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     470,
+     "rim",
+     false,
+     null
+    ],
+    [
+     479,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     489,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     497,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     505,
+     "vp_chain",
+     false,
+     null
+    ],
+    [
+     543,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     562,
+     "vp_chain",
+     false,
+     null
+    ],
+    [
+     590,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     599,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     612,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     630,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     640,
+     "door",
+     false,
+     null
+    ],
+    [
+     680,
+     "rim",
+     false,
+     null
+    ],
+    [
+     693,
+     "rim",
+     false,
+     null
+    ],
+    [
+     722,
+     "rim",
+     false,
+     null
+    ],
+    [
+     774,
+     "rim",
+     false,
+     null
+    ],
+    [
+     824,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     849,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     933,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     943,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     956,
+     "rim",
+     false,
+     null
+    ],
+    [
+     990,
+     "mapex_frontier",
+     null,
+     "no_valid_goal"
+    ]
+   ],
+   "first_on_corridor": [
+    20,
+    41
+   ],
+   "first_on_corridor_by_third": [
+    [
+     6,
+     14
+    ],
+    [
+     13,
+     18
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "replan_triggers": {
+    "targets_observed": 15
+   },
+   "fallbacks": {
+    "no_valid_goal": 1
+   },
+   "fallbacks_total": 1,
+   "reselects": 0,
+   "min_dist_relaxed": 0,
+   "hk_improved": [
+    40,
+    0
+   ],
+   "stale_goal_ticks": 296,
+   "pc_source": "pc_model:/home/dell/DELL_NATIVE2D/runs/TOPO2-KTH49V3-P00-EVAL-01/pc_model/pc_model.py",
+   "pc_fallback_used": false,
+   "l1_preset": "v2",
+   "init_error": null,
+   "timing": {
+    "pc_crop": {
+     "median": 0.13824660800310085,
+     "p90": 0.16899374260392505,
+     "max": 0.1900813820102485
+    },
+    "l1": {
+     "median": 1.0822723480014247,
+     "p90": 1.7614370352966944,
+     "max": 1.897448763003922
+    },
+    "planner": {
+     "median": 0.6994984365010168,
+     "p90": 0.886018101204536,
+     "max": 3.905662402990856
+    },
+    "hook": {
+     "median": 2.0912158700011787,
+     "p90": 2.462816049200774,
+     "max": 4.235462634998839
+    }
+   },
+   "gain_pred_vs_actual": [
+    {
+     "tick": 0,
+     "ticks_to_next": 51,
+     "first_kind": "rim",
+     "pred_first_g": 154.1722545772791,
+     "actual_new_gt_free": 15369
+    },
+    {
+     "tick": 51,
+     "ticks_to_next": 14,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 9320.850865554065,
+     "actual_new_gt_free": 9439
+    },
+    {
+     "tick": 65,
+     "ticks_to_next": 13,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 130.8954188078642,
+     "actual_new_gt_free": 2430
+    },
+    {
+     "tick": 78,
+     "ticks_to_next": 13,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 394.3221596851945,
+     "actual_new_gt_free": 1371
+    },
+    {
+     "tick": 91,
+     "ticks_to_next": 52,
+     "first_kind": "rim",
+     "pred_first_g": 363.7828207015991,
+     "actual_new_gt_free": 11925
+    },
+    {
+     "tick": 143,
+     "ticks_to_next": 11,
+     "first_kind": "rim",
+     "pred_first_g": 12974.316595189273,
+     "actual_new_gt_free": 3657
+    },
+    {
+     "tick": 154,
+     "ticks_to_next": 6,
+     "first_kind": "rim",
+     "pred_first_g": 10107.715385824442,
+     "actual_new_gt_free": 10223
+    },
+    {
+     "tick": 160,
+     "ticks_to_next": 102,
+     "first_kind": "chain_room",
+     "pred_first_g": 904.8699498549104,
+     "actual_new_gt_free": 12083
+    },
+    {
+     "tick": 262,
+     "ticks_to_next": 13,
+     "first_kind": "rim",
+     "pred_first_g": 5799.899724431336,
+     "actual_new_gt_free": 8990
+    },
+    {
+     "tick": 275,
+     "ticks_to_next": 5,
+     "first_kind": "rim",
+     "pred_first_g": 2007.9864111281931,
+     "actual_new_gt_free": 2581
+    },
+    {
+     "tick": 280,
+     "ticks_to_next": 30,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 1059.304306641221,
+     "actual_new_gt_free": 4898
+    },
+    {
+     "tick": 310,
+     "ticks_to_next": 6,
+     "first_kind": "rim",
+     "pred_first_g": 1549.946998976171,
+     "actual_new_gt_free": 2028
+    },
+    {
+     "tick": 316,
+     "ticks_to_next": 13,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 24.62852704524994,
+     "actual_new_gt_free": 1597
+    },
+    {
+     "tick": 329,
+     "ticks_to_next": 8,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 4939.760220095515,
+     "actual_new_gt_free": 7035
+    },
+    {
+     "tick": 337,
+     "ticks_to_next": 10,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 348.1086400747299,
+     "actual_new_gt_free": 6784
+    },
+    {
+     "tick": 347,
+     "ticks_to_next": 10,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 2689.2496816292405,
+     "actual_new_gt_free": 4201
+    },
+    {
+     "tick": 357,
+     "ticks_to_next": 5,
+     "first_kind": "rim",
+     "pred_first_g": 2408.4531625322998,
+     "actual_new_gt_free": 6455
+    },
+    {
+     "tick": 362,
+     "ticks_to_next": 49,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 49331.454729858786,
+     "actual_new_gt_free": 23182
+    },
+    {
+     "tick": 411,
+     "ticks_to_next": 46,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 182.0329331085086,
+     "actual_new_gt_free": 125
+    },
+    {
+     "tick": 457,
+     "ticks_to_next": 13,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 181.729755140841,
+     "actual_new_gt_free": 1561
+    },
+    {
+     "tick": 470,
+     "ticks_to_next": 9,
+     "first_kind": "rim",
+     "pred_first_g": 3463.7881996929646,
+     "actual_new_gt_free": 5196
+    },
+    {
+     "tick": 479,
+     "ticks_to_next": 10,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 100.312215000391,
+     "actual_new_gt_free": 1100
+    },
+    {
+     "tick": 489,
+     "ticks_to_next": 8,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 1307.2437951043248,
+     "actual_new_gt_free": 9599
+    },
+    {
+     "tick": 497,
+     "ticks_to_next": 8,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 1149.928474240005,
+     "actual_new_gt_free": 8019
+    },
+    {
+     "tick": 505,
+     "ticks_to_next": 38,
+     "first_kind": "vp_chain",
+     "pred_first_g": 26590.438370205462,
+     "actual_new_gt_free": 16939
+    },
+    {
+     "tick": 543,
+     "ticks_to_next": 19,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 145.41085040196776,
+     "actual_new_gt_free": 2849
+    },
+    {
+     "tick": 562,
+     "ticks_to_next": 28,
+     "first_kind": "vp_chain",
+     "pred_first_g": 2671.246668227017,
+     "actual_new_gt_free": 22919
+    },
+    {
+     "tick": 590,
+     "ticks_to_next": 9,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 4155.535135958344,
+     "actual_new_gt_free": 7200
+    },
+    {
+     "tick": 599,
+     "ticks_to_next": 13,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 73.46618346869946,
+     "actual_new_gt_free": 885
+    },
+    {
+     "tick": 612,
+     "ticks_to_next": 18,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 7344.869946062565,
+     "actual_new_gt_free": 8399
+    },
+    {
+     "tick": 630,
+     "ticks_to_next": 10,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 350.9053033441305,
+     "actual_new_gt_free": 1447
+    },
+    {
+     "tick": 640,
+     "ticks_to_next": 40,
+     "first_kind": "door",
+     "pred_first_g": 5854.502575039864,
+     "actual_new_gt_free": 19444
+    },
+    {
+     "tick": 680,
+     "ticks_to_next": 13,
+     "first_kind": "rim",
+     "pred_first_g": 4079.5050356686115,
+     "actual_new_gt_free": 29238
+    },
+    {
+     "tick": 693,
+     "ticks_to_next": 29,
+     "first_kind": "rim",
+     "pred_first_g": 15708.068100109696,
+     "actual_new_gt_free": 17153
+    },
+    {
+     "tick": 722,
+     "ticks_to_next": 52,
+     "first_kind": "rim",
+     "pred_first_g": 27691.239934641868,
+     "actual_new_gt_free": 28163
+    },
+    {
+     "tick": 774,
+     "ticks_to_next": 50,
+     "first_kind": "rim",
+     "pred_first_g": 25672.19899506122,
+     "actual_new_gt_free": 24523
+    },
+    {
+     "tick": 824,
+     "ticks_to_next": 25,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 2301.3403133377433,
+     "actual_new_gt_free": 1854
+    },
+    {
+     "tick": 849,
+     "ticks_to_next": 84,
+     "first_kind": "chain_hall",
+     "pred_first_g": 103.70755759254098,
+     "actual_new_gt_free": 1127
+    },
+    {
+     "tick": 933,
+     "ticks_to_next": 10,
+     "first_kind": "chain_hall",
+     "pred_first_g": 1082.1167138889432,
+     "actual_new_gt_free": 995
+    },
+    {
+     "tick": 943,
+     "ticks_to_next": 13,
+     "first_kind": "chain_hall",
+     "pred_first_g": 1097.4843154847622,
+     "actual_new_gt_free": 1186
+    },
+    {
+     "tick": 956,
+     "ticks_to_next": 34,
+     "first_kind": "rim",
+     "pred_first_g": 5893.811450902373,
+     "actual_new_gt_free": 7883
+    },
+    {
+     "tick": 990,
+     "ticks_to_next": 9,
+     "first_kind": "mapex_frontier",
+     "pred_first_g": null,
+     "actual_new_gt_free": 595
+    }
+   ],
+   "peak_rss_gib": 2.3991737365722656,
+   "exit_code": 0,
+   "launched_at": "2026-11-03T05:38:21.400287Z",
+   "ended_at": "2026-11-03T06:14:09.703760Z"
+  }
+ },
+ "KTH50 P00": {
+  "mapex": "KTH50V3-P00-MX-T1000-01",
+  "r1": "TOPO1-KTH50V3-P00-EVAL-01",
+  "r2": "TOPO2-KTH50V3-P00-EVAL-01",
+  "m_mapex": {
+   "ticks": 1000,
+   "AUC_0_999": 0.32769942436204574,
+   "AUC_partial_mean": 0.32769942436204574,
+   "cov@250": 0.24193524921680262,
+   "cov@500": 0.31780355566763335,
+   "cov@999": 0.6895580148007332,
+   "cov@last": 0.6895580148007332,
+   "distance_m_last": 284.3393935387493,
+   "t50": 843,
+   "t80": null,
+   "t90": null
+  },
+  "m_r1": {
+   "ticks": 1000,
+   "AUC_0_999": 0.2664406079357535,
+   "AUC_partial_mean": 0.2664406079357535,
+   "cov@250": 0.19786039203514932,
+   "cov@500": 0.2952072199645015,
+   "cov@999": 0.46165969952377717,
+   "cov@last": 0.46165969952377717,
+   "distance_m_last": 289.6869176962516,
+   "t50": null,
+   "t80": null,
+   "t90": null
+  },
+  "m_r2": {
+   "ticks": 1000,
+   "AUC_0_999": 0.4695040299506319,
+   "AUC_partial_mean": 0.4695040299506319,
+   "cov@250": 0.2403227840121044,
+   "cov@500": 0.6029480228509355,
+   "cov@999": 0.7565371521682202,
+   "cov@last": 0.7565371521682202,
+   "distance_m_last": 286.4784032017496,
+   "t50": 451,
+   "t80": null,
+   "t90": null
+  },
+  "behaviour_r2": {
+   "decisions": 27,
+   "hook_calls": 27,
+   "first_kind_counts": {
+    "rim": 11,
+    "chain_room": 1,
+    "vp_chain": 1,
+    "chain_hall": 7,
+    "chain_corridor": 2,
+    "frontier": 3,
+    "door": 1,
+    "mapex_frontier": 1
+   },
+   "sequence": [
+    [
+     0,
+     "rim",
+     false,
+     null
+    ],
+    [
+     64,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     120,
+     "rim",
+     false,
+     null
+    ],
+    [
+     182,
+     "rim",
+     false,
+     null
+    ],
+    [
+     246,
+     "vp_chain",
+     false,
+     null
+    ],
+    [
+     324,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     371,
+     "rim",
+     false,
+     null
+    ],
+    [
+     416,
+     "rim",
+     false,
+     null
+    ],
+    [
+     462,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     480,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     496,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     501,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     529,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     554,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     574,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     674,
+     "rim",
+     false,
+     null
+    ],
+    [
+     718,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     762,
+     "rim",
+     false,
+     null
+    ],
+    [
+     781,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     810,
+     "rim",
+     false,
+     null
+    ],
+    [
+     852,
+     "rim",
+     false,
+     null
+    ],
+    [
+     874,
+     "door",
+     false,
+     null
+    ],
+    [
+     893,
+     "chain_hall",
+     false,
+     null
+    ],
+    [
+     905,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     921,
+     "rim",
+     false,
+     null
+    ],
+    [
+     947,
+     "rim",
+     false,
+     null
+    ],
+    [
+     960,
+     "mapex_frontier",
+     null,
+     "no_valid_goal"
+    ]
+   ],
+   "first_on_corridor": [
+    2,
+    26
+   ],
+   "first_on_corridor_by_third": [
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     11
+    ]
+   ],
+   "replan_triggers": {
+    "path_blowup": 1,
+    "targets_observed": 6
+   },
+   "fallbacks": {
+    "no_valid_goal": 1
+   },
+   "fallbacks_total": 1,
+   "reselects": 0,
+   "min_dist_relaxed": 0,
+   "hk_improved": [
+    25,
+    0
+   ],
+   "stale_goal_ticks": 272,
+   "pc_source": "pc_model:/home/dell/DELL_NATIVE2D/runs/TOPO2-KTH50V3-P00-EVAL-01/pc_model/pc_model.py",
+   "pc_fallback_used": false,
+   "l1_preset": "v2",
+   "init_error": null,
+   "timing": {
+    "pc_crop": {
+     "median": 0.10683467600028962,
+     "p90": 0.16157162259623875,
+     "max": 0.18074112600879744
+    },
+    "l1": {
+     "median": 1.2882928890030598,
+     "p90": 1.4155111547966954,
+     "max": 1.46307691099355
+    },
+    "planner": {
+     "median": 0.6035132800025167,
+     "p90": 0.9384957675996701,
+     "max": 4.129735341004562
+    },
+    "hook": {
+     "median": 1.9829091529973084,
+     "p90": 2.2979014796001143,
+     "max": 4.467997373008984
+    }
+   },
+   "gain_pred_vs_actual": [
+    {
+     "tick": 0,
+     "ticks_to_next": 64,
+     "first_kind": "rim",
+     "pred_first_g": 15442.155831672251,
+     "actual_new_gt_free": 9928
+    },
+    {
+     "tick": 64,
+     "ticks_to_next": 56,
+     "first_kind": "chain_room",
+     "pred_first_g": 384.9945910871029,
+     "actual_new_gt_free": 17837
+    },
+    {
+     "tick": 120,
+     "ticks_to_next": 62,
+     "first_kind": "rim",
+     "pred_first_g": 55217.98900657892,
+     "actual_new_gt_free": 32297
+    },
+    {
+     "tick": 182,
+     "ticks_to_next": 64,
+     "first_kind": "rim",
+     "pred_first_g": 34889.16631979495,
+     "actual_new_gt_free": 19591
+    },
+    {
+     "tick": 246,
+     "ticks_to_next": 78,
+     "first_kind": "vp_chain",
+     "pred_first_g": 37716.297594022006,
+     "actual_new_gt_free": 31882
+    },
+    {
+     "tick": 324,
+     "ticks_to_next": 47,
+     "first_kind": "chain_hall",
+     "pred_first_g": 42454.43054270744,
+     "actual_new_gt_free": 31916
+    },
+    {
+     "tick": 371,
+     "ticks_to_next": 45,
+     "first_kind": "rim",
+     "pred_first_g": 40831.98907022923,
+     "actual_new_gt_free": 29765
+    },
+    {
+     "tick": 416,
+     "ticks_to_next": 46,
+     "first_kind": "rim",
+     "pred_first_g": 38007.328502863646,
+     "actual_new_gt_free": 30746
+    },
+    {
+     "tick": 462,
+     "ticks_to_next": 18,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 115.85267265886068,
+     "actual_new_gt_free": 3287
+    },
+    {
+     "tick": 480,
+     "ticks_to_next": 16,
+     "first_kind": "chain_hall",
+     "pred_first_g": 47.070004642009735,
+     "actual_new_gt_free": 8297
+    },
+    {
+     "tick": 496,
+     "ticks_to_next": 5,
+     "first_kind": "chain_hall",
+     "pred_first_g": 12348.914392028004,
+     "actual_new_gt_free": 15000
+    },
+    {
+     "tick": 501,
+     "ticks_to_next": 28,
+     "first_kind": "chain_hall",
+     "pred_first_g": 6257.902006775141,
+     "actual_new_gt_free": 6587
+    },
+    {
+     "tick": 529,
+     "ticks_to_next": 25,
+     "first_kind": "chain_hall",
+     "pred_first_g": 2196.009717129171,
+     "actual_new_gt_free": 1311
+    },
+    {
+     "tick": 554,
+     "ticks_to_next": 20,
+     "first_kind": "frontier",
+     "pred_first_g": 4970.26046705246,
+     "actual_new_gt_free": 173
+    },
+    {
+     "tick": 574,
+     "ticks_to_next": 100,
+     "first_kind": "chain_hall",
+     "pred_first_g": 4615.175728857517,
+     "actual_new_gt_free": 4760
+    },
+    {
+     "tick": 674,
+     "ticks_to_next": 44,
+     "first_kind": "rim",
+     "pred_first_g": 4432.5517461150885,
+     "actual_new_gt_free": 4977
+    },
+    {
+     "tick": 718,
+     "ticks_to_next": 44,
+     "first_kind": "frontier",
+     "pred_first_g": 4532.1969546452165,
+     "actual_new_gt_free": 14115
+    },
+    {
+     "tick": 762,
+     "ticks_to_next": 19,
+     "first_kind": "rim",
+     "pred_first_g": 11508.802896820009,
+     "actual_new_gt_free": 4648
+    },
+    {
+     "tick": 781,
+     "ticks_to_next": 29,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 205.9412621036172,
+     "actual_new_gt_free": 3467
+    },
+    {
+     "tick": 810,
+     "ticks_to_next": 42,
+     "first_kind": "rim",
+     "pred_first_g": 582.621278911829,
+     "actual_new_gt_free": 8688
+    },
+    {
+     "tick": 852,
+     "ticks_to_next": 22,
+     "first_kind": "rim",
+     "pred_first_g": 14082.366480894387,
+     "actual_new_gt_free": 2785
+    },
+    {
+     "tick": 874,
+     "ticks_to_next": 19,
+     "first_kind": "door",
+     "pred_first_g": 1450.7488151192665,
+     "actual_new_gt_free": 3946
+    },
+    {
+     "tick": 893,
+     "ticks_to_next": 12,
+     "first_kind": "chain_hall",
+     "pred_first_g": 22.06415108591318,
+     "actual_new_gt_free": 1281
+    },
+    {
+     "tick": 905,
+     "ticks_to_next": 16,
+     "first_kind": "frontier",
+     "pred_first_g": 1637.023643039167,
+     "actual_new_gt_free": 2684
+    },
+    {
+     "tick": 921,
+     "ticks_to_next": 26,
+     "first_kind": "rim",
+     "pred_first_g": 1209.0884272530675,
+     "actual_new_gt_free": 2370
+    },
+    {
+     "tick": 947,
+     "ticks_to_next": 13,
+     "first_kind": "rim",
+     "pred_first_g": 114.39620741829276,
+     "actual_new_gt_free": 243
+    },
+    {
+     "tick": 960,
+     "ticks_to_next": 39,
+     "first_kind": "mapex_frontier",
+     "pred_first_g": null,
+     "actual_new_gt_free": 117
+    }
+   ],
+   "peak_rss_gib": 2.2685165405273438,
+   "exit_code": 0,
+   "launched_at": "2026-11-03T06:14:39.926272Z",
+   "ended_at": "2026-11-03T06:39:00.142170Z"
+  }
+ },
+ "KTH51 P01": {
+  "mapex": "KTH51V3-V0R2-P01-MX-01",
+  "r1": "TOPO1-KTH51V3-P01-EVAL-01",
+  "r2": "TOPO2-KTH51V3-P01-EVAL-01",
+  "m_mapex": {
+   "ticks": 1000,
+   "AUC_0_999": 0.7428205869002491,
+   "AUC_partial_mean": 0.7428205869002491,
+   "cov@250": 0.6549814140075816,
+   "cov@500": 0.8774551298565872,
+   "cov@999": 0.9624354397458074,
+   "cov@last": 0.9624354397458074,
+   "distance_m_last": 288.77019926925084,
+   "t50": 190,
+   "t80": 302,
+   "t90": 758
+  },
+  "m_r1": {
+   "ticks": 1000,
+   "AUC_0_999": 0.7218249052298407,
+   "AUC_partial_mean": 0.7218249052298407,
+   "cov@250": 0.5147338461349723,
+   "cov@500": 0.8906800142308589,
+   "cov@999": 0.9641100192607314,
+   "cov@last": 0.9641100192607314,
+   "distance_m_last": 289.83970410075153,
+   "t50": 229,
+   "t80": 364,
+   "t90": 611
+  },
+  "m_r2": {
+   "ticks": 1000,
+   "AUC_0_999": 0.7617336007753363,
+   "AUC_partial_mean": 0.7617336007753363,
+   "cov@250": 0.7113895942978421,
+   "cov@500": 0.8874474010280569,
+   "cov@999": 0.9759486216922454,
+   "cov@last": 0.9759486216922454,
+   "distance_m_last": 292.1315001682525,
+   "t50": 181,
+   "t80": 305,
+   "t90": 702
+  },
+  "behaviour_r2": {
+   "decisions": 37,
+   "hook_calls": 37,
+   "first_kind_counts": {
+    "chain_room": 12,
+    "rim": 7,
+    "chain_corridor": 10,
+    "door": 1,
+    "vp_chain": 1,
+    "frontier": 4,
+    "vp_pocket": 1,
+    "mapex_frontier": 1
+   },
+   "sequence": [
+    [
+     0,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     50,
+     "rim",
+     false,
+     null
+    ],
+    [
+     79,
+     "rim",
+     false,
+     null
+    ],
+    [
+     96,
+     "rim",
+     false,
+     null
+    ],
+    [
+     102,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     116,
+     "door",
+     false,
+     null
+    ],
+    [
+     123,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     138,
+     "rim",
+     false,
+     null
+    ],
+    [
+     149,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     164,
+     "vp_chain",
+     false,
+     null
+    ],
+    [
+     172,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     182,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     196,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     215,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     238,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     273,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     306,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     314,
+     "rim",
+     false,
+     null
+    ],
+    [
+     329,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     363,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     370,
+     "rim",
+     false,
+     null
+    ],
+    [
+     394,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     479,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     489,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     494,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     576,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     709,
+     "rim",
+     false,
+     null
+    ],
+    [
+     740,
+     "frontier",
+     false,
+     null
+    ],
+    [
+     766,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     779,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     784,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     812,
+     "chain_corridor",
+     true,
+     null
+    ],
+    [
+     818,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     891,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     926,
+     "chain_room",
+     false,
+     null
+    ],
+    [
+     968,
+     "vp_pocket",
+     false,
+     null
+    ],
+    [
+     973,
+     "mapex_frontier",
+     null,
+     "no_valid_goal"
+    ]
+   ],
+   "first_on_corridor": [
+    10,
+    36
+   ],
+   "first_on_corridor_by_third": [
+    [
+     6,
+     19
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     10
+    ]
+   ],
+   "replan_triggers": {
+    "targets_observed": 19
+   },
+   "fallbacks": {
+    "no_valid_goal": 1
+   },
+   "fallbacks_total": 1,
+   "reselects": 0,
+   "min_dist_relaxed": 0,
+   "hk_improved": [
+    34,
+    0
+   ],
+   "stale_goal_ticks": 66,
+   "pc_source": "pc_model:/home/dell/DELL_NATIVE2D/runs/TOPO2-KTH51V3-P01-EVAL-01/pc_model/pc_model.py",
+   "pc_fallback_used": false,
+   "l1_preset": "v2",
+   "init_error": null,
+   "timing": {
+    "pc_crop": {
+     "median": 0.024834948999341577,
+     "p90": 0.052216670804773456,
+     "max": 0.06964452200918458
+    },
+    "l1": {
+     "median": 0.6841158589959377,
+     "p90": 0.7135613519989419,
+     "max": 0.9365836579963798
+    },
+    "planner": {
+     "median": 0.40833873800875153,
+     "p90": 0.7267014810000546,
+     "max": 3.999979757005349
+    },
+    "hook": {
+     "median": 1.0959445490007056,
+     "p90": 1.3847055274032756,
+     "max": 4.203661979991011
+    }
+   },
+   "gain_pred_vs_actual": [
+    {
+     "tick": 0,
+     "ticks_to_next": 50,
+     "first_kind": "chain_room",
+     "pred_first_g": 49.48541663587093,
+     "actual_new_gt_free": 6530
+    },
+    {
+     "tick": 50,
+     "ticks_to_next": 29,
+     "first_kind": "rim",
+     "pred_first_g": 7262.768701903522,
+     "actual_new_gt_free": 7876
+    },
+    {
+     "tick": 79,
+     "ticks_to_next": 17,
+     "first_kind": "rim",
+     "pred_first_g": 9955.238495327532,
+     "actual_new_gt_free": 9060
+    },
+    {
+     "tick": 96,
+     "ticks_to_next": 6,
+     "first_kind": "rim",
+     "pred_first_g": 3888.2828948795795,
+     "actual_new_gt_free": 6173
+    },
+    {
+     "tick": 102,
+     "ticks_to_next": 14,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 275.74213591217995,
+     "actual_new_gt_free": 3642
+    },
+    {
+     "tick": 116,
+     "ticks_to_next": 7,
+     "first_kind": "door",
+     "pred_first_g": 5169.235833913088,
+     "actual_new_gt_free": 8504
+    },
+    {
+     "tick": 123,
+     "ticks_to_next": 15,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 2949.684618692845,
+     "actual_new_gt_free": 7129
+    },
+    {
+     "tick": 138,
+     "ticks_to_next": 11,
+     "first_kind": "rim",
+     "pred_first_g": 6511.253643065691,
+     "actual_new_gt_free": 7945
+    },
+    {
+     "tick": 149,
+     "ticks_to_next": 15,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 139.65409344434738,
+     "actual_new_gt_free": 1847
+    },
+    {
+     "tick": 164,
+     "ticks_to_next": 8,
+     "first_kind": "vp_chain",
+     "pred_first_g": 3704.9854969605803,
+     "actual_new_gt_free": 5746
+    },
+    {
+     "tick": 172,
+     "ticks_to_next": 10,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 91.10187073424459,
+     "actual_new_gt_free": 3446
+    },
+    {
+     "tick": 182,
+     "ticks_to_next": 14,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 4227.028624102473,
+     "actual_new_gt_free": 7324
+    },
+    {
+     "tick": 196,
+     "ticks_to_next": 19,
+     "first_kind": "frontier",
+     "pred_first_g": 3332.2078327424824,
+     "actual_new_gt_free": 11938
+    },
+    {
+     "tick": 215,
+     "ticks_to_next": 23,
+     "first_kind": "frontier",
+     "pred_first_g": 10291.69152443856,
+     "actual_new_gt_free": 12291
+    },
+    {
+     "tick": 238,
+     "ticks_to_next": 35,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 4555.749699786305,
+     "actual_new_gt_free": 9072
+    },
+    {
+     "tick": 273,
+     "ticks_to_next": 33,
+     "first_kind": "frontier",
+     "pred_first_g": 2621.0554792173207,
+     "actual_new_gt_free": 8983
+    },
+    {
+     "tick": 306,
+     "ticks_to_next": 8,
+     "first_kind": "chain_room",
+     "pred_first_g": 2728.2045646831393,
+     "actual_new_gt_free": 4856
+    },
+    {
+     "tick": 314,
+     "ticks_to_next": 15,
+     "first_kind": "rim",
+     "pred_first_g": 47.58165051788092,
+     "actual_new_gt_free": 293
+    },
+    {
+     "tick": 329,
+     "ticks_to_next": 34,
+     "first_kind": "chain_room",
+     "pred_first_g": 3677.237925887108,
+     "actual_new_gt_free": 2178
+    },
+    {
+     "tick": 363,
+     "ticks_to_next": 7,
+     "first_kind": "chain_room",
+     "pred_first_g": 706.3342676386237,
+     "actual_new_gt_free": 806
+    },
+    {
+     "tick": 370,
+     "ticks_to_next": 24,
+     "first_kind": "rim",
+     "pred_first_g": 1372.2757580801845,
+     "actual_new_gt_free": 1783
+    },
+    {
+     "tick": 394,
+     "ticks_to_next": 85,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 245.393510222435,
+     "actual_new_gt_free": 2059
+    },
+    {
+     "tick": 479,
+     "ticks_to_next": 10,
+     "first_kind": "chain_room",
+     "pred_first_g": 545.2827169373631,
+     "actual_new_gt_free": 644
+    },
+    {
+     "tick": 489,
+     "ticks_to_next": 5,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 375.42203190922737,
+     "actual_new_gt_free": 635
+    },
+    {
+     "tick": 494,
+     "ticks_to_next": 82,
+     "first_kind": "chain_room",
+     "pred_first_g": 1222.0803607590497,
+     "actual_new_gt_free": 1722
+    },
+    {
+     "tick": 576,
+     "ticks_to_next": 133,
+     "first_kind": "chain_room",
+     "pred_first_g": 1638.6977513805032,
+     "actual_new_gt_free": 2461
+    },
+    {
+     "tick": 709,
+     "ticks_to_next": 31,
+     "first_kind": "rim",
+     "pred_first_g": 3541.0507860928774,
+     "actual_new_gt_free": 2744
+    },
+    {
+     "tick": 740,
+     "ticks_to_next": 26,
+     "first_kind": "frontier",
+     "pred_first_g": 3196.565594471991,
+     "actual_new_gt_free": 3666
+    },
+    {
+     "tick": 766,
+     "ticks_to_next": 13,
+     "first_kind": "chain_room",
+     "pred_first_g": 983.3064549267292,
+     "actual_new_gt_free": 1042
+    },
+    {
+     "tick": 779,
+     "ticks_to_next": 5,
+     "first_kind": "chain_room",
+     "pred_first_g": 335.54499914497137,
+     "actual_new_gt_free": 632
+    },
+    {
+     "tick": 784,
+     "ticks_to_next": 28,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 606.5188441053033,
+     "actual_new_gt_free": 706
+    },
+    {
+     "tick": 812,
+     "ticks_to_next": 6,
+     "first_kind": "chain_corridor",
+     "pred_first_g": 169.42542725801468,
+     "actual_new_gt_free": 229
+    },
+    {
+     "tick": 818,
+     "ticks_to_next": 73,
+     "first_kind": "chain_room",
+     "pred_first_g": 254.24163016676903,
+     "actual_new_gt_free": 390
+    },
+    {
+     "tick": 891,
+     "ticks_to_next": 35,
+     "first_kind": "chain_room",
+     "pred_first_g": 162.5760885439813,
+     "actual_new_gt_free": 258
+    },
+    {
+     "tick": 926,
+     "ticks_to_next": 42,
+     "first_kind": "chain_room",
+     "pred_first_g": 351.2409021258354,
+     "actual_new_gt_free": 539
+    },
+    {
+     "tick": 968,
+     "ticks_to_next": 5,
+     "first_kind": "vp_pocket",
+     "pred_first_g": 43.707125190645456,
+     "actual_new_gt_free": 39
+    },
+    {
+     "tick": 973,
+     "ticks_to_next": 26,
+     "first_kind": "mapex_frontier",
+     "pred_first_g": null,
+     "actual_new_gt_free": 0
+    }
+   ],
+   "peak_rss_gib": 1.9795303344726562,
+   "exit_code": 0,
+   "launched_at": "2026-11-03T06:39:30.356375Z",
+   "ended_at": "2026-11-03T06:54:32.592930Z"
+  }
+ }
+}
