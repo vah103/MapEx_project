@@ -1,0 +1,67 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KTH49 P01 · MapEx / Tour / Tour R2</title><style>
+:root{color-scheme:light;--bg:#eef4f9;--ink:#22374b;--line:#d6e1ec;--blue:#246a97}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:128px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+header{padding:20px max(14px,calc((100vw - 1100px)/2));background:white;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:clamp(21px,3vw,30px)}header p{margin:6px 0 0;color:#718396;font-size:12px}
+.sticky{position:sticky;top:0;z-index:10;background:#fffffff5;box-shadow:0 4px 14px #27486217;border-bottom:1px solid var(--line)}
+.methods,.decisions{display:flex;gap:6px;overflow:auto;white-space:nowrap;padding:9px max(12px,calc((100vw - 1100px)/2));scrollbar-width:thin}
+.methods button,.decisions button{font:inherit;cursor:pointer;flex:none;border:1px solid #cedcea;border-radius:8px;background:#f7fafd;color:#48657e;padding:8px 11px;font-size:12px}
+.methods button.active{background:#226a99;color:white;border-color:#226a99;font-weight:700}
+.decisions{border-top:1px solid #e8eef5;padding-top:6px;padding-bottom:7px}.decisions button{padding:4px 8px;border-radius:6px;font-size:11px}
+main{max-width:1100px;margin:0 auto;padding:16px 12px 60px}.gallery[hidden]{display:none}
+figure{margin:0 0 18px;border:1px solid var(--line);border-radius:11px;overflow:hidden;background:white;scroll-margin-top:126px}
+figcaption{padding:10px 14px;border-bottom:1px solid var(--line);color:#49647c;font-size:13px;font-weight:700}
+figure img{display:block;width:100%;height:auto;object-fit:contain;background:#e2edf7;max-height:82vh}
+.key{display:flex;gap:15px;flex-wrap:wrap;align-items:center;color:#718395;font-size:11px;margin:5px 0 17px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+@media(max-width:600px){header{padding:14px}.methods,.decisions{padding-inline:10px}.methods button{padding:7px 9px}main{padding:10px 6px 30px}figure{margin-bottom:12px}}
+</style></head><body>
+<header><h1>KTH49 P01 · ảnh từng decision</h1><p>MapEx thường · MapEx Tour · MapEx Tour R2</p></header>
+<div class="sticky"><nav id="methods" class="methods"></nav><nav id="decisions" class="decisions"></nav></div>
+<main><div class="key"><span><i class="dot" style="background:#168acf"></i>Frontier</span><span><i class="dot" style="background:#f2ae35"></i>Robot</span>
+<span><i class="dot" style="background:#e76b8b"></i>Goal</span>
+<span><i class="dot" style="background:#5ab6ad"></i>Đường đã đi</span>
+<span><i class="dot" style="background:#9e88dc"></i>Đường A* dự kiến</span></div>
+<div id="galleries"></div></main><script id="dataset" type="application/json">{"pose": "kth49_p01", "source": "completed Dell native runs", "frontier_overlay": "logged native candidates_rc", "methods": [{"key": "mapex", "label": "MapEx thường", "count": 16, "source_run": "runs/KTH49V3-P01-MX-T1000-01", "decision_sha256": "e22183a83565a3f05721e570be4251df8d55f8dc880e92c303474edb0896be0d", "frames": [{"n": 1, "tick": 0, "frontier_count": 3, "image": "assets/mapex/D01_t0000.webp"}, {"n": 2, "tick": 61, "frontier_count": 12, "image": "assets/mapex/D02_t0061.webp"}, {"n": 3, "tick": 98, "frontier_count": 14, "image": "assets/mapex/D03_t0098.webp"}, {"n": 4, "tick": 133, "frontier_count": 12, "image": "assets/mapex/D04_t0133.webp"}, {"n": 5, "tick": 163, "frontier_count": 14, "image": "assets/mapex/D05_t0163.webp"}, {"n": 6, "tick": 179, "frontier_count": 15, "image": "assets/mapex/D06_t0179.webp"}, {"n": 7, "tick": 242, "frontier_count": 12, "image": "assets/mapex/D07_t0242.webp"}, {"n": 8, "tick": 335, "frontier_count": 19, "image": "assets/mapex/D08_t0335.webp"}, {"n": 9, "tick": 353, "frontier_count": 16, "image": "assets/mapex/D09_t0353.webp"}, {"n": 10, "tick": 471, "frontier_count": 15, "image": "assets/mapex/D10_t0471.webp"}, {"n": 11, "tick": 606, "frontier_count": 18, "image": "assets/mapex/D11_t0606.webp"}, {"n": 12, "tick": 645, "frontier_count": 16, "image": "assets/mapex/D12_t0645.webp"}, {"n": 13, "tick": 735, "frontier_count": 15, "image": "assets/mapex/D13_t0735.webp"}, {"n": 14, "tick": 825, "frontier_count": 20, "image": "assets/mapex/D14_t0825.webp"}, {"n": 15, "tick": 857, "frontier_count": 20, "image": "assets/mapex/D15_t0857.webp"}, {"n": 16, "tick": 970, "frontier_count": 20, "image": "assets/mapex/D16_t0970.webp"}]}, {"key": "tour", "label": "MapEx Tour", "count": 18, "source_run": "sandbox_phase5_jf_r4_kth49/runs/P5JF-KTH49V3-P01-FEAS-01", "decision_sha256": "7b45415ac6b9993f5cf97a3807ed3d0d2ba94438619fdff7d5e0738bf41570cd", "frames": [{"n": 1, "tick": 0, "frontier_count": 3, "image": "assets/tour/D01_t0000.webp"}, {"n": 2, "tick": 39, "frontier_count": 12, "image": "assets/tour/D02_t0039.webp"}, {"n": 3, "tick": 59, "frontier_count": 14, "image": "assets/tour/D03_t0059.webp"}, {"n": 4, "tick": 81, "frontier_count": 18, "image": "assets/tour/D04_t0081.webp"}, {"n": 5, "tick": 99, "frontier_count": 18, "image": "assets/tour/D05_t0099.webp"}, {"n": 6, "tick": 147, "frontier_count": 16, "image": "assets/tour/D06_t0147.webp"}, {"n": 7, "tick": 213, "frontier_count": 19, "image": "assets/tour/D07_t0213.webp"}, {"n": 8, "tick": 269, "frontier_count": 23, "image": "assets/tour/D08_t0269.webp"}, {"n": 9, "tick": 298, "frontier_count": 25, "image": "assets/tour/D09_t0298.webp"}, {"n": 10, "tick": 414, "frontier_count": 23, "image": "assets/tour/D10_t0414.webp"}, {"n": 11, "tick": 467, "frontier_count": 25, "image": "assets/tour/D11_t0467.webp"}, {"n": 12, "tick": 479, "frontier_count": 25, "image": "assets/tour/D12_t0479.webp"}, {"n": 13, "tick": 680, "frontier_count": 29, "image": "assets/tour/D13_t0680.webp"}, {"n": 14, "tick": 736, "frontier_count": 27, "image": "assets/tour/D14_t0736.webp"}, {"n": 15, "tick": 835, "frontier_count": 32, "image": "assets/tour/D15_t0835.webp"}, {"n": 16, "tick": 862, "frontier_count": 31, "image": "assets/tour/D16_t0862.webp"}, {"n": 17, "tick": 917, "frontier_count": 31, "image": "assets/tour/D17_t0917.webp"}, {"n": 18, "tick": 979, "frontier_count": 29, "image": "assets/tour/D18_t0979.webp"}]}, {"key": "tour_r2", "label": "MapEx Tour R2", "count": 23, "source_run": "sandbox_topo_mean_kth49_p01_eval_20261108", "decision_sha256": "c6166c6fbbc9a659af7fc7442c7387d9bf1a531f77c37a7c084acc697d95ac06", "frames": [{"n": 1, "tick": 0, "frontier_count": 3, "image": "assets/tour_r2/D01_t0000.webp"}, {"n": 2, "tick": 22, "frontier_count": 4, "image": "assets/tour_r2/D02_t0022.webp"}, {"n": 3, "tick": 31, "frontier_count": 5, "image": "assets/tour_r2/D03_t0031.webp"}, {"n": 4, "tick": 35, "frontier_count": 7, "image": "assets/tour_r2/D04_t0035.webp"}, {"n": 5, "tick": 54, "frontier_count": 14, "image": "assets/tour_r2/D05_t0054.webp"}, {"n": 6, "tick": 127, "frontier_count": 14, "image": "assets/tour_r2/D06_t0127.webp"}, {"n": 7, "tick": 132, "frontier_count": 12, "image": "assets/tour_r2/D07_t0132.webp"}, {"n": 8, "tick": 195, "frontier_count": 12, "image": "assets/tour_r2/D08_t0195.webp"}, {"n": 9, "tick": 205, "frontier_count": 12, "image": "assets/tour_r2/D09_t0205.webp"}, {"n": 10, "tick": 213, "frontier_count": 14, "image": "assets/tour_r2/D10_t0213.webp"}, {"n": 11, "tick": 225, "frontier_count": 16, "image": "assets/tour_r2/D11_t0225.webp"}, {"n": 12, "tick": 230, "frontier_count": 18, "image": "assets/tour_r2/D12_t0230.webp"}, {"n": 13, "tick": 295, "frontier_count": 21, "image": "assets/tour_r2/D13_t0295.webp"}, {"n": 14, "tick": 332, "frontier_count": 22, "image": "assets/tour_r2/D14_t0332.webp"}, {"n": 15, "tick": 345, "frontier_count": 25, "image": "assets/tour_r2/D15_t0345.webp"}, {"n": 16, "tick": 350, "frontier_count": 24, "image": "assets/tour_r2/D16_t0350.webp"}, {"n": 17, "tick": 382, "frontier_count": 26, "image": "assets/tour_r2/D17_t0382.webp"}, {"n": 18, "tick": 417, "frontier_count": 26, "image": "assets/tour_r2/D18_t0417.webp"}, {"n": 19, "tick": 429, "frontier_count": 29, "image": "assets/tour_r2/D19_t0429.webp"}, {"n": 20, "tick": 450, "frontier_count": 30, "image": "assets/tour_r2/D20_t0450.webp"}, {"n": 21, "tick": 508, "frontier_count": 30, "image": "assets/tour_r2/D21_t0508.webp"}, {"n": 22, "tick": 575, "frontier_count": 30, "image": "assets/tour_r2/D22_t0575.webp"}, {"n": 23, "tick": 587, "frontier_count": 30, "image": "assets/tour_r2/D23_t0587.webp"}]}]}</script>
+<script>
+const data = JSON.parse(document.getElementById('dataset').textContent);
+const methods = document.getElementById('methods');
+const decisions = document.getElementById('decisions');
+const gallery = document.getElementById('galleries');
+let active = data.methods[0].key;
+for (const method of data.methods) {
+  const button = document.createElement('button');
+  button.textContent = method.label + ' · ' + method.count;
+  button.dataset.key = method.key;
+  button.onclick = () => select(method.key);
+  methods.appendChild(button);
+  const group = document.createElement('section');
+  group.className = 'gallery';group.id = 'gallery-' + method.key;
+  for (const d of method.frames) {
+    const fig = document.createElement('figure'); fig.id = method.key + '-D' + d.n;
+    const caption = document.createElement('figcaption');
+    caption.textContent = 'D' + String(d.n).padStart(2,'0') + ' · tick ' + d.tick;
+    const img = document.createElement('img');img.src = d.image;img.loading = 'lazy';
+    img.alt = method.label + ' – quyết định ' + d.n + ', tick ' + d.tick;
+    fig.append(caption,img);group.appendChild(fig);
+  }
+  gallery.appendChild(group);
+}
+function select(key) {
+  active = key;
+  for (const b of methods.children) b.classList.toggle('active', b.dataset.key === key);
+  for (const s of gallery.children) s.hidden = s.id !== 'gallery-'+key;
+  decisions.replaceChildren();
+  const method = data.methods.find(x => x.key === key);
+  for (const d of method.frames) {
+    const button=document.createElement('button');button.textContent='D'+String(d.n).padStart(2,'0');
+    button.onclick=()=>document.getElementById(key+'-D'+d.n).scrollIntoView({behavior:'smooth'});
+    decisions.appendChild(button);
+  }
+  window.scrollTo({top:0,behavior:'instant'});
+}
+select(active);
+</script></body></html>

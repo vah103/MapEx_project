@@ -1,0 +1,442 @@
+{
+  "pose": "kth50_p00",
+  "source": "completed Dell native runs",
+  "frontier_overlay": "logged native candidates_rc",
+  "methods": [
+    {
+      "key": "mapex",
+      "label": "MapEx thường",
+      "count": 19,
+      "source_run": "runs/KTH50V3-P00-MX-T1000-01",
+      "decision_sha256": "8ac662301f771d387842fa58f4e77f041bfc3209bf045d09d80506e57cf3a513",
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "frontier_count": 3,
+          "image": "assets/mapex/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 71,
+          "frontier_count": 8,
+          "image": "assets/mapex/D02_t0071.webp"
+        },
+        {
+          "n": 3,
+          "tick": 90,
+          "frontier_count": 10,
+          "image": "assets/mapex/D03_t0090.webp"
+        },
+        {
+          "n": 4,
+          "tick": 109,
+          "frontier_count": 11,
+          "image": "assets/mapex/D04_t0109.webp"
+        },
+        {
+          "n": 5,
+          "tick": 145,
+          "frontier_count": 13,
+          "image": "assets/mapex/D05_t0145.webp"
+        },
+        {
+          "n": 6,
+          "tick": 191,
+          "frontier_count": 21,
+          "image": "assets/mapex/D06_t0191.webp"
+        },
+        {
+          "n": 7,
+          "tick": 214,
+          "frontier_count": 24,
+          "image": "assets/mapex/D07_t0214.webp"
+        },
+        {
+          "n": 8,
+          "tick": 236,
+          "frontier_count": 26,
+          "image": "assets/mapex/D08_t0236.webp"
+        },
+        {
+          "n": 9,
+          "tick": 258,
+          "frontier_count": 28,
+          "image": "assets/mapex/D09_t0258.webp"
+        },
+        {
+          "n": 10,
+          "tick": 280,
+          "frontier_count": 29,
+          "image": "assets/mapex/D10_t0280.webp"
+        },
+        {
+          "n": 11,
+          "tick": 302,
+          "frontier_count": 31,
+          "image": "assets/mapex/D11_t0302.webp"
+        },
+        {
+          "n": 12,
+          "tick": 330,
+          "frontier_count": 32,
+          "image": "assets/mapex/D12_t0330.webp"
+        },
+        {
+          "n": 13,
+          "tick": 352,
+          "frontier_count": 30,
+          "image": "assets/mapex/D13_t0352.webp"
+        },
+        {
+          "n": 14,
+          "tick": 434,
+          "frontier_count": 27,
+          "image": "assets/mapex/D14_t0434.webp"
+        },
+        {
+          "n": 15,
+          "tick": 711,
+          "frontier_count": 34,
+          "image": "assets/mapex/D15_t0711.webp"
+        },
+        {
+          "n": 16,
+          "tick": 786,
+          "frontier_count": 34,
+          "image": "assets/mapex/D16_t0786.webp"
+        },
+        {
+          "n": 17,
+          "tick": 860,
+          "frontier_count": 36,
+          "image": "assets/mapex/D17_t0860.webp"
+        },
+        {
+          "n": 18,
+          "tick": 925,
+          "frontier_count": 41,
+          "image": "assets/mapex/D18_t0925.webp"
+        },
+        {
+          "n": 19,
+          "tick": 983,
+          "frontier_count": 43,
+          "image": "assets/mapex/D19_t0983.webp"
+        }
+      ]
+    },
+    {
+      "key": "tour",
+      "label": "MapEx Tour",
+      "count": 18,
+      "source_run": "sandbox_phase5_jf_r4_kth50/runs/P5JF-KTH50V3-P00-FEAS-01",
+      "decision_sha256": "6c1e19fb45933370a51b1156a857b09ccfae213dc4ef8925f3d5753715a085e4",
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "frontier_count": 3,
+          "image": "assets/tour/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 75,
+          "frontier_count": 6,
+          "image": "assets/tour/D02_t0075.webp"
+        },
+        {
+          "n": 3,
+          "tick": 158,
+          "frontier_count": 12,
+          "image": "assets/tour/D03_t0158.webp"
+        },
+        {
+          "n": 4,
+          "tick": 220,
+          "frontier_count": 19,
+          "image": "assets/tour/D04_t0220.webp"
+        },
+        {
+          "n": 5,
+          "tick": 261,
+          "frontier_count": 19,
+          "image": "assets/tour/D05_t0261.webp"
+        },
+        {
+          "n": 6,
+          "tick": 286,
+          "frontier_count": 22,
+          "image": "assets/tour/D06_t0286.webp"
+        },
+        {
+          "n": 7,
+          "tick": 356,
+          "frontier_count": 38,
+          "image": "assets/tour/D07_t0356.webp"
+        },
+        {
+          "n": 8,
+          "tick": 406,
+          "frontier_count": 38,
+          "image": "assets/tour/D08_t0406.webp"
+        },
+        {
+          "n": 9,
+          "tick": 536,
+          "frontier_count": 33,
+          "image": "assets/tour/D09_t0536.webp"
+        },
+        {
+          "n": 10,
+          "tick": 582,
+          "frontier_count": 31,
+          "image": "assets/tour/D10_t0582.webp"
+        },
+        {
+          "n": 11,
+          "tick": 641,
+          "frontier_count": 30,
+          "image": "assets/tour/D11_t0641.webp"
+        },
+        {
+          "n": 12,
+          "tick": 698,
+          "frontier_count": 31,
+          "image": "assets/tour/D12_t0698.webp"
+        },
+        {
+          "n": 13,
+          "tick": 763,
+          "frontier_count": 31,
+          "image": "assets/tour/D13_t0763.webp"
+        },
+        {
+          "n": 14,
+          "tick": 786,
+          "frontier_count": 31,
+          "image": "assets/tour/D14_t0786.webp"
+        },
+        {
+          "n": 15,
+          "tick": 818,
+          "frontier_count": 31,
+          "image": "assets/tour/D15_t0818.webp"
+        },
+        {
+          "n": 16,
+          "tick": 832,
+          "frontier_count": 28,
+          "image": "assets/tour/D16_t0832.webp"
+        },
+        {
+          "n": 17,
+          "tick": 876,
+          "frontier_count": 26,
+          "image": "assets/tour/D17_t0876.webp"
+        },
+        {
+          "n": 18,
+          "tick": 940,
+          "frontier_count": 24,
+          "image": "assets/tour/D18_t0940.webp"
+        }
+      ]
+    },
+    {
+      "key": "tour_r2",
+      "label": "MapEx Tour R2",
+      "count": 31,
+      "source_run": "sandbox_topo_mean_kth50_p00_eval_20261108",
+      "decision_sha256": "57592045a89c8d564c1675019a4065a0026b42efb6ee06b472e4aa7cc68b8ad8",
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "frontier_count": 3,
+          "image": "assets/tour_r2/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 57,
+          "frontier_count": 7,
+          "image": "assets/tour_r2/D02_t0057.webp"
+        },
+        {
+          "n": 3,
+          "tick": 69,
+          "frontier_count": 8,
+          "image": "assets/tour_r2/D03_t0069.webp"
+        },
+        {
+          "n": 4,
+          "tick": 82,
+          "frontier_count": 10,
+          "image": "assets/tour_r2/D04_t0082.webp"
+        },
+        {
+          "n": 5,
+          "tick": 115,
+          "frontier_count": 13,
+          "image": "assets/tour_r2/D05_t0115.webp"
+        },
+        {
+          "n": 6,
+          "tick": 153,
+          "frontier_count": 19,
+          "image": "assets/tour_r2/D06_t0153.webp"
+        },
+        {
+          "n": 7,
+          "tick": 204,
+          "frontier_count": 21,
+          "image": "assets/tour_r2/D07_t0204.webp"
+        },
+        {
+          "n": 8,
+          "tick": 329,
+          "frontier_count": 17,
+          "image": "assets/tour_r2/D08_t0329.webp"
+        },
+        {
+          "n": 9,
+          "tick": 434,
+          "frontier_count": 21,
+          "image": "assets/tour_r2/D09_t0434.webp"
+        },
+        {
+          "n": 10,
+          "tick": 457,
+          "frontier_count": 21,
+          "image": "assets/tour_r2/D10_t0457.webp"
+        },
+        {
+          "n": 11,
+          "tick": 509,
+          "frontier_count": 25,
+          "image": "assets/tour_r2/D11_t0509.webp"
+        },
+        {
+          "n": 12,
+          "tick": 531,
+          "frontier_count": 27,
+          "image": "assets/tour_r2/D12_t0531.webp"
+        },
+        {
+          "n": 13,
+          "tick": 545,
+          "frontier_count": 30,
+          "image": "assets/tour_r2/D13_t0545.webp"
+        },
+        {
+          "n": 14,
+          "tick": 546,
+          "frontier_count": 26,
+          "image": "assets/tour_r2/D14_t0546.webp"
+        },
+        {
+          "n": 15,
+          "tick": 613,
+          "frontier_count": 27,
+          "image": "assets/tour_r2/D15_t0613.webp"
+        },
+        {
+          "n": 16,
+          "tick": 646,
+          "frontier_count": 30,
+          "image": "assets/tour_r2/D16_t0646.webp"
+        },
+        {
+          "n": 17,
+          "tick": 666,
+          "frontier_count": 32,
+          "image": "assets/tour_r2/D17_t0666.webp"
+        },
+        {
+          "n": 18,
+          "tick": 692,
+          "frontier_count": 32,
+          "image": "assets/tour_r2/D18_t0692.webp"
+        },
+        {
+          "n": 19,
+          "tick": 704,
+          "frontier_count": 31,
+          "image": "assets/tour_r2/D19_t0704.webp"
+        },
+        {
+          "n": 20,
+          "tick": 717,
+          "frontier_count": 32,
+          "image": "assets/tour_r2/D20_t0717.webp"
+        },
+        {
+          "n": 21,
+          "tick": 727,
+          "frontier_count": 32,
+          "image": "assets/tour_r2/D21_t0727.webp"
+        },
+        {
+          "n": 22,
+          "tick": 736,
+          "frontier_count": 32,
+          "image": "assets/tour_r2/D22_t0736.webp"
+        },
+        {
+          "n": 23,
+          "tick": 745,
+          "frontier_count": 31,
+          "image": "assets/tour_r2/D23_t0745.webp"
+        },
+        {
+          "n": 24,
+          "tick": 822,
+          "frontier_count": 26,
+          "image": "assets/tour_r2/D24_t0822.webp"
+        },
+        {
+          "n": 25,
+          "tick": 870,
+          "frontier_count": 27,
+          "image": "assets/tour_r2/D25_t0870.webp"
+        },
+        {
+          "n": 26,
+          "tick": 897,
+          "frontier_count": 28,
+          "image": "assets/tour_r2/D26_t0897.webp"
+        },
+        {
+          "n": 27,
+          "tick": 931,
+          "frontier_count": 29,
+          "image": "assets/tour_r2/D27_t0931.webp"
+        },
+        {
+          "n": 28,
+          "tick": 942,
+          "frontier_count": 29,
+          "image": "assets/tour_r2/D28_t0942.webp"
+        },
+        {
+          "n": 29,
+          "tick": 965,
+          "frontier_count": 28,
+          "image": "assets/tour_r2/D29_t0965.webp"
+        },
+        {
+          "n": 30,
+          "tick": 967,
+          "frontier_count": 28,
+          "image": "assets/tour_r2/D30_t0967.webp"
+        },
+        {
+          "n": 31,
+          "tick": 991,
+          "frontier_count": 28,
+          "image": "assets/tour_r2/D31_t0991.webp"
+        }
+      ]
+    }
+  ]
+}
