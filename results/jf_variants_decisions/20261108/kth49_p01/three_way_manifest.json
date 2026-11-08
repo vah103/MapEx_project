@@ -1,0 +1,318 @@
+{
+  "map": "KTH49 P01",
+  "source": "completed native run logs, Dell",
+  "methods": [
+    {
+      "key": "mapex",
+      "label": "MapEx thường",
+      "run_id": "KTH49V3-P01-MX-T1000-01",
+      "count": 16,
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "image": "assets/mapex/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 61,
+          "image": "assets/mapex/D02_t0061.webp"
+        },
+        {
+          "n": 3,
+          "tick": 98,
+          "image": "assets/mapex/D03_t0098.webp"
+        },
+        {
+          "n": 4,
+          "tick": 133,
+          "image": "assets/mapex/D04_t0133.webp"
+        },
+        {
+          "n": 5,
+          "tick": 163,
+          "image": "assets/mapex/D05_t0163.webp"
+        },
+        {
+          "n": 6,
+          "tick": 179,
+          "image": "assets/mapex/D06_t0179.webp"
+        },
+        {
+          "n": 7,
+          "tick": 242,
+          "image": "assets/mapex/D07_t0242.webp"
+        },
+        {
+          "n": 8,
+          "tick": 335,
+          "image": "assets/mapex/D08_t0335.webp"
+        },
+        {
+          "n": 9,
+          "tick": 353,
+          "image": "assets/mapex/D09_t0353.webp"
+        },
+        {
+          "n": 10,
+          "tick": 471,
+          "image": "assets/mapex/D10_t0471.webp"
+        },
+        {
+          "n": 11,
+          "tick": 606,
+          "image": "assets/mapex/D11_t0606.webp"
+        },
+        {
+          "n": 12,
+          "tick": 645,
+          "image": "assets/mapex/D12_t0645.webp"
+        },
+        {
+          "n": 13,
+          "tick": 735,
+          "image": "assets/mapex/D13_t0735.webp"
+        },
+        {
+          "n": 14,
+          "tick": 825,
+          "image": "assets/mapex/D14_t0825.webp"
+        },
+        {
+          "n": 15,
+          "tick": 857,
+          "image": "assets/mapex/D15_t0857.webp"
+        },
+        {
+          "n": 16,
+          "tick": 970,
+          "image": "assets/mapex/D16_t0970.webp"
+        }
+      ],
+      "decision_sha256": "e22183a83565a3f05721e570be4251df8d55f8dc880e92c303474edb0896be0d"
+    },
+    {
+      "key": "feas",
+      "label": "MapEx Tour (JF-FEAS)",
+      "run_id": "P5JF-KTH49V3-P01-FEAS-01",
+      "count": 18,
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "image": "assets/feas/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 39,
+          "image": "assets/feas/D02_t0039.webp"
+        },
+        {
+          "n": 3,
+          "tick": 59,
+          "image": "assets/feas/D03_t0059.webp"
+        },
+        {
+          "n": 4,
+          "tick": 81,
+          "image": "assets/feas/D04_t0081.webp"
+        },
+        {
+          "n": 5,
+          "tick": 99,
+          "image": "assets/feas/D05_t0099.webp"
+        },
+        {
+          "n": 6,
+          "tick": 147,
+          "image": "assets/feas/D06_t0147.webp"
+        },
+        {
+          "n": 7,
+          "tick": 213,
+          "image": "assets/feas/D07_t0213.webp"
+        },
+        {
+          "n": 8,
+          "tick": 269,
+          "image": "assets/feas/D08_t0269.webp"
+        },
+        {
+          "n": 9,
+          "tick": 298,
+          "image": "assets/feas/D09_t0298.webp"
+        },
+        {
+          "n": 10,
+          "tick": 414,
+          "image": "assets/feas/D10_t0414.webp"
+        },
+        {
+          "n": 11,
+          "tick": 467,
+          "image": "assets/feas/D11_t0467.webp"
+        },
+        {
+          "n": 12,
+          "tick": 479,
+          "image": "assets/feas/D12_t0479.webp"
+        },
+        {
+          "n": 13,
+          "tick": 680,
+          "image": "assets/feas/D13_t0680.webp"
+        },
+        {
+          "n": 14,
+          "tick": 736,
+          "image": "assets/feas/D14_t0736.webp"
+        },
+        {
+          "n": 15,
+          "tick": 835,
+          "image": "assets/feas/D15_t0835.webp"
+        },
+        {
+          "n": 16,
+          "tick": 862,
+          "image": "assets/feas/D16_t0862.webp"
+        },
+        {
+          "n": 17,
+          "tick": 917,
+          "image": "assets/feas/D17_t0917.webp"
+        },
+        {
+          "n": 18,
+          "tick": 979,
+          "image": "assets/feas/D18_t0979.webp"
+        }
+      ],
+      "decision_sha256": "7b45415ac6b9993f5cf97a3807ed3d0d2ba94438619fdff7d5e0738bf41570cd"
+    },
+    {
+      "key": "topo_mean",
+      "label": "MapEx Tour R2 (TOPO R2 + LaMa mean)",
+      "run_id": "sandbox_topo_mean_kth49_p01_eval_20261108",
+      "count": 23,
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "image": "assets/topo_mean/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 22,
+          "image": "assets/topo_mean/D02_t0022.webp"
+        },
+        {
+          "n": 3,
+          "tick": 31,
+          "image": "assets/topo_mean/D03_t0031.webp"
+        },
+        {
+          "n": 4,
+          "tick": 35,
+          "image": "assets/topo_mean/D04_t0035.webp"
+        },
+        {
+          "n": 5,
+          "tick": 54,
+          "image": "assets/topo_mean/D05_t0054.webp"
+        },
+        {
+          "n": 6,
+          "tick": 127,
+          "image": "assets/topo_mean/D06_t0127.webp"
+        },
+        {
+          "n": 7,
+          "tick": 132,
+          "image": "assets/topo_mean/D07_t0132.webp"
+        },
+        {
+          "n": 8,
+          "tick": 195,
+          "image": "assets/topo_mean/D08_t0195.webp"
+        },
+        {
+          "n": 9,
+          "tick": 205,
+          "image": "assets/topo_mean/D09_t0205.webp"
+        },
+        {
+          "n": 10,
+          "tick": 213,
+          "image": "assets/topo_mean/D10_t0213.webp"
+        },
+        {
+          "n": 11,
+          "tick": 225,
+          "image": "assets/topo_mean/D11_t0225.webp"
+        },
+        {
+          "n": 12,
+          "tick": 230,
+          "image": "assets/topo_mean/D12_t0230.webp"
+        },
+        {
+          "n": 13,
+          "tick": 295,
+          "image": "assets/topo_mean/D13_t0295.webp"
+        },
+        {
+          "n": 14,
+          "tick": 332,
+          "image": "assets/topo_mean/D14_t0332.webp"
+        },
+        {
+          "n": 15,
+          "tick": 345,
+          "image": "assets/topo_mean/D15_t0345.webp"
+        },
+        {
+          "n": 16,
+          "tick": 350,
+          "image": "assets/topo_mean/D16_t0350.webp"
+        },
+        {
+          "n": 17,
+          "tick": 382,
+          "image": "assets/topo_mean/D17_t0382.webp"
+        },
+        {
+          "n": 18,
+          "tick": 417,
+          "image": "assets/topo_mean/D18_t0417.webp"
+        },
+        {
+          "n": 19,
+          "tick": 429,
+          "image": "assets/topo_mean/D19_t0429.webp"
+        },
+        {
+          "n": 20,
+          "tick": 450,
+          "image": "assets/topo_mean/D20_t0450.webp"
+        },
+        {
+          "n": 21,
+          "tick": 508,
+          "image": "assets/topo_mean/D21_t0508.webp"
+        },
+        {
+          "n": 22,
+          "tick": 575,
+          "image": "assets/topo_mean/D22_t0575.webp"
+        },
+        {
+          "n": 23,
+          "tick": 587,
+          "image": "assets/topo_mean/D23_t0587.webp"
+        }
+      ],
+      "decision_sha256": "c6166c6fbbc9a659af7fc7442c7387d9bf1a531f77c37a7c084acc697d95ac06"
+    }
+  ]
+}

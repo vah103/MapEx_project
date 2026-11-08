@@ -1,0 +1,67 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KTH51 P00 · 3 phương pháp · Ảnh theo decision</title><style>
+:root{color-scheme:light;--bg:#eef4f9;--ink:#22374b;--line:#d6e1ec;--blue:#246a97}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:128px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+header{padding:20px max(14px,calc((100vw - 1100px)/2));background:white;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:clamp(21px,3vw,30px)}header p{margin:6px 0 0;color:#718396;font-size:12px}
+.sticky{position:sticky;top:0;z-index:10;background:#fffffff5;box-shadow:0 4px 14px #27486217;border-bottom:1px solid var(--line)}
+.methods,.decisions{display:flex;gap:6px;overflow:auto;white-space:nowrap;padding:9px max(12px,calc((100vw - 1100px)/2));scrollbar-width:thin}
+.methods button,.decisions button{font:inherit;cursor:pointer;flex:none;border:1px solid #cedcea;border-radius:8px;background:#f7fafd;color:#48657e;padding:8px 11px;font-size:12px}
+.methods button.active{background:#226a99;color:white;border-color:#226a99;font-weight:700}
+.decisions{border-top:1px solid #e8eef5;padding-top:6px;padding-bottom:7px}.decisions button{padding:4px 8px;border-radius:6px;font-size:11px}
+main{max-width:1100px;margin:0 auto;padding:16px 12px 60px}.gallery[hidden]{display:none}
+figure{margin:0 0 18px;border:1px solid var(--line);border-radius:11px;overflow:hidden;background:white;scroll-margin-top:126px}
+figcaption{padding:10px 14px;border-bottom:1px solid var(--line);color:#49647c;font-size:13px;font-weight:700}
+figure img{display:block;width:100%;height:auto;object-fit:contain;background:#e2edf7;max-height:82vh}
+.key{display:flex;gap:15px;flex-wrap:wrap;align-items:center;color:#718395;font-size:11px;margin:5px 0 17px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+@media(max-width:600px){header{padding:14px}.methods,.decisions{padding-inline:10px}.methods button{padding:7px 9px}main{padding:10px 6px 30px}figure{margin-bottom:12px}}
+</style></head><body>
+<header><h1>KTH51 P00 · MapEx / Tour / Tour R2</h1><p>3 phương pháp · dữ liệu run thực · ảnh từng decision</p></header>
+<div class="sticky"><nav id="methods" class="methods"></nav><nav id="decisions" class="decisions"></nav></div>
+<main><div class="key"><span><i class="dot" style="background:#f2ae35"></i>Robot</span>
+<span><i class="dot" style="background:#e76b8b"></i>Goal</span>
+<span><i class="dot" style="background:#5ab6ad"></i>Đường đã đi</span>
+<span><i class="dot" style="background:#9e88dc"></i>Đường A* dự kiến</span></div>
+<div id="galleries"></div></main><script id="dataset" type="application/json">{"map": "KTH51 P00", "source": "completed native run logs, Dell", "methods": [{"key": "mapex", "label": "MapEx thường", "run_id": "FURN-KTH51V3-P00-MX-NOOBJ-01", "count": 22, "frames": [{"n": 1, "tick": 0, "image": "assets/mapex/D01_t0000.webp"}, {"n": 2, "tick": 72, "image": "assets/mapex/D02_t0072.webp"}, {"n": 3, "tick": 88, "image": "assets/mapex/D03_t0088.webp"}, {"n": 4, "tick": 111, "image": "assets/mapex/D04_t0111.webp"}, {"n": 5, "tick": 133, "image": "assets/mapex/D05_t0133.webp"}, {"n": 6, "tick": 155, "image": "assets/mapex/D06_t0155.webp"}, {"n": 7, "tick": 177, "image": "assets/mapex/D07_t0177.webp"}, {"n": 8, "tick": 201, "image": "assets/mapex/D08_t0201.webp"}, {"n": 9, "tick": 238, "image": "assets/mapex/D09_t0238.webp"}, {"n": 10, "tick": 265, "image": "assets/mapex/D10_t0265.webp"}, {"n": 11, "tick": 288, "image": "assets/mapex/D11_t0288.webp"}, {"n": 12, "tick": 310, "image": "assets/mapex/D12_t0310.webp"}, {"n": 13, "tick": 334, "image": "assets/mapex/D13_t0334.webp"}, {"n": 14, "tick": 371, "image": "assets/mapex/D14_t0371.webp"}, {"n": 15, "tick": 395, "image": "assets/mapex/D15_t0395.webp"}, {"n": 16, "tick": 414, "image": "assets/mapex/D16_t0414.webp"}, {"n": 17, "tick": 495, "image": "assets/mapex/D17_t0495.webp"}, {"n": 18, "tick": 709, "image": "assets/mapex/D18_t0709.webp"}, {"n": 19, "tick": 824, "image": "assets/mapex/D19_t0824.webp"}, {"n": 20, "tick": 839, "image": "assets/mapex/D20_t0839.webp"}, {"n": 21, "tick": 947, "image": "assets/mapex/D21_t0947.webp"}, {"n": 22, "tick": 967, "image": "assets/mapex/D22_t0967.webp"}], "decision_sha256": "567a9051772ecb176dc001675cab358f79ffb4960ec07a4d457b7e4080539fab"}, {"key": "feas", "label": "MapEx Tour (JF-FEAS)", "run_id": "P5JF-KTH51V3-P00-FEAS-01", "count": 26, "frames": [{"n": 1, "tick": 0, "image": "assets/feas/D01_t0000.webp"}, {"n": 2, "tick": 72, "image": "assets/feas/D02_t0072.webp"}, {"n": 3, "tick": 88, "image": "assets/feas/D03_t0088.webp"}, {"n": 4, "tick": 111, "image": "assets/feas/D04_t0111.webp"}, {"n": 5, "tick": 133, "image": "assets/feas/D05_t0133.webp"}, {"n": 6, "tick": 155, "image": "assets/feas/D06_t0155.webp"}, {"n": 7, "tick": 177, "image": "assets/feas/D07_t0177.webp"}, {"n": 8, "tick": 199, "image": "assets/feas/D08_t0199.webp"}, {"n": 9, "tick": 221, "image": "assets/feas/D09_t0221.webp"}, {"n": 10, "tick": 243, "image": "assets/feas/D10_t0243.webp"}, {"n": 11, "tick": 265, "image": "assets/feas/D11_t0265.webp"}, {"n": 12, "tick": 282, "image": "assets/feas/D12_t0282.webp"}, {"n": 13, "tick": 311, "image": "assets/feas/D13_t0311.webp"}, {"n": 14, "tick": 340, "image": "assets/feas/D14_t0340.webp"}, {"n": 15, "tick": 401, "image": "assets/feas/D15_t0401.webp"}, {"n": 16, "tick": 413, "image": "assets/feas/D16_t0413.webp"}, {"n": 17, "tick": 460, "image": "assets/feas/D17_t0460.webp"}, {"n": 18, "tick": 508, "image": "assets/feas/D18_t0508.webp"}, {"n": 19, "tick": 619, "image": "assets/feas/D19_t0619.webp"}, {"n": 20, "tick": 689, "image": "assets/feas/D20_t0689.webp"}, {"n": 21, "tick": 785, "image": "assets/feas/D21_t0785.webp"}, {"n": 22, "tick": 862, "image": "assets/feas/D22_t0862.webp"}, {"n": 23, "tick": 879, "image": "assets/feas/D23_t0879.webp"}, {"n": 24, "tick": 914, "image": "assets/feas/D24_t0914.webp"}, {"n": 25, "tick": 966, "image": "assets/feas/D25_t0966.webp"}, {"n": 26, "tick": 999, "image": "assets/feas/D26_t0999.webp"}], "decision_sha256": "494aea99302808f4b8e5f841d0f761c7c2fe5424f7ac36e07d096c6ca0c06e04"}, {"key": "topo_mean", "label": "MapEx Tour R2 (TOPO R2 + LaMa mean)", "run_id": "sandbox_topo_mean_kth51_p00_eval_20261108", "count": 42, "frames": [{"n": 1, "tick": 0, "image": "assets/topo_mean/D01_t0000.webp"}, {"n": 2, "tick": 51, "image": "assets/topo_mean/D02_t0051.webp"}, {"n": 3, "tick": 65, "image": "assets/topo_mean/D03_t0065.webp"}, {"n": 4, "tick": 83, "image": "assets/topo_mean/D04_t0083.webp"}, {"n": 5, "tick": 91, "image": "assets/topo_mean/D05_t0091.webp"}, {"n": 6, "tick": 101, "image": "assets/topo_mean/D06_t0101.webp"}, {"n": 7, "tick": 109, "image": "assets/topo_mean/D07_t0109.webp"}, {"n": 8, "tick": 119, "image": "assets/topo_mean/D08_t0119.webp"}, {"n": 9, "tick": 127, "image": "assets/topo_mean/D09_t0127.webp"}, {"n": 10, "tick": 135, "image": "assets/topo_mean/D10_t0135.webp"}, {"n": 11, "tick": 151, "image": "assets/topo_mean/D11_t0151.webp"}, {"n": 12, "tick": 172, "image": "assets/topo_mean/D12_t0172.webp"}, {"n": 13, "tick": 184, "image": "assets/topo_mean/D13_t0184.webp"}, {"n": 14, "tick": 194, "image": "assets/topo_mean/D14_t0194.webp"}, {"n": 15, "tick": 217, "image": "assets/topo_mean/D15_t0217.webp"}, {"n": 16, "tick": 240, "image": "assets/topo_mean/D16_t0240.webp"}, {"n": 17, "tick": 260, "image": "assets/topo_mean/D17_t0260.webp"}, {"n": 18, "tick": 269, "image": "assets/topo_mean/D18_t0269.webp"}, {"n": 19, "tick": 296, "image": "assets/topo_mean/D19_t0296.webp"}, {"n": 20, "tick": 307, "image": "assets/topo_mean/D20_t0307.webp"}, {"n": 21, "tick": 316, "image": "assets/topo_mean/D21_t0316.webp"}, {"n": 22, "tick": 328, "image": "assets/topo_mean/D22_t0328.webp"}, {"n": 23, "tick": 334, "image": "assets/topo_mean/D23_t0334.webp"}, {"n": 24, "tick": 363, "image": "assets/topo_mean/D24_t0363.webp"}, {"n": 25, "tick": 434, "image": "assets/topo_mean/D25_t0434.webp"}, {"n": 26, "tick": 466, "image": "assets/topo_mean/D26_t0466.webp"}, {"n": 27, "tick": 530, "image": "assets/topo_mean/D27_t0530.webp"}, {"n": 28, "tick": 589, "image": "assets/topo_mean/D28_t0589.webp"}, {"n": 29, "tick": 594, "image": "assets/topo_mean/D29_t0594.webp"}, {"n": 30, "tick": 646, "image": "assets/topo_mean/D30_t0646.webp"}, {"n": 31, "tick": 716, "image": "assets/topo_mean/D31_t0716.webp"}, {"n": 32, "tick": 727, "image": "assets/topo_mean/D32_t0727.webp"}, {"n": 33, "tick": 752, "image": "assets/topo_mean/D33_t0752.webp"}, {"n": 34, "tick": 776, "image": "assets/topo_mean/D34_t0776.webp"}, {"n": 35, "tick": 781, "image": "assets/topo_mean/D35_t0781.webp"}, {"n": 36, "tick": 851, "image": "assets/topo_mean/D36_t0851.webp"}, {"n": 37, "tick": 860, "image": "assets/topo_mean/D37_t0860.webp"}, {"n": 38, "tick": 865, "image": "assets/topo_mean/D38_t0865.webp"}, {"n": 39, "tick": 885, "image": "assets/topo_mean/D39_t0885.webp"}, {"n": 40, "tick": 899, "image": "assets/topo_mean/D40_t0899.webp"}, {"n": 41, "tick": 985, "image": "assets/topo_mean/D41_t0985.webp"}, {"n": 42, "tick": 990, "image": "assets/topo_mean/D42_t0990.webp"}], "decision_sha256": "aad317b21a86afc58384c2f79ad0c2087f78b30cdc63580240b70dc3343d9c5f"}]}</script>
+<script>
+const data = JSON.parse(document.getElementById('dataset').textContent);
+const methods = document.getElementById('methods');
+const decisions = document.getElementById('decisions');
+const gallery = document.getElementById('galleries');
+let active = data.methods[0].key;
+for (const method of data.methods) {
+  const button = document.createElement('button');
+  button.textContent = method.label + ' · ' + method.count;
+  button.dataset.key = method.key;
+  button.onclick = () => select(method.key);
+  methods.appendChild(button);
+  const group = document.createElement('section');
+  group.className = 'gallery';group.id = 'gallery-' + method.key;
+  for (const d of method.frames) {
+    const fig = document.createElement('figure'); fig.id = method.key + '-D' + d.n;
+    const caption = document.createElement('figcaption');
+    caption.textContent = 'D' + String(d.n).padStart(2,'0') + ' · tick ' + d.tick;
+    const img = document.createElement('img');img.src = d.image;img.loading = 'lazy';
+    img.alt = method.label + ' – quyết định ' + d.n + ', tick ' + d.tick;
+    fig.append(caption,img);group.appendChild(fig);
+  }
+  gallery.appendChild(group);
+}
+function select(key) {
+  active = key;
+  for (const b of methods.children) b.classList.toggle('active', b.dataset.key === key);
+  for (const s of gallery.children) s.hidden = s.id !== 'gallery-'+key;
+  decisions.replaceChildren();
+  const method = data.methods.find(x => x.key === key);
+  for (const d of method.frames) {
+    const button=document.createElement('button');button.textContent='D'+String(d.n).padStart(2,'0');
+    button.onclick=()=>document.getElementById(key+'-D'+d.n).scrollIntoView({behavior:'smooth'});
+    decisions.appendChild(button);
+  }
+  window.scrollTo({top:0,behavior:'instant'});
+}
+select(active);
+</script></body></html>
