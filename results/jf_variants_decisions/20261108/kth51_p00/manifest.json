@@ -1064,6 +1064,225 @@
         }
       ],
       "decision_sha256": "83d9151bc8985c4d24fe91d1565ea0683dc3b1ebcdecda4756ddefa1d65ea0af"
+    },
+    {
+      "key": "topo_mean",
+      "label": "TOPO R2 + LaMa mean",
+      "run_id": "sandbox_topo_mean_kth51_p00_eval_20261108",
+      "count": 42,
+      "frames": [
+        {
+          "n": 1,
+          "tick": 0,
+          "image": "assets/topo_mean/D01_t0000.webp"
+        },
+        {
+          "n": 2,
+          "tick": 51,
+          "image": "assets/topo_mean/D02_t0051.webp"
+        },
+        {
+          "n": 3,
+          "tick": 65,
+          "image": "assets/topo_mean/D03_t0065.webp"
+        },
+        {
+          "n": 4,
+          "tick": 83,
+          "image": "assets/topo_mean/D04_t0083.webp"
+        },
+        {
+          "n": 5,
+          "tick": 91,
+          "image": "assets/topo_mean/D05_t0091.webp"
+        },
+        {
+          "n": 6,
+          "tick": 101,
+          "image": "assets/topo_mean/D06_t0101.webp"
+        },
+        {
+          "n": 7,
+          "tick": 109,
+          "image": "assets/topo_mean/D07_t0109.webp"
+        },
+        {
+          "n": 8,
+          "tick": 119,
+          "image": "assets/topo_mean/D08_t0119.webp"
+        },
+        {
+          "n": 9,
+          "tick": 127,
+          "image": "assets/topo_mean/D09_t0127.webp"
+        },
+        {
+          "n": 10,
+          "tick": 135,
+          "image": "assets/topo_mean/D10_t0135.webp"
+        },
+        {
+          "n": 11,
+          "tick": 151,
+          "image": "assets/topo_mean/D11_t0151.webp"
+        },
+        {
+          "n": 12,
+          "tick": 172,
+          "image": "assets/topo_mean/D12_t0172.webp"
+        },
+        {
+          "n": 13,
+          "tick": 184,
+          "image": "assets/topo_mean/D13_t0184.webp"
+        },
+        {
+          "n": 14,
+          "tick": 194,
+          "image": "assets/topo_mean/D14_t0194.webp"
+        },
+        {
+          "n": 15,
+          "tick": 217,
+          "image": "assets/topo_mean/D15_t0217.webp"
+        },
+        {
+          "n": 16,
+          "tick": 240,
+          "image": "assets/topo_mean/D16_t0240.webp"
+        },
+        {
+          "n": 17,
+          "tick": 260,
+          "image": "assets/topo_mean/D17_t0260.webp"
+        },
+        {
+          "n": 18,
+          "tick": 269,
+          "image": "assets/topo_mean/D18_t0269.webp"
+        },
+        {
+          "n": 19,
+          "tick": 296,
+          "image": "assets/topo_mean/D19_t0296.webp"
+        },
+        {
+          "n": 20,
+          "tick": 307,
+          "image": "assets/topo_mean/D20_t0307.webp"
+        },
+        {
+          "n": 21,
+          "tick": 316,
+          "image": "assets/topo_mean/D21_t0316.webp"
+        },
+        {
+          "n": 22,
+          "tick": 328,
+          "image": "assets/topo_mean/D22_t0328.webp"
+        },
+        {
+          "n": 23,
+          "tick": 334,
+          "image": "assets/topo_mean/D23_t0334.webp"
+        },
+        {
+          "n": 24,
+          "tick": 363,
+          "image": "assets/topo_mean/D24_t0363.webp"
+        },
+        {
+          "n": 25,
+          "tick": 434,
+          "image": "assets/topo_mean/D25_t0434.webp"
+        },
+        {
+          "n": 26,
+          "tick": 466,
+          "image": "assets/topo_mean/D26_t0466.webp"
+        },
+        {
+          "n": 27,
+          "tick": 530,
+          "image": "assets/topo_mean/D27_t0530.webp"
+        },
+        {
+          "n": 28,
+          "tick": 589,
+          "image": "assets/topo_mean/D28_t0589.webp"
+        },
+        {
+          "n": 29,
+          "tick": 594,
+          "image": "assets/topo_mean/D29_t0594.webp"
+        },
+        {
+          "n": 30,
+          "tick": 646,
+          "image": "assets/topo_mean/D30_t0646.webp"
+        },
+        {
+          "n": 31,
+          "tick": 716,
+          "image": "assets/topo_mean/D31_t0716.webp"
+        },
+        {
+          "n": 32,
+          "tick": 727,
+          "image": "assets/topo_mean/D32_t0727.webp"
+        },
+        {
+          "n": 33,
+          "tick": 752,
+          "image": "assets/topo_mean/D33_t0752.webp"
+        },
+        {
+          "n": 34,
+          "tick": 776,
+          "image": "assets/topo_mean/D34_t0776.webp"
+        },
+        {
+          "n": 35,
+          "tick": 781,
+          "image": "assets/topo_mean/D35_t0781.webp"
+        },
+        {
+          "n": 36,
+          "tick": 851,
+          "image": "assets/topo_mean/D36_t0851.webp"
+        },
+        {
+          "n": 37,
+          "tick": 860,
+          "image": "assets/topo_mean/D37_t0860.webp"
+        },
+        {
+          "n": 38,
+          "tick": 865,
+          "image": "assets/topo_mean/D38_t0865.webp"
+        },
+        {
+          "n": 39,
+          "tick": 885,
+          "image": "assets/topo_mean/D39_t0885.webp"
+        },
+        {
+          "n": 40,
+          "tick": 899,
+          "image": "assets/topo_mean/D40_t0899.webp"
+        },
+        {
+          "n": 41,
+          "tick": 985,
+          "image": "assets/topo_mean/D41_t0985.webp"
+        },
+        {
+          "n": 42,
+          "tick": 990,
+          "image": "assets/topo_mean/D42_t0990.webp"
+        }
+      ],
+      "decision_sha256": "aad317b21a86afc58384c2f79ad0c2087f78b30cdc63580240b70dc3343d9c5f"
     }
   ]
 }
