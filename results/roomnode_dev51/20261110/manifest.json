@@ -1,0 +1,1449 @@
+{
+  "source": "frozen DEV51 snapshot replay; GT used for offline door-match marks only",
+  "n_frames": 51,
+  "n_images": 102,
+  "variants": [
+    "S0",
+    "S1a"
+  ],
+  "aggregate_doors_and_unmatched": {
+    "S0": [
+      337,
+      49
+    ],
+    "S1a": [
+      398,
+      61
+    ]
+  },
+  "frames": [
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "56da097ad041c95bb8b5e8cf0ac965bdb3765db8cd0194f799e92dbfa68f6f8c",
+      "roi_rc": [
+        0,
+        147,
+        0,
+        116
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D01_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D01_S1a.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 2,
+      "tick": 44,
+      "input_sha256": "21004e0e240faa48505e86899873281b75c24fc1ebe4bc35d1b4ba3da5186192",
+      "roi_rc": [
+        0,
+        147,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D02_S0.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D02_S1a.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 3,
+      "tick": 108,
+      "input_sha256": "3ae29145db7e91911a475da64f3e6a74131ba8bc9cdcb0119b6f0a40a2e4012f",
+      "roi_rc": [
+        0,
+        186,
+        0,
+        481
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D03_S0.webp",
+          "regions": 6,
+          "doors": 6,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D03_S1a.webp",
+          "regions": 6,
+          "doors": 6,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 4,
+      "tick": 168,
+      "input_sha256": "0dda3debb0468eb15cc8268b926454a9a272a427e470e446d7cecceb99172386",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        635
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D04_S0.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D04_S1a.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 5,
+      "tick": 205,
+      "input_sha256": "4d1b3b48dcadc5726aba66b318013e3fe69df4448cdab14bb63def178defba71",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        635
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D05_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D05_S1a.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 6,
+      "tick": 293,
+      "input_sha256": "9dba90c8d153b9d26e294d53639aec23f770deb4dea93986929d66dbe2c30c9f",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        798
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D06_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D06_S1a.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 7,
+      "tick": 323,
+      "input_sha256": "465123d4351054c426db4fccc982a6508151c33bc0fd5f3c1c6936671b12fd0a",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        855
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D07_S0.webp",
+          "regions": 11,
+          "doors": 10,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D07_S1a.webp",
+          "regions": 12,
+          "doors": 11,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 8,
+      "tick": 341,
+      "input_sha256": "308522f33c9193b40a5f8585ff3611a27cb23cd6ccd5c578f264d45e29f315f6",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        855
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D08_S0.webp",
+          "regions": 14,
+          "doors": 13,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D08_S1a.webp",
+          "regions": 14,
+          "doors": 13,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN1",
+      "decision": 9,
+      "tick": 360,
+      "input_sha256": "b9a7ef14e6059b616392c363179ac603bcdb4f0990a055297528bfb7883f22c1",
+      "roi_rc": [
+        0,
+        373,
+        0,
+        855
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN1_D09_S0.webp",
+          "regions": 14,
+          "doors": 13,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN1_D09_S1a.webp",
+          "regions": 14,
+          "doors": 13,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "13f51c927a02611200dd7af3eba7cc4e0ab5c068238f590994118dcc9a4ddd35",
+      "roi_rc": [
+        0,
+        175,
+        0,
+        115
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D01_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D01_S1a.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 2,
+      "tick": 45,
+      "input_sha256": "c9ba7b14fb46cf0e08a5395f2a221091776328baf9fb8042ef6316e31881a049",
+      "roi_rc": [
+        0,
+        146,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D02_S0.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D02_S1a.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 3,
+      "tick": 61,
+      "input_sha256": "5653c9ff4ff7d84ec8ac376c05ce8cc6d23b3a750e634b41540a578ac7dfd997",
+      "roi_rc": [
+        0,
+        146,
+        0,
+        346
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D03_S0.webp",
+          "regions": 4,
+          "doors": 3,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D03_S1a.webp",
+          "regions": 4,
+          "doors": 3,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 4,
+      "tick": 79,
+      "input_sha256": "a6db4c51f1177f169aa98688e7f9e83fc3a2d2c7a1962d87d26c67c4d5b7c430",
+      "roi_rc": [
+        0,
+        146,
+        0,
+        371
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D04_S0.webp",
+          "regions": 6,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D04_S1a.webp",
+          "regions": 6,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 5,
+      "tick": 109,
+      "input_sha256": "0cf21a1edc98e40aee83753c1fdb8e4feebaa3e5ad54a3cfc448245c4f2fa480",
+      "roi_rc": [
+        0,
+        146,
+        0,
+        419
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D05_S0.webp",
+          "regions": 8,
+          "doors": 9,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D05_S1a.webp",
+          "regions": 8,
+          "doors": 9,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 6,
+      "tick": 137,
+      "input_sha256": "04e60beb58c6f55fabe9b23016187f304437eb83c75ad4a16a3565a02a2a716e",
+      "roi_rc": [
+        0,
+        146,
+        0,
+        495
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D06_S0.webp",
+          "regions": 8,
+          "doors": 9,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D06_S1a.webp",
+          "regions": 8,
+          "doors": 9,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 7,
+      "tick": 163,
+      "input_sha256": "23d37d710fbdbcaa4030b97daab96567645d862d3deb21d55e1aa48bc8ef5b1e",
+      "roi_rc": [
+        0,
+        246,
+        0,
+        564
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D07_S0.webp",
+          "regions": 8,
+          "doors": 10,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D07_S1a.webp",
+          "regions": 9,
+          "doors": 11,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 8,
+      "tick": 229,
+      "input_sha256": "f3a9daaea6b3fce15ac0d66bf7f6c84e94fbf445e033b7880d3716462a4d3178",
+      "roi_rc": [
+        0,
+        408,
+        0,
+        631
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D08_S0.webp",
+          "regions": 9,
+          "doors": 14,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D08_S1a.webp",
+          "regions": 10,
+          "doors": 17,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 9,
+      "tick": 295,
+      "input_sha256": "ce9a84a7071981b95fc84199ba0a2f355aa6167119396a412962ae5c01ad8c24",
+      "roi_rc": [
+        0,
+        408,
+        0,
+        634
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D09_S0.webp",
+          "regions": 12,
+          "doors": 17,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D09_S1a.webp",
+          "regions": 12,
+          "doors": 17,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 10,
+      "tick": 316,
+      "input_sha256": "4c122cdf6f7eb01d5861c7448bb8d57fd23d60c4f7d06025c4bc832bbb578708",
+      "roi_rc": [
+        0,
+        408,
+        0,
+        634
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D10_S0.webp",
+          "regions": 10,
+          "doors": 15,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D10_S1a.webp",
+          "regions": 10,
+          "doors": 15,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 11,
+      "tick": 352,
+      "input_sha256": "b9e014a6d46d0ece2e4915cee0bf16415b487ff471cbc749ca9e9fb27486744c",
+      "roi_rc": [
+        0,
+        408,
+        0,
+        827
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D11_S0.webp",
+          "regions": 12,
+          "doors": 17,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D11_S1a.webp",
+          "regions": 12,
+          "doors": 17,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50010535_PLAN2",
+      "decision": 12,
+      "tick": 383,
+      "input_sha256": "e6eaa496f7df6097fd9725263ae8c4b871c4cbdab77a36e3966981793732f8e9",
+      "roi_rc": [
+        0,
+        408,
+        0,
+        914
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50010535_PLAN2_D12_S0.webp",
+          "regions": 16,
+          "doors": 23,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 7
+        },
+        "S1a": {
+          "image": "assets/50010535_PLAN2_D12_S1a.webp",
+          "regions": 16,
+          "doors": 23,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 7
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "4840335a1b4fed5f752774031d52e2849a4bc8b45584707460708c9b5bbd06a4",
+      "roi_rc": [
+        0,
+        168,
+        0,
+        262
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D01_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015847_D01_S1a.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 2,
+      "tick": 85,
+      "input_sha256": "2084194a0cb3775412f1dd2bd9de711f17deaeaa9699292463aaa83edc34b672",
+      "roi_rc": [
+        0,
+        168,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D02_S0.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015847_D02_S1a.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 3,
+      "tick": 111,
+      "input_sha256": "46f137f67f95483571ff27ae909a0597d632401a5dca79c7ae7f988fa306ee99",
+      "roi_rc": [
+        0,
+        298,
+        0,
+        316
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D03_S0.webp",
+          "regions": 8,
+          "doors": 8,
+          "door_unmatched_gt": 3,
+          "doors_in_unknown": 4
+        },
+        "S1a": {
+          "image": "assets/50015847_D03_S1a.webp",
+          "regions": 8,
+          "doors": 8,
+          "door_unmatched_gt": 3,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 4,
+      "tick": 126,
+      "input_sha256": "594521a01eb7322b257fb9acb6b7836679868de30c70cbfc7f7b2779bd42b702",
+      "roi_rc": [
+        0,
+        298,
+        0,
+        316
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D04_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50015847_D04_S1a.webp",
+          "regions": 9,
+          "doors": 9,
+          "door_unmatched_gt": 4,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 5,
+      "tick": 193,
+      "input_sha256": "7a6f5ed3ecf6d53b36ddd0e90598a24635be38b4482fabeb1012693c2f359ec4",
+      "roi_rc": [
+        0,
+        449,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D05_S0.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50015847_D05_S1a.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 6,
+      "tick": 210,
+      "input_sha256": "554b221ad4db0ebc0ac3ddd9cf26a225c69b2cd1b88e45a9630d0ed76feba817",
+      "roi_rc": [
+        0,
+        449,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D06_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015847_D06_S1a.webp",
+          "regions": 10,
+          "doors": 9,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 7,
+      "tick": 252,
+      "input_sha256": "2879432544970661a804c9b3ce6944953bb962d94dd110f1c489fc825c9830bb",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D07_S0.webp",
+          "regions": 10,
+          "doors": 9,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50015847_D07_S1a.webp",
+          "regions": 12,
+          "doors": 11,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 8,
+      "tick": 299,
+      "input_sha256": "446beedfd475ba8120815360662ec367ea43efbee786f3103e062415011d08e3",
+      "roi_rc": [
+        0,
+        550,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D08_S0.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50015847_D08_S1a.webp",
+          "regions": 12,
+          "doors": 11,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015847",
+      "decision": 9,
+      "tick": 359,
+      "input_sha256": "3632581398337c77e96882b788546a2289ca1867502f9b61e489fab8bc505e86",
+      "roi_rc": [
+        0,
+        571,
+        0,
+        302
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015847_D09_S0.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015847_D09_S1a.webp",
+          "regions": 12,
+          "doors": 11,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "89e79dfae611727b0bfa187aba99460d81b112fc420190aef5a4f5e5927d8011",
+      "roi_rc": [
+        0,
+        263,
+        0,
+        256
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D01_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015848_D01_S1a.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 2,
+      "tick": 91,
+      "input_sha256": "320347aa9f5c79d597b847a166c0351d75f885f1672f25db1aa87309de2421a8",
+      "roi_rc": [
+        0,
+        324,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D02_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50015848_D02_S1a.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 3,
+      "tick": 152,
+      "input_sha256": "bf97c41f196ba326a0aca5ebdaf5d2a6afed3f82ecee6ef247abbce9b69b0687",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D03_S0.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015848_D03_S1a.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 4,
+      "tick": 180,
+      "input_sha256": "dc52cb0ac048522f257de1ccb4955e6ba1205f802a16dc0d7b71b390e368f026",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D04_S0.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50015848_D04_S1a.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 5,
+      "tick": 238,
+      "input_sha256": "05570a41e4f4996955e5012c7712c6c6174694f4dec2dfe2eee8d8beed73c379",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D05_S0.webp",
+          "regions": 8,
+          "doors": 10,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 4
+        },
+        "S1a": {
+          "image": "assets/50015848_D05_S1a.webp",
+          "regions": 9,
+          "doors": 11,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 5
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 6,
+      "tick": 249,
+      "input_sha256": "6129f65a836cb8881c938456c1152f2c83129390d3e606adebb9c9c1b31276b5",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D06_S0.webp",
+          "regions": 7,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50015848_D06_S1a.webp",
+          "regions": 7,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 7,
+      "tick": 260,
+      "input_sha256": "b84b30813c33740d38c5f6561f45a2fd57b6f2b160d131d3a0e3038af6c767f9",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D07_S0.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50015848_D07_S1a.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50015848",
+      "decision": 8,
+      "tick": 388,
+      "input_sha256": "7c7b8376b703e116e724ec9c4f1e5b67281cc8c24b664f81fbd3d2fe0ea828e6",
+      "roi_rc": [
+        0,
+        491,
+        0,
+        303
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50015848_D08_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50015848_D08_S1a.webp",
+          "regions": 9,
+          "doors": 8,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "be59d1abbd9d1faa7b84087383c57ed30428abdd6769cad5c33da299f6463493",
+      "roi_rc": [
+        2,
+        172,
+        40,
+        222
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D01_S0.webp",
+          "regions": 1,
+          "doors": 0,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D01_S1a.webp",
+          "regions": 1,
+          "doors": 0,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 2,
+      "tick": 22,
+      "input_sha256": "1696440b7f4862b45294a6e56fa1b1104d35ab02187c8ae963bd4b148c07da70",
+      "roi_rc": [
+        21,
+        172,
+        40,
+        222
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D02_S0.webp",
+          "regions": 1,
+          "doors": 0,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D02_S1a.webp",
+          "regions": 1,
+          "doors": 0,
+          "door_unmatched_gt": 0,
+          "doors_in_unknown": 0
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 3,
+      "tick": 58,
+      "input_sha256": "0f571cdc884be0df3b6d1b9c042286bfd5dbaaed7d2d3a8edffc6ba2172f4160",
+      "roi_rc": [
+        0,
+        209,
+        11,
+        401
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D03_S0.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D03_S1a.webp",
+          "regions": 4,
+          "doors": 3,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 4,
+      "tick": 135,
+      "input_sha256": "974ef01b8d2e1d13f04ed724dde7066293e3cb6ce90b81b228abe821299a4a4c",
+      "roi_rc": [
+        0,
+        357,
+        11,
+        586
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D04_S0.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D04_S1a.webp",
+          "regions": 5,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 5,
+      "tick": 219,
+      "input_sha256": "cba2fd0f1a232f0f148ecbb4d7ef7e24eb9c172b2a56fef3f767bb478fdaa303",
+      "roi_rc": [
+        0,
+        421,
+        11,
+        586
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D05_S0.webp",
+          "regions": 4,
+          "doors": 3,
+          "door_unmatched_gt": 3,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D05_S1a.webp",
+          "regions": 7,
+          "doors": 6,
+          "door_unmatched_gt": 4,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50037764_PLAN1",
+      "decision": 6,
+      "tick": 309,
+      "input_sha256": "05db2976b779c6b8781c72547b2f8f2787fb394cf4a3417a7b39885234517e81",
+      "roi_rc": [
+        21,
+        421,
+        0,
+        586
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037764_PLAN1_D06_S0.webp",
+          "regions": 2,
+          "doors": 1,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50037764_PLAN1_D06_S1a.webp",
+          "regions": 4,
+          "doors": 3,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 1,
+      "tick": 0,
+      "input_sha256": "065de9035471e94301cfd1309eb12a8ffffed8bbbefcac607b0840c8e7c8c61e",
+      "roi_rc": [
+        6,
+        304,
+        10,
+        156
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D01_S0.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D01_S1a.webp",
+          "regions": 3,
+          "doors": 2,
+          "door_unmatched_gt": 1,
+          "doors_in_unknown": 1
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 2,
+      "tick": 59,
+      "input_sha256": "7dd2b7bf8e3ab73f8f0cec9167719ad46c8efbd65126732f79d909b96f171803",
+      "roi_rc": [
+        6,
+        428,
+        0,
+        338
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D02_S0.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D02_S1a.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 3,
+      "tick": 129,
+      "input_sha256": "7257a9b95ba179e0329940a4d92c33e85cefef2be7194b519a77ec7dd2ebc00c",
+      "roi_rc": [
+        0,
+        428,
+        0,
+        481
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D03_S0.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D03_S1a.webp",
+          "regions": 6,
+          "doors": 7,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 4,
+      "tick": 186,
+      "input_sha256": "143add34f46ec72012ebbd6dc6d2ad6daf6b3e2c3ccca04c48aa5510a4a7247b",
+      "roi_rc": [
+        0,
+        428,
+        0,
+        625
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D04_S0.webp",
+          "regions": 4,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D04_S1a.webp",
+          "regions": 7,
+          "doors": 10,
+          "door_unmatched_gt": 3,
+          "doors_in_unknown": 3
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 5,
+      "tick": 247,
+      "input_sha256": "71c63bb2da64574ddb9109373d6396bd69ca2e2f7b165a9e1b566473ee8ed520",
+      "roi_rc": [
+        0,
+        428,
+        0,
+        802
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D05_S0.webp",
+          "regions": 8,
+          "doors": 7,
+          "door_unmatched_gt": 4,
+          "doors_in_unknown": 4
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D05_S1a.webp",
+          "regions": 11,
+          "doors": 11,
+          "door_unmatched_gt": 4,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 6,
+      "tick": 310,
+      "input_sha256": "53e723555f95b382239ac61c64fac1baa20f19ad8475c673261baa025cc26087",
+      "roi_rc": [
+        0,
+        428,
+        0,
+        810
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D06_S0.webp",
+          "regions": 5,
+          "doors": 4,
+          "door_unmatched_gt": 2,
+          "doors_in_unknown": 2
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D06_S1a.webp",
+          "regions": 11,
+          "doors": 14,
+          "door_unmatched_gt": 4,
+          "doors_in_unknown": 4
+        }
+      }
+    },
+    {
+      "map_id": "50037765_PLAN3",
+      "decision": 7,
+      "tick": 372,
+      "input_sha256": "5ac9f95cb9aee95e8d496c4a65bd8e156e34fc67d32d9e3cd21b38523368e499",
+      "roi_rc": [
+        0,
+        428,
+        0,
+        910
+      ],
+      "methods": {
+        "S0": {
+          "image": "assets/50037765_PLAN3_D07_S0.webp",
+          "regions": 6,
+          "doors": 6,
+          "door_unmatched_gt": 3,
+          "doors_in_unknown": 3
+        },
+        "S1a": {
+          "image": "assets/50037765_PLAN3_D07_S1a.webp",
+          "regions": 12,
+          "doors": 16,
+          "door_unmatched_gt": 5,
+          "doors_in_unknown": 5
+        }
+      }
+    }
+  ]
+}

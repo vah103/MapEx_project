@@ -1,0 +1,401 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>RoomNode DEV51 · S0 vs S1a</title>
+<style>:root{color-scheme:light;--ink:#243749;--line:#d3e0ed;--bg:#edf4fa}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:145px}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px system-ui,-apple-system,sans-serif}
+header{max-width:1400px;margin:auto;padding:22px 14px 12px}
+h1{margin:0;font-size:clamp(22px,4vw,31px)}header p{margin:8px 0;color:#526c86;font-size:13px}
+nav{position:sticky;top:0;z-index:5;background:#ffffffed;padding:10px max(10px,calc((100% - 1375px)/2));
+border-block:1px solid var(--line);display:flex;gap:7px;overflow:auto}
+nav button,.chips a{flex:none;border:1px solid #cddded;border-radius:7px;background:#f6faff;color:#245f87;
+font:inherit;font-size:12px;padding:8px 11px;cursor:pointer;text-decoration:none}
+nav button.active{background:#246e9d;color:white;border-color:#246e9d;font-weight:bold}
+main{max-width:1400px;margin:auto;padding:9px 12px 60px}
+.legend{display:flex;flex-wrap:wrap;gap:9px 20px;padding:8px 0 13px;color:#536a80;font-size:12px}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 20px}
+.chips a{padding:5px 8px}h2{margin:15px 0 0;font-size:21px}
+.decision{background:white;border:1px solid var(--line);border-radius:12px;margin-bottom:18px;
+padding:12px;scroll-margin-top:115px}
+h3{margin:2px 0 12px;color:#3b617e;font-size:15px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+figure{min-width:0;margin:0;border:1px solid #e1eaf3;border-radius:9px;overflow:hidden;background:#f4f8fc}
+figcaption{padding:9px 10px;background:#f6faff;font-size:12px;font-weight:700}
+img{display:block;width:100%;height:auto;object-fit:contain}a img{cursor:zoom-in}
+@media(max-width:700px){.pair{grid-template-columns:1fr}.decision{padding:7px}nav{padding:8px}
+header{padding:15px 12px 8px}}
+</style></head><body>
+<header><h1>RoomNode · L1 cũ so với R1 mới</h1>
+<p>51 snapshot DEV · cùng đầu vào LaMa, không chạy closed-loop · chạm ảnh để phóng to</p></header>
+<nav id="map-nav"><button data-map="50010535_PLAN1">50010535_PLAN1</button><button data-map="50010535_PLAN2">50010535_PLAN2</button><button data-map="50015847">50015847</button><button data-map="50015848">50015848</button><button data-map="50037764_PLAN1">50037764_PLAN1</button><button data-map="50037765_PLAN3">50037765_PLAN3</button></nav><main>
+<div class="legend">
+<span><i class="dot" style="background:#f5af2e"></i>Robot</span>
+<span><i class="dot" style="background:#f59e3b"></i>Cửa tâm quan sát</span>
+<span><i class="dot" style="background:#9457c7"></i>Cửa tâm UNKNOWN</span>
+<span><b style="color:#d4394b">✕</b> Cửa không khớp chú thích GT (≤ 1 m)</span>
+<span>Vùng được tô màu khác nhau; màu đậm hơn là vùng dự đoán</span>
+</div>
+<section class="map-group" id="group-50010535_PLAN1" data-map="50010535_PLAN1"><h2>50010535_PLAN1 · 9 decision</h2><div class="chips"><a href="#50010535_PLAN1-D1">D01</a><a href="#50010535_PLAN1-D2">D02</a><a href="#50010535_PLAN1-D3">D03</a><a href="#50010535_PLAN1-D4">D04</a><a href="#50010535_PLAN1-D5">D05</a><a href="#50010535_PLAN1-D6">D06</a><a href="#50010535_PLAN1-D7">D07</a><a href="#50010535_PLAN1-D8">D08</a><a href="#50010535_PLAN1-D9">D09</a></div><article id="50010535_PLAN1-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50010535_PLAN1-D2" class="decision">
+<h3>D02 · timestep 44</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D02_S0.webp" alt="RoomNode L1, D02 · timestep 44"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 44"></a></figure>
+</div></article><article id="50010535_PLAN1-D3" class="decision">
+<h3>D03 · timestep 108</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 6 vùng · 6 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D03_S0.webp" alt="RoomNode L1, D03 · timestep 108"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 6 vùng · 6 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 108"></a></figure>
+</div></article><article id="50010535_PLAN1-D4" class="decision">
+<h3>D04 · timestep 168</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D04_S0.webp" alt="RoomNode L1, D04 · timestep 168"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 168"></a></figure>
+</div></article><article id="50010535_PLAN1-D5" class="decision">
+<h3>D05 · timestep 205</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D05_S0.webp" alt="RoomNode L1, D05 · timestep 205"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 205"></a></figure>
+</div></article><article id="50010535_PLAN1-D6" class="decision">
+<h3>D06 · timestep 293</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D06_S0.webp" alt="RoomNode L1, D06 · timestep 293"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 293"></a></figure>
+</div></article><article id="50010535_PLAN1-D7" class="decision">
+<h3>D07 · timestep 323</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 11 vùng · 10 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D07_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D07_S0.webp" alt="RoomNode L1, D07 · timestep 323"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 11 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D07_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D07_S1a.webp" alt="RoomNode R1, D07 · timestep 323"></a></figure>
+</div></article><article id="50010535_PLAN1-D8" class="decision">
+<h3>D08 · timestep 341</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 14 vùng · 13 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D08_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D08_S0.webp" alt="RoomNode L1, D08 · timestep 341"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 14 vùng · 13 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D08_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D08_S1a.webp" alt="RoomNode R1, D08 · timestep 341"></a></figure>
+</div></article><article id="50010535_PLAN1-D9" class="decision">
+<h3>D09 · timestep 360</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 14 vùng · 13 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D09_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D09_S0.webp" alt="RoomNode L1, D09 · timestep 360"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 14 vùng · 13 cửa</figcaption>
+<a href="assets/50010535_PLAN1_D09_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN1_D09_S1a.webp" alt="RoomNode R1, D09 · timestep 360"></a></figure>
+</div></article></section><section class="map-group" id="group-50010535_PLAN2" data-map="50010535_PLAN2"><h2>50010535_PLAN2 · 12 decision</h2><div class="chips"><a href="#50010535_PLAN2-D1">D01</a><a href="#50010535_PLAN2-D2">D02</a><a href="#50010535_PLAN2-D3">D03</a><a href="#50010535_PLAN2-D4">D04</a><a href="#50010535_PLAN2-D5">D05</a><a href="#50010535_PLAN2-D6">D06</a><a href="#50010535_PLAN2-D7">D07</a><a href="#50010535_PLAN2-D8">D08</a><a href="#50010535_PLAN2-D9">D09</a><a href="#50010535_PLAN2-D10">D10</a><a href="#50010535_PLAN2-D11">D11</a><a href="#50010535_PLAN2-D12">D12</a></div><article id="50010535_PLAN2-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50010535_PLAN2-D2" class="decision">
+<h3>D02 · timestep 45</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D02_S0.webp" alt="RoomNode L1, D02 · timestep 45"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 45"></a></figure>
+</div></article><article id="50010535_PLAN2-D3" class="decision">
+<h3>D03 · timestep 61</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 3 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D03_S0.webp" alt="RoomNode L1, D03 · timestep 61"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 4 vùng · 3 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 61"></a></figure>
+</div></article><article id="50010535_PLAN2-D4" class="decision">
+<h3>D04 · timestep 79</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 6 vùng · 7 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D04_S0.webp" alt="RoomNode L1, D04 · timestep 79"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 6 vùng · 7 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 79"></a></figure>
+</div></article><article id="50010535_PLAN2-D5" class="decision">
+<h3>D05 · timestep 109</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 9 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D05_S0.webp" alt="RoomNode L1, D05 · timestep 109"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 8 vùng · 9 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 109"></a></figure>
+</div></article><article id="50010535_PLAN2-D6" class="decision">
+<h3>D06 · timestep 137</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 9 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D06_S0.webp" alt="RoomNode L1, D06 · timestep 137"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 8 vùng · 9 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 137"></a></figure>
+</div></article><article id="50010535_PLAN2-D7" class="decision">
+<h3>D07 · timestep 163</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 10 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D07_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D07_S0.webp" alt="RoomNode L1, D07 · timestep 163"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 11 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D07_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D07_S1a.webp" alt="RoomNode R1, D07 · timestep 163"></a></figure>
+</div></article><article id="50010535_PLAN2-D8" class="decision">
+<h3>D08 · timestep 229</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 9 vùng · 14 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D08_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D08_S0.webp" alt="RoomNode L1, D08 · timestep 229"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 10 vùng · 17 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D08_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D08_S1a.webp" alt="RoomNode R1, D08 · timestep 229"></a></figure>
+</div></article><article id="50010535_PLAN2-D9" class="decision">
+<h3>D09 · timestep 295</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 12 vùng · 17 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D09_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D09_S0.webp" alt="RoomNode L1, D09 · timestep 295"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 17 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D09_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D09_S1a.webp" alt="RoomNode R1, D09 · timestep 295"></a></figure>
+</div></article><article id="50010535_PLAN2-D10" class="decision">
+<h3>D10 · timestep 316</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 10 vùng · 15 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D10_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D10_S0.webp" alt="RoomNode L1, D10 · timestep 316"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 10 vùng · 15 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D10_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D10_S1a.webp" alt="RoomNode R1, D10 · timestep 316"></a></figure>
+</div></article><article id="50010535_PLAN2-D11" class="decision">
+<h3>D11 · timestep 352</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 12 vùng · 17 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D11_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D11_S0.webp" alt="RoomNode L1, D11 · timestep 352"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 17 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D11_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D11_S1a.webp" alt="RoomNode R1, D11 · timestep 352"></a></figure>
+</div></article><article id="50010535_PLAN2-D12" class="decision">
+<h3>D12 · timestep 383</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 16 vùng · 23 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D12_S0.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D12_S0.webp" alt="RoomNode L1, D12 · timestep 383"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 16 vùng · 23 cửa</figcaption>
+<a href="assets/50010535_PLAN2_D12_S1a.webp" target="_blank"><img loading="lazy" src="assets/50010535_PLAN2_D12_S1a.webp" alt="RoomNode R1, D12 · timestep 383"></a></figure>
+</div></article></section><section class="map-group" id="group-50015847" data-map="50015847"><h2>50015847 · 9 decision</h2><div class="chips"><a href="#50015847-D1">D01</a><a href="#50015847-D2">D02</a><a href="#50015847-D3">D03</a><a href="#50015847-D4">D04</a><a href="#50015847-D5">D05</a><a href="#50015847-D6">D06</a><a href="#50015847-D7">D07</a><a href="#50015847-D8">D08</a><a href="#50015847-D9">D09</a></div><article id="50015847-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50015847_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50015847_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50015847-D2" class="decision">
+<h3>D02 · timestep 85</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50015847_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D02_S0.webp" alt="RoomNode L1, D02 · timestep 85"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50015847_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 85"></a></figure>
+</div></article><article id="50015847-D3" class="decision">
+<h3>D03 · timestep 111</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D03_S0.webp" alt="RoomNode L1, D03 · timestep 111"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 8 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 111"></a></figure>
+</div></article><article id="50015847-D4" class="decision">
+<h3>D04 · timestep 126</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50015847_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D04_S0.webp" alt="RoomNode L1, D04 · timestep 126"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 9 cửa</figcaption>
+<a href="assets/50015847_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 126"></a></figure>
+</div></article><article id="50015847-D5" class="decision">
+<h3>D05 · timestep 193</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D05_S0.webp" alt="RoomNode L1, D05 · timestep 193"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 193"></a></figure>
+</div></article><article id="50015847-D6" class="decision">
+<h3>D06 · timestep 210</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50015847_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D06_S0.webp" alt="RoomNode L1, D06 · timestep 210"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 10 vùng · 9 cửa</figcaption>
+<a href="assets/50015847_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 210"></a></figure>
+</div></article><article id="50015847-D7" class="decision">
+<h3>D07 · timestep 252</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 10 vùng · 9 cửa</figcaption>
+<a href="assets/50015847_D07_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D07_S0.webp" alt="RoomNode L1, D07 · timestep 252"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 11 cửa</figcaption>
+<a href="assets/50015847_D07_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D07_S1a.webp" alt="RoomNode R1, D07 · timestep 252"></a></figure>
+</div></article><article id="50015847-D8" class="decision">
+<h3>D08 · timestep 299</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D08_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D08_S0.webp" alt="RoomNode L1, D08 · timestep 299"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 11 cửa</figcaption>
+<a href="assets/50015847_D08_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D08_S1a.webp" alt="RoomNode R1, D08 · timestep 299"></a></figure>
+</div></article><article id="50015847-D9" class="decision">
+<h3>D09 · timestep 359</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015847_D09_S0.webp" target="_blank"><img loading="lazy" src="assets/50015847_D09_S0.webp" alt="RoomNode L1, D09 · timestep 359"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 11 cửa</figcaption>
+<a href="assets/50015847_D09_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015847_D09_S1a.webp" alt="RoomNode R1, D09 · timestep 359"></a></figure>
+</div></article></section><section class="map-group" id="group-50015848" data-map="50015848"><h2>50015848 · 8 decision</h2><div class="chips"><a href="#50015848-D1">D01</a><a href="#50015848-D2">D02</a><a href="#50015848-D3">D03</a><a href="#50015848-D4">D04</a><a href="#50015848-D5">D05</a><a href="#50015848-D6">D06</a><a href="#50015848-D7">D07</a><a href="#50015848-D8">D08</a></div><article id="50015848-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50015848_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50015848_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50015848-D2" class="decision">
+<h3>D02 · timestep 91</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50015848_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D02_S0.webp" alt="RoomNode L1, D02 · timestep 91"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50015848_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 91"></a></figure>
+</div></article><article id="50015848-D3" class="decision">
+<h3>D03 · timestep 152</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50015848_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D03_S0.webp" alt="RoomNode L1, D03 · timestep 152"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50015848_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 152"></a></figure>
+</div></article><article id="50015848-D4" class="decision">
+<h3>D04 · timestep 180</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50015848_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D04_S0.webp" alt="RoomNode L1, D04 · timestep 180"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50015848_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 180"></a></figure>
+</div></article><article id="50015848-D5" class="decision">
+<h3>D05 · timestep 238</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 10 cửa</figcaption>
+<a href="assets/50015848_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D05_S0.webp" alt="RoomNode L1, D05 · timestep 238"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 11 cửa</figcaption>
+<a href="assets/50015848_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 238"></a></figure>
+</div></article><article id="50015848-D6" class="decision">
+<h3>D06 · timestep 249</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 7 vùng · 7 cửa</figcaption>
+<a href="assets/50015848_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D06_S0.webp" alt="RoomNode L1, D06 · timestep 249"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 7 cửa</figcaption>
+<a href="assets/50015848_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 249"></a></figure>
+</div></article><article id="50015848-D7" class="decision">
+<h3>D07 · timestep 260</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015848_D07_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D07_S0.webp" alt="RoomNode L1, D07 · timestep 260"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015848_D07_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D07_S1a.webp" alt="RoomNode R1, D07 · timestep 260"></a></figure>
+</div></article><article id="50015848-D8" class="decision">
+<h3>D08 · timestep 388</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50015848_D08_S0.webp" target="_blank"><img loading="lazy" src="assets/50015848_D08_S0.webp" alt="RoomNode L1, D08 · timestep 388"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 9 vùng · 8 cửa</figcaption>
+<a href="assets/50015848_D08_S1a.webp" target="_blank"><img loading="lazy" src="assets/50015848_D08_S1a.webp" alt="RoomNode R1, D08 · timestep 388"></a></figure>
+</div></article></section><section class="map-group" id="group-50037764_PLAN1" data-map="50037764_PLAN1"><h2>50037764_PLAN1 · 6 decision</h2><div class="chips"><a href="#50037764_PLAN1-D1">D01</a><a href="#50037764_PLAN1-D2">D02</a><a href="#50037764_PLAN1-D3">D03</a><a href="#50037764_PLAN1-D4">D04</a><a href="#50037764_PLAN1-D5">D05</a><a href="#50037764_PLAN1-D6">D06</a></div><article id="50037764_PLAN1-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 1 vùng · 0 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 1 vùng · 0 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50037764_PLAN1-D2" class="decision">
+<h3>D02 · timestep 22</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 1 vùng · 0 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D02_S0.webp" alt="RoomNode L1, D02 · timestep 22"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 1 vùng · 0 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 22"></a></figure>
+</div></article><article id="50037764_PLAN1-D3" class="decision">
+<h3>D03 · timestep 58</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D03_S0.webp" alt="RoomNode L1, D03 · timestep 58"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 4 vùng · 3 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 58"></a></figure>
+</div></article><article id="50037764_PLAN1-D4" class="decision">
+<h3>D04 · timestep 135</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D04_S0.webp" alt="RoomNode L1, D04 · timestep 135"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 5 vùng · 4 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 135"></a></figure>
+</div></article><article id="50037764_PLAN1-D5" class="decision">
+<h3>D05 · timestep 219</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 3 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D05_S0.webp" alt="RoomNode L1, D05 · timestep 219"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 6 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 219"></a></figure>
+</div></article><article id="50037764_PLAN1-D6" class="decision">
+<h3>D06 · timestep 309</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 2 vùng · 1 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D06_S0.webp" alt="RoomNode L1, D06 · timestep 309"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 4 vùng · 3 cửa</figcaption>
+<a href="assets/50037764_PLAN1_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037764_PLAN1_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 309"></a></figure>
+</div></article></section><section class="map-group" id="group-50037765_PLAN3" data-map="50037765_PLAN3"><h2>50037765_PLAN3 · 7 decision</h2><div class="chips"><a href="#50037765_PLAN3-D1">D01</a><a href="#50037765_PLAN3-D2">D02</a><a href="#50037765_PLAN3-D3">D03</a><a href="#50037765_PLAN3-D4">D04</a><a href="#50037765_PLAN3-D5">D05</a><a href="#50037765_PLAN3-D6">D06</a><a href="#50037765_PLAN3-D7">D07</a></div><article id="50037765_PLAN3-D1" class="decision">
+<h3>D01 · timestep 0</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D01_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D01_S0.webp" alt="RoomNode L1, D01 · timestep 0"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 3 vùng · 2 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D01_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D01_S1a.webp" alt="RoomNode R1, D01 · timestep 0"></a></figure>
+</div></article><article id="50037765_PLAN3-D2" class="decision">
+<h3>D02 · timestep 59</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D02_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D02_S0.webp" alt="RoomNode L1, D02 · timestep 59"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D02_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D02_S1a.webp" alt="RoomNode R1, D02 · timestep 59"></a></figure>
+</div></article><article id="50037765_PLAN3-D3" class="decision">
+<h3>D03 · timestep 129</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D03_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D03_S0.webp" alt="RoomNode L1, D03 · timestep 129"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 6 vùng · 7 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D03_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D03_S1a.webp" alt="RoomNode R1, D03 · timestep 129"></a></figure>
+</div></article><article id="50037765_PLAN3-D4" class="decision">
+<h3>D04 · timestep 186</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 4 vùng · 4 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D04_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D04_S0.webp" alt="RoomNode L1, D04 · timestep 186"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 7 vùng · 10 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D04_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D04_S1a.webp" alt="RoomNode R1, D04 · timestep 186"></a></figure>
+</div></article><article id="50037765_PLAN3-D5" class="decision">
+<h3>D05 · timestep 247</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 8 vùng · 7 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D05_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D05_S0.webp" alt="RoomNode L1, D05 · timestep 247"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 11 vùng · 11 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D05_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D05_S1a.webp" alt="RoomNode R1, D05 · timestep 247"></a></figure>
+</div></article><article id="50037765_PLAN3-D6" class="decision">
+<h3>D06 · timestep 310</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 5 vùng · 4 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D06_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D06_S0.webp" alt="RoomNode L1, D06 · timestep 310"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 11 vùng · 14 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D06_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D06_S1a.webp" alt="RoomNode R1, D06 · timestep 310"></a></figure>
+</div></article><article id="50037765_PLAN3-D7" class="decision">
+<h3>D07 · timestep 372</h3>
+<div class="pair">
+<figure><figcaption>RoomNode L1 cũ (S0) · 6 vùng · 6 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D07_S0.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D07_S0.webp" alt="RoomNode L1, D07 · timestep 372"></a></figure>
+<figure><figcaption>RoomNode R1 mới (S1a) · 12 vùng · 16 cửa</figcaption>
+<a href="assets/50037765_PLAN3_D07_S1a.webp" target="_blank"><img loading="lazy" src="assets/50037765_PLAN3_D07_S1a.webp" alt="RoomNode R1, D07 · timestep 372"></a></figure>
+</div></article></section></main>
+<script>const buttons=[...document.querySelectorAll('nav button')];
+const groups=[...document.querySelectorAll('.map-group')];
+function activate(key){buttons.forEach(b=>b.classList.toggle('active',b.dataset.map===key));
+groups.forEach(g=>g.hidden=g.dataset.map!==key);window.scrollTo({top:0,behavior:'instant'});}
+buttons.forEach(b=>b.onclick=()=>activate(b.dataset.map));activate(buttons[0].dataset.map);
+</script></body></html>
