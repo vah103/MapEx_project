@@ -15,15 +15,21 @@ from pathlib import Path
 import sys
 
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
+from scipy.ndimage import binary_dilation
 from scipy.spatial import cKDTree
 
 
-COLORS = [
-    (249, 191, 181), (167, 211, 243), (181, 226, 187), (248, 220, 154),
-    (210, 194, 241), (245, 188, 222), (157, 221, 214), (245, 208, 179),
-    (183, 204, 244), (204, 222, 180), (231, 203, 202), (174, 227, 227),
-]
+# These are SEMANTIC classes from the frozen RoomNode classifier, not GT labels.
+# Region IDs are distinguished by outlines/labels, never by arbitrary hues.
+REGION_COLORS = {
+    'room': (251, 207, 175),       # peach: predicted room
+    'corridor': (148, 221, 217),   # teal: predicted corridor
+    'hall': (253, 229, 143),       # yellow: predicted hall/lobby
+}
+CLASS_PREFIX = {'room': 'P', 'corridor': 'HL', 'hall': 'S'}
+SKELETON_HALO = (255, 255, 255)
+SKELETON_INK = (71, 44, 165)
 WALL = (41, 57, 75)
 UNKNOWN = (226, 234, 242)
 FREE = (251, 253, 255)
@@ -61,17 +67,18 @@ def render(obs, mean, topo, robot, roi, matches, path):
     rgb[o == 1] = WALL
     rgb[(o == 0.5) & (m < 0.5)] = (207, 230, 243)
 
-    # Region palette is categorical; observed and predicted portions retain
-    # different opacity so LaMa-only geometry remains visibly distinguishable.
-    for k in np.unique(rid):
+    # Fixed semantic palette: all rooms are peach, corridors teal, halls yellow.
+    # Predicted-only portions are slightly more saturated than observed portions.
+    for region in topo.regions:
+        k = int(region['id'])
         if k <= 0:
             continue
-        color = np.asarray(COLORS[(int(k) * 7 + 3) % len(COLORS)], dtype=float)
+        color = np.asarray(REGION_COLORS.get(region['cls'], (198, 207, 219)), dtype=float)
         mask = rid == k
         obs_mask = mask & (o == 0)
         pred_mask = mask & (o == 0.5)
-        rgb[obs_mask] = np.rint(rgb[obs_mask] * 0.42 + color * 0.58).astype(np.uint8)
-        rgb[pred_mask] = np.rint(rgb[pred_mask] * 0.24 + color * 0.76).astype(np.uint8)
+        rgb[obs_mask] = np.rint(rgb[obs_mask] * 0.24 + color * 0.76).astype(np.uint8)
+        rgb[pred_mask] = np.rint(rgb[pred_mask] * 0.12 + color * 0.88).astype(np.uint8)
 
     # Dark outlines expose individual region boundaries, including non-observed
     # predicted regions; 4-neighbor comparison avoids diagonal speckling.
@@ -84,13 +91,46 @@ def render(obs, mean, topo, robot, roi, matches, path):
     boundaries[:, :-1] |= adjacent
     rgb[boundaries] = (67, 79, 94)
 
+    # Actual frozen algorithm skeleton: every region's skeleton_rc, NOT the
+    # sparse backbone_mask (which made the old gallery look skeleton-free).
+    skeleton = np.zeros(rid.shape, dtype=bool)
+    for region in topo.regions:
+        points = np.asarray(region.get('skeleton_rc', []), dtype=np.int32).reshape(-1, 2)
+        if not len(points):
+            continue
+        rr, cc = points[:, 0]-r0, points[:, 1]-c0
+        valid = (rr >= 0) & (rr < r1-r0) & (cc >= 0) & (cc < c1-c0)
+        skeleton[rr[valid], cc[valid]] = True
+    if skeleton.any():
+        halo = binary_dilation(skeleton, iterations=3)
+        line = binary_dilation(skeleton, iterations=1)
+        rgb[halo] = SKELETON_HALO
+        rgb[line] = SKELETON_INK
+
     image = Image.fromarray(rgb, 'RGB')
     draw = ImageDraw.Draw(image)
-    # Light skeleton accent, where the algorithm classifies a backbone.
-    backbone = topo.backbone_mask[r0:r1, c0:c1]
-    coords = np.argwhere(backbone)
-    for rr, cc in coords[::2]:
-        draw.point((int(cc), int(rr)), fill=(255, 255, 255))
+
+    # Label regions at an actual skeleton pixel near their centroid, ensuring
+    # labels fall inside the predicted region even for concave outlines.
+    try:
+        font = ImageFont.truetype('DejaVuSans-Bold.ttf', 12)
+    except OSError:
+        font = ImageFont.load_default()
+    for region in topo.regions:
+        center = np.asarray(region['centroid_rc'], dtype=float)
+        points = np.asarray(region.get('skeleton_rc', []), dtype=np.int32).reshape(-1, 2)
+        if len(points):
+            pos = points[np.argmin(np.sum((points-center)**2, axis=1))]
+        else:
+            pos = center
+        y, x = int(round(float(pos[0]))) - r0, int(round(float(pos[1]))) - c0
+        if not (0 <= x < c1-c0 and 0 <= y < r1-r0):
+            continue
+        label = f"{CLASS_PREFIX.get(region['cls'], 'V')}{int(region['id'])}"
+        box = draw.textbbox((x, y), label, font=font, anchor='mm')
+        draw.rounded_rectangle((box[0]-3, box[1]-2, box[2]+3, box[3]+2),
+                               radius=3, fill=(255,255,255), outline=(63,70,95), width=1)
+        draw.text((x, y), label, fill=(35,51,70), font=font, anchor='mm')
 
     for door, matched in zip(topo.doors, matches):
         rr, cc = map(int, door['rc'])
@@ -168,11 +208,15 @@ header{{padding:15px 12px 8px}}}}
 <p>51 snapshot DEV · cùng đầu vào LaMa, không chạy closed-loop · chạm ảnh để phóng to</p></header>
 <nav id="map-nav">{nav}</nav><main>
 <div class="legend">
+<span><i class="dot" style="background:#fbcfaf"></i>Phòng (P)</span>
+<span><i class="dot" style="background:#94ddd9"></i>Hành lang (HL)</span>
+<span><i class="dot" style="background:#fde58f"></i>Sảnh (S)</span>
+<span><i class="dot" style="background:#472ca5"></i><b>Skeleton RoomNode</b></span>
 <span><i class="dot" style="background:#f5af2e"></i>Robot</span>
 <span><i class="dot" style="background:#f59e3b"></i>Cửa tâm quan sát</span>
 <span><i class="dot" style="background:#9457c7"></i>Cửa tâm UNKNOWN</span>
 <span><b style="color:#d4394b">✕</b> Cửa không khớp chú thích GT (≤ 1 m)</span>
-<span>Vùng được tô màu khác nhau; màu đậm hơn là vùng dự đoán</span>
+<span>Màu biểu thị loại vùng do RoomNode suy đoán, không phải nhãn GT; viền đậm tách vùng</span>
 </div>
 {''.join(sections)}</main>
 <script>const buttons=[...document.querySelectorAll('nav button')];
@@ -191,6 +235,8 @@ def main():
     parser.add_argument('--reference', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--limit', type=int, default=0, help='Smoke first N DEV frames')
+    parser.add_argument('--preview-map', help='Render only this DEV map for visual QA')
+    parser.add_argument('--preview-decision', type=int, help='Use with --preview-map')
     a = parser.parse_args()
     if a.out.exists():
         raise FileExistsError(a.out)
@@ -218,6 +264,11 @@ def main():
     frames = list(load_dev(a.source_root))
     if len(frames) != 51:
         raise AssertionError(f'DEV51 expected; got {len(frames)}')
+    if a.preview_map:
+        frames = [f for f in frames if f['map_id'] == a.preview_map and
+                  (a.preview_decision is None or int(f['decision']) == a.preview_decision)]
+        if not frames:
+            raise ValueError('Preview selection has no matching DEV frame')
     if a.limit:
         frames = frames[:a.limit]
     for j, f in enumerate(frames, 1):
